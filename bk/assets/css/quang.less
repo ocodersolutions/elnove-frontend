@@ -1,5 +1,10 @@
 
 footer{
+	font-size:8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+
 	.line-footer{
 		height:11px;
 		background: #F0F1F2; /* For browsers that do not support gradients */
@@ -10,10 +15,57 @@ footer{
 	}
 
 
-	.menu-footer{
-		height: 70px;
+	.footer-above{
+		width: 100%;
+		height: 56px;
 		background:#F0F4F7;
+		.menu-footer{
+			padding-right: 0px;
+			border-right: 3px solid white;
+			height: 100%;
+			.list-menu{
+				
+				margin-top: 25px;
+			}
+		}
+		.newsletter{
+			.newsletter-input{
+			 margin-top: 25px;
+			 margin-left: 15px;
+			 	span{
+			 		float:left;
+			 	}
+			 	input{
+			 		float:left;
+			 		margin-left: 20%
+			 	}
+			}
+		}
+		.footer-social{
+			padding: 0px;
+			.social-block{
+				.social{
+					width: 50px;
+					height: 50px;
+					background: #7D9CB6;
+					color: white;
+					font-size: 18px;
+					float: left;
+					text-align: center;
+					border: 1px solid;
+						.fa{
+						margin-top: 15px;
+						}
+
+				}
+			}
+		}
 	}
+
+
+
+
+
 	.menu-footer ul {
 		padding:0px;
 		margin: auto;
@@ -21,7 +73,7 @@ footer{
 	.menu-footer ul li{
 		list-style: none;
 		display:inline-block;
-		margin: 0px 10px;
+		margin: 0px 14px;
 		float:left;
 
 	}
@@ -34,11 +86,5 @@ footer{
 		margin: 10px;
 		 
 	}
-	.menu-footer{
 	
-	}
-	.top-footer{
-	margin-top: 30px;
-
-	}
 }
