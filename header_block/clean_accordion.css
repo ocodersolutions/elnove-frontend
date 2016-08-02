@@ -1,7 +1,7 @@
 
 .uc_clean_accordion .uc_clean_accordion_wrap .uc_clean_accorder_content .uc_head_line 
-.uc_clean_accordion .uc_clean_accordion_wrap .uc_clean_accorder_content .ui-accordion-header-active.ui-state-active {
-	
+.uc_clean_accordion .uc_clean_accordion_wrap .uc_clean_accorder_content .ui-accordion-header-active .ui-state-active {
+	border-bottom: 0;
 }
 
 

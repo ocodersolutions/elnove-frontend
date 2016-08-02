@@ -1,4 +1,11 @@
 // style chung
+a{
+   color:#444444;
+    &:hover,:focus,:active{
+         text-decoration: none;
+         color:#444444;
+    }
+}
 .btn-st-blue{
   font-family: roboto;
   color:#fff;
@@ -33,10 +40,16 @@ a.btn-st-blue:hover{
     box-sizing: border-box;
     border-bottom: 1px solid #eee;
     .left-side {
-      display: inline-block;
-      padding: 33px 30px;
-      font-size: 20px;
-      color: #33648D;
+        cursor: pointer;
+        display: inline-block;
+        padding: 33px 30px;
+        font-size: 20px;
+        color: #33648D;
+        &:before{
+            content: "\f068";
+            font-family: FontAwesome;
+            margin-right: 27px;
+        }
     }
     .logo{
        display: inline-block;
@@ -173,7 +186,37 @@ a.btn-st-blue:hover{
   font-weight: 400;
   color: #444444; 
 }
-
+#menu{
+    display: block;
+    border-bottom: 1px solid #eee;
+    #top-nav{
+        font-family: roboto;
+        font-size: 13px;
+        font-weight: 400;
+        color: #444444; 
+        ul{
+            li{
+                padding:26px 9px 25px 4px;
+                display: inline-block;
+            }
+        }
+    }
+    #search{
+        #formsearch{
+        padding: 20px 0;
+        text-align: right;
+        .btn-top-search{
+            background-color: transparent;
+            border: none;
+            color: #33648D;
+            i{
+                font-size:20px;
+            }
+        }
+    }
+    }
+    
+}
  
 
 
@@ -229,4 +272,9 @@ ul {
   .right-side{
     width: 24%;  
   }
+  #menu #top-nav ul li{
+                padding:26px 0px 25px 38px;
+               
+            }
+        
 }

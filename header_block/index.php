@@ -14,11 +14,12 @@
 	    <link rel="stylesheet" href="clean_accordion.css"/>
     </head>
     <body>
-        <div class="row header-top-navbar ">
+
+        <div class="header-top-navbar ">
 			<div class="top-bar">
 				<div class="left-side">MENU</div>
 				<div class="logo">ELNOVE</div>
-		        <div class="right-side">
+		        <div class="right-side ">
 		        	<div class="uc_clean_accordion">
 			            <div class="uc_clean_accordion_wrap">
 			                <div id="accordion" class="uc_clean_accorder_content">
@@ -42,13 +43,31 @@
 		            <a href="#" class="btn-st-blue">GET STYLED</a>
 		            
 		        </div>
-			       
-			        
-		        <nav id="menu">
-	            
-	        </nav>
-		    </div>
+			</div>
         </div>
+        <nav id="menu" class="row">
+        	<div class="col-lg-12">
+				<div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
+		         	<ul>
+		         		<li><a href="">HOW IT WORKS</a></li>
+		         		<li><a href="">ABOUT US</a></li>
+		         		<li><a href="">BLOG</a></li>
+		         		<li><a href="">FAQ</a></li>
+		         		<li><a href="">SHIPPING</a></li>
+		         		<li><a href="">PRICING</a></li>
+		         		<li><a href="">EXCHANGE & RETURNS</a></li>
+		         		<li><a href="">CAREERS</a></li>
+		         		<li><a href="">CONTACT US</a></li>
+		         	</ul>
+	         	</div>
+		        <div class="col-lg-3" id="search">
+		        	<form action="" id="formsearch" class="">
+						<input type="text">
+						<button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+		        	</form>
+		        </div>	
+	        </div>   
+        </nav>
         <script src="jquery-ui.js"></script>
         <script>
 			$(function() {
