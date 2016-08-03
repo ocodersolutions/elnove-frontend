@@ -47,20 +47,21 @@
         </div>
         <nav id="menu">
         	<div class="col-lg-12" id="row-top-navbar">
-				<div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
-		         	<ul>
-		         		<li><a href="">HOW IT WORKS</a></li>
-		         		<li><a href="">ABOUT US</a></li>
-		         		<li><a href="">BLOG</a></li>
-		         		<li><a href="">FAQ</a></li>
-		         		<li><a href="">SHIPPING</a></li>
-		         		<li><a href="">PRICING</a></li>
-		         		<li><a href="">EXCHANGE & RETURNS</a></li>
-		         		<li><a href="">CAREERS</a></li>
-		         		<li><a href="">CONTACT US</a></li>
-		         	</ul>
-	         	</div>
-		        
+        		<div class="row">
+					<div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
+			         	<ul>
+			         		<li><a href="">HOW IT WORKS</a></li>
+			         		<li><a href="">ABOUT US</a></li>
+			         		<li><a href="">BLOG</a></li>
+			         		<li><a href="">FAQ</a></li>
+			         		<li><a href="">SHIPPING</a></li>
+			         		<li><a href="">PRICING</a></li>
+			         		<li><a href="">EXCHANGE & RETURNS</a></li>
+			         		<li><a href="">CAREERS</a></li>
+			         		<li><a href="">CONTACT US</a></li>
+			         	</ul>
+		         	</div>
+		    	</div>   
 	        </div>
 	        <div class="col-lg-12" id="search">
 		        	<!-- <form action="" id="formsearch" class="">
@@ -76,7 +77,7 @@
 		        
         </nav>
         <script src="jquery-ui.js"></script>
-        <script src="uisearch.js"></script>
+       
         <script>
 			//
 		    $(document).ready(function(){
