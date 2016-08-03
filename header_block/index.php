@@ -11,7 +11,7 @@
 	    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
 	    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-	    <link rel="stylesheet" href="clean_accordion.css"/>
+	    
     </head>
     <body>
 	
@@ -46,7 +46,7 @@
 			</div>
         </div>
         <nav id="menu">
-        	<div class="col-lg-12">
+        	<div class="col-lg-12" id="row-top-navbar">
 				<div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
 		         	<ul>
 		         		<li><a href="">HOW IT WORKS</a></li>
@@ -63,16 +63,59 @@
 		        
 	        </div>
 	        <div class="col-lg-12" id="search">
-		        	<form action="" id="formsearch" class="">
-						<input type="text" length="1000" placeholder="Nhap tim kiem">
-						<button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-		        	</form>
-		        </div>	   
+		        	<!-- <form action="" id="formsearch" class="">
+						<input type="text" length="1000" placeholder="Search lorem ipsum dolor sit amet consectur..." id="input_search">
+						<button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
+		        	</form> -->
+		        	<form class="searchbox">
+				        <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+				        <button type="submit" class="searchbox-submit">
+				        <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></span></button>
+				    </form>
+		        </div>  
+		        
         </nav>
         <script src="jquery-ui.js"></script>
+        <script src="uisearch.js"></script>
         <script>
-			$(function() {
-                var icons = {
+			//
+		    $(document).ready(function(){
+		            var submitIcon = $('.searchbox-icon');
+		            var inputBox = $('.searchbox-input');
+		            var searchBox = $('.searchbox');
+		            var isOpen = false;
+		            submitIcon.click(function(){
+		                if(isOpen == false){
+		                    searchBox.addClass('searchbox-open');
+		                    inputBox.focus();
+		                    isOpen = true;
+		                } else {
+		                    searchBox.removeClass('searchbox-open');
+		                    inputBox.focusout();
+		                    isOpen = false;
+		                }
+		            });  
+		             submitIcon.mouseup(function(){
+		                    return false;
+		                });
+		            searchBox.mouseup(function(){
+		                    return false;
+		                });
+		            $(document).mouseup(function(){
+		                    if(isOpen == true){
+		                        
+		                        submitIcon.click();
+		                    }
+		                });
+		        });
+		            function buttonUp(){
+		                var inputVal = $('.searchbox-input').val();
+		                inputVal = $.trim(inputVal).length;
+		                if( inputVal == 0){
+		                     $('.searchbox-input').val('');
+		                } 
+		            }
+	            var icons = {
                 header: "ui-icon-circle-arrow-e",
                 activeHeader: "ui-icon-circle-arrow-s"
                 };
@@ -82,7 +125,7 @@
 					collapsible: true,
                     active: false
                 });
-            });
+		
 		  </script>   
     </body>
 </html>
