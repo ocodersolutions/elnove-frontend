@@ -7,6 +7,7 @@
 	padding: 0;
 }
 .product_item {
+	position: relative;
 	width: 300px;
 	text-align: center;
 }
@@ -37,8 +38,57 @@
 }
 .product_item p.uc_job {
 	color: #33648D;
+	padding: 20px 0px 10px 0px;
+	font-weight: bold;
 }
 .product_item .uc_job span{
 	text-decoration: line-through;
     color: #ADC1D1;
+}
+
+
+
+
+
+.share_product {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 300px;
+	height: 430px;
+	background: #547ca0;
+	opacity: 0.9;
+}
+.share_product .fa-times {
+	display: block;
+    text-align: right;
+    padding: 15px 20px 0px 0px;
+    color: #d1dbe4;
+}
+.share_product h2 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: #e1e6ea;
+}
+.share_product .share_page i {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #b6c8d6;
+    margin-left: 24px;
+    margin-bottom: 1px;
+    color: #5c85a5;
+}
+.share_product .share_page span {
+    display: block;
+    float: left;
+    line-height: 60px;
+    width: 162px;
+    background: #95abc0;
+    color: #c0cddd;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 25px;
 }
