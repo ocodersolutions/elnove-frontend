@@ -14,37 +14,39 @@
 	    
     </head>
     <body>
-	
-        <div class="header-top-navbar ">
-			<div class="top-bar">
-				<div class="left-side">MENU</div>
-				<div class="logo"><img src="logo.png" alt="" class="top-logo"></div>
-		        <div class="right-side ">
-		        	<div class="uc_clean_accordion">
-			            <div class="uc_clean_accordion_wrap">
-			                <div id="accordion" class="uc_clean_accorder_content">
-			                    <!-- start of line 1 -->
-			                    <h3 class="uc_head_line">
-			                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
-			                    </h3>
-			                    <div class="uc_line_content">
-			                        <ul class="uc_des">
-				                        <li><a href="">My Profile</a></li>
-				                        <li><a href="">Logout</a></li>	
-			                        </ul>
-			                        
-			                    </div>
-			                    <!-- end of line 1 -->
+	<div id="header-container" class="container-fluid">
+		<div class="row">
+	        <div class="header-top-navbar col-lg-12">
+	        	<div class="row top-bar">
+					<div class="left-side col-lg-3">MENU</div>
+					<div class="logo col-lg-6"><img src="logo.png" alt="" class="top-logo"></div>
+			        <div class="right-side col-lg-3">
+			        	<div class="uc_clean_accordion">
+				            <div class="uc_clean_accordion_wrap">
+				                <div id="accordion" class="uc_clean_accorder_content">
+				                    <!-- start of line 1 -->
+				                    <h3 class="uc_head_line">
+				                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+				                    </h3>
+				                    <div class="uc_line_content">
+				                        <ul class="uc_des">
+					                        <li><a href="">My Profile</a></li>
+					                        <li><a href="">Logout</a></li>	
+				                        </ul>
+				                        
+				                    </div>
+				                    <!-- end of line 1 -->
 
-			                    
-			                </div>
-			            </div>
+				                    
+				                </div>
+				            </div>
+				        </div>
+			            <a href="#" class="btn-st-blue">GET STYLED</a>
 			        </div>
-		            <a href="#" class="btn-st-blue">GET STYLED</a>
-		            
-		        </div>
-			</div>
+				</div>
+	        </div>
         </div>
+    </div>
         <nav id="menu">
         	<div class="col-lg-12" id="row-top-navbar">
         		<div class="row">
@@ -90,10 +92,13 @@
 		                    searchBox.addClass('searchbox-open');
 		                    inputBox.focus();
 		                    isOpen = true;
+		                     $("#search").css("z-index","99")
+		                    
 		                } else {
 		                    searchBox.removeClass('searchbox-open');
 		                    inputBox.focusout();
 		                    isOpen = false;
+		                   	$("#search").removeAttr("style");
 		                }
 		            });  
 		             submitIcon.mouseup(function(){
