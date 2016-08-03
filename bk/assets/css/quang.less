@@ -1,10 +1,106 @@
 
 @height: 50px;
 @height-copy-right: 50px;
+@font: 'Roboto', sans-serif;
+@height-refine: 25px;
+
+
+.refine{
+	font-family: @font;
+	font-size: 9px;
+	.refine-colum{
+		width: 100%;
+		float: right;
+
+		ul{
+			list-style: none;
+			padding-left:0;
+			ul{
+				li{
+					background: #fcfcfc;
+					border: 1px solid #F0F1F2;
+				}
+				li:after{
+					content:"";
+				}
+			}
+			li{
+				background: #F0F1F2;
+				margin-bottom: 3px;
+				padding-left: 15px;
+				height: @height-refine;
+				line-height: @height-refine;
+			}
+			
+			li:after{
+				content: "\f078";
+				font: normal normal normal 9px/1 FontAwesome;
+				float: right;
+				padding-right: 15px;
+				line-height: @height-refine;
+
+			}
+		}
+		.select{
+		 	border: 1px solic #F3F4F5;
+		 	height: @height-refine*3;
+		 	
+		 		.list-color{
+		 			padding: 10px;
+		 			
+		 			height: 100%;
+		 			padding: 0 70px;
+		 			margin-top: 20px;
+
+		 			.color{
+		 				width: 10%;
+		 				height: 27%;
+		 				background: blue;
+		 				float: left;
+		 				margin: 5px;
+		 				border: 1px solid #D6D6D6;
+		 				.fa-check{
+		 					display: block;
+		 					color: white;
+		 					text-align: center;
+		 					line-height: 20px;
+		 					font-size: 12px;
+		 				}
+		 			}
+		 		}
+		 		.list-size{
+		 		    padding: 0 70px;
+		 		    height: 100%;
+		 			.size{
+		 				span{
+		 					float: left;
+		 					margin: 5px;
+		 					border: 1px solid black;
+		 					width: 40px;
+		 					height: 25px;
+		 					text-align: center;
+		 					line-height: 25px;
+		 				}
+		 			}
+		 		}
+
+		}
+		button{
+			width: 100%;
+		}
+		.brand{
+			.label-brand{
+				line-height: 25px;
+				background: #F0F4F7;
+				padding-left: 15px;
+			}
+		}
+	}
+}
 
 footer{
 	font-size:8px;
-	font-family: 'Roboto', sans-serif;
+	font-family: @font;
 	font-weight: bold;
 	text-transform: uppercase;
 
@@ -42,7 +138,7 @@ footer{
 		}
 		.newsletter{
 			height: 100%;
-			.newsletter-input{
+			.newsletter-wrap{
 			 line-height: @height;
 			 margin-left: 15px;
 			 	span{
@@ -112,6 +208,55 @@ footer{
 		.copyright-text{
 			margin: 10px;
 			}
-		}
-	
+		}	
+}
+
+/* responsive */
+@media only screen and (max-width : 480px) {
+ footer{
+ 	.footer-above{
+
+ 		.menu-footer{
+ 			padding: 0px;
+ 			height: auto;
+ 			.list-menu{
+ 				ul{
+ 					li{
+						clear: both;
+						width: 100%;
+						background: #F0F4F7;
+						padding-left: 30px;
+ 					}
+ 					li:after{
+ 						content: "\f054";
+ 						font: normal normal normal 14px/1 FontAwesome;
+ 						float: right;
+ 						margin-right: 25px;
+ 						line-height: @height;
+ 					}
+ 				}
+ 			}
+ 		}
+ 		.newsletter{
+ 			clear: both;
+ 			.newsletter-wrap {
+ 				margin-left: 0;
+ 				span{
+	 			    width: 100%;
+	    			text-align: center;
+	    		}
+    		}
+ 		}
+ 	}
+ 	.footer-social{
+ 		.social-block{
+ 			clear:both;
+ 		}
+ 	}
+
+ }
+ .copyright{
+  	clear: both;
+ }
+
 }
