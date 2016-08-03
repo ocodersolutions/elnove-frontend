@@ -14,11 +14,11 @@
 	    <link rel="stylesheet" href="clean_accordion.css"/>
     </head>
     <body>
-
+	
         <div class="header-top-navbar ">
 			<div class="top-bar">
 				<div class="left-side">MENU</div>
-				<div class="logo">ELNOVE</div>
+				<div class="logo"><img src="logo.png" alt="" class="top-logo"></div>
 		        <div class="right-side ">
 		        	<div class="uc_clean_accordion">
 			            <div class="uc_clean_accordion_wrap">
@@ -45,7 +45,7 @@
 		        </div>
 			</div>
         </div>
-        <nav id="menu" class="row">
+        <nav id="menu">
         	<div class="col-lg-12">
 				<div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
 		         	<ul>
@@ -60,13 +60,14 @@
 		         		<li><a href="">CONTACT US</a></li>
 		         	</ul>
 	         	</div>
-		        <div class="col-lg-3" id="search">
+		        
+	        </div>
+	        <div class="col-lg-12" id="search">
 		        	<form action="" id="formsearch" class="">
-						<input type="text">
+						<input type="text" length="1000" placeholder="Nhap tim kiem">
 						<button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true"></i></button>
 		        	</form>
-		        </div>	
-	        </div>   
+		        </div>	   
         </nav>
         <script src="jquery-ui.js"></script>
         <script>
