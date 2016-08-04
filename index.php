@@ -5,7 +5,7 @@
                 <div class="header-top-navbar col-lg-12">
                     <div class="row top-bar">
                         <div class="left-side col-lg-3">MENU</div>
-                        <div class="logo col-lg-6"><img src="logo.png" alt="" class="top-logo"></div>
+                        <div class="logo col-lg-6"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
                         <div class="right-side col-lg-3">
                             <div class="uc_clean_accordion">
                                 <div class="uc_clean_accordion_wrap">
@@ -57,7 +57,7 @@
                     <button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
                 </form> -->
                 <form class="searchbox">
-                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();" >
                     <button type="submit" class="searchbox-submit">
                     <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></span></button>
                 </form>

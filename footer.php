@@ -13,7 +13,10 @@
 		            var inputBox = $('.searchbox-input');
 		            var searchBox = $('.searchbox');
 		            var isOpen = false;
-		            submitIcon.click(function(){
+		            submitIcon.click(function(e){
+		            	if(inputBox.val()==""){
+		            		e.preventDefault();
+		            	}
 		                if(isOpen == false){
 		                    searchBox.addClass('searchbox-open');
 		                    inputBox.focus();

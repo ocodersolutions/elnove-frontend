@@ -25,6 +25,7 @@
         <link href="assets/css/custom_refine.less" rel="stylesheet/less" type="text/css">
         <link href="assets/css/custom_product_list.less" rel="stylesheet/less" type="text/css">
         <link href="assets/css/custom_footer.less" rel="stylesheet/less" type="text/css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -34,3 +35,4 @@
     </head>
 
     <body>
+    
