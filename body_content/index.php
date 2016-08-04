@@ -167,8 +167,8 @@
          	</div> -->
         </div>
         <div id="load-more" class="row text-center">
-		<button class="btn-st-silver">Load more</button>
-	</div>
+			<button class="btn-st-silver">Load more</button>
+		</div>
 	</div>
 		<script type="text/javascript">
 
