@@ -26,19 +26,27 @@
         			<div class="col-lg-4">
         				<div class="refine-colum">
         					<ul>
-        						<li>CATEGORIES</li>
-        						<li>CLOTHING</li>
-        						<li id="footwear">FOOTWEAR</li>
-                                    <div class="footwear">
-                						<ul>
-                							<li>Sneakers</li>
-                                            <li>Sandals</li>   
-                                            <li>Dress</li>   
-                                            <li>Casual</li>   
-                                            <li>Boots</li> 
-                						</ul>
+        						<li id="category">CATEGORIES</li>
+                                    <div class="category">
+            						    <ul>
+                                            <li>CLOTHING</li>
+                                        </ul>
+                                        <ul>
+            						    <li id="footwear">FOOTWEAR</li>
+                                            <div class="footwear">
+                        						<ul>
+                        							<li>Sneakers</li>
+                                                    <li>Sandals</li>   
+                                                    <li>Dress</li>   
+                                                    <li>Casual</li>   
+                                                    <li>Boots</li> 
+                        						</ul>
+                                            </div>
+                                        </ul>
+                                        <ul>
+            						        <li>ACCESSORIES</li>
+                                        </ul>
                                     </div>
-        						<li>ACCESSORIES</li>
         						<li>BRANDS</li>
         						<li id="prices">PRICE</li>
                                     <div class="price prices"> 
@@ -88,7 +96,7 @@
         						<li id="stores">STORE</li>
                                     <div class="stores">
                                         <div class="brand" >
-                                        <div class="label-brand">Search Stores</div>
+                                        <input class="label-brand" placeholder="Search Stores">
                                             <div class="list-brand">
                                                 <ul>
                                                     <li>Brand Name</li>
@@ -178,16 +186,29 @@
         $('.refine .refine-colum .list-color .color').click(function(){
             
             if( $(this).hasClass( "selected") == false){
-                        $(this).addClass('selected').append(" <i class='hello fa fa-check' aria-hidden='true'></i>");
+                        $(this).addClass('selected').append(" <i class='check fa fa-check' aria-hidden='true'></i>");
                     } else{
                         $(this).removeClass('selected');
-                        $('.hello').remove();
+                        $('.check').remove();
                     }
              
         });
         
             $('.refine .refine-colum ul li').click(function(){
+                
+                if( $(this).hasClass( "change") == false){
+                    $(this).addClass('change');
+                }else{
+                    $(this).removeClass('change');
+                }
+                
+                
+
+                var attrContent = getComputedStyle(this,':after').content;
+                
+
                 var currentId = $(this).attr('id');
+                
                 
                 $('.refine .refine-colum .'+currentId+'').animate({
                 left: "+=50",
