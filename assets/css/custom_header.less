@@ -58,42 +58,7 @@ a.btn-st-blue:hover{
   color: #fff;text-decoration: none;
   box-shadow: 0px 2px 3px #888888;
  }
- //style cho block
-.header-top-navbar{
-
-    color:#444444;
-    font-family: Roboto;
-    font-size: 13px;
-    font-weight: normal;
-  .top-bar{
-    box-sizing: border-box;
-    border-bottom: 1px solid #eee;
-    .left-side {
-        cursor: pointer;
-        display: inline-block;
-        padding: 36px 30px;
-        font-size: 20px;
-        color: #33648D;
-        &:before{
-            content: "\f068";
-            font-family: FontAwesome;
-            margin-right: 27px;
-        }
-    }
-    .logo{
-        padding: 25px 0;
-       display: inline-block;
-       text-align: center;
-       box-sizing: border-box;
-       img{
-        width: 22%;
-       }
-    }
-    .right-side{
-        padding-top: 15px; 
-        text-align: right;
-        display: inline-block;
-        .uc_clean_accordion {
+.uc_clean_accordion {
             display: inline-block;
             //width: 150px;
             box-sizing: border-box;
@@ -192,6 +157,42 @@ a.btn-st-blue:hover{
     }
         
     }
+ //style cho block
+.header-top-navbar{
+
+    color:#444444;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+  .top-bar{
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    .left-side {
+        cursor: pointer;
+        display: inline-block;
+        padding: 36px 30px;
+        font-size: 20px;
+        color: #33648D;
+        &:before{
+            content: "\f068";
+            font-family: FontAwesome;
+            margin-right: 27px;
+        }
+    }
+    .logo{
+        padding: 25px 0;
+       display: inline-block;
+       text-align: center;
+       box-sizing: border-box;
+       img{
+        width: 22%;
+       }
+    }
+    .right-side{
+        padding-top: 15px; 
+        text-align: right;
+        display: inline-block;
+        
       .user-info{
         width: 152px;
         display: inline-block;
@@ -366,5 +367,46 @@ ul {
     margin: 0;
     padding: 0;
 }
+ //style accordion mobile
+ #accordion-m{
+    font-family: roboto;
+    font-size: 13px;
+    .uc_clean_accordion .uc_clean_accordion_wrap .uc_clean_accorder_content .uc_head_line{
+        margin-top: 0;
+    }
+ }
 
+@media (min-width:320px)and(max-width: 480px){
+    #header-container{
+       //display: none;
+    }
+    #mtop-bar{
+        padding: 7px 0;
+        border-bottom: 1px solid #eee;
+        #mtop-left{
+            padding-right:0; 
+            .uc_line_content{
+                width: 100% !important;
+            }
+        }
+    }
+    .uc_head_line{
+        width: 100% !important;
+        margin-top: 0 !important;
+        background-color: #E6ECF1 !important;
+    }
+    #menu-logo{
+        height: 70px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+        
+        img{
+            vertical-align: middle;
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 50%;
+            
+        }
+    }
+}
 
