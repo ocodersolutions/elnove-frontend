@@ -8,9 +8,10 @@
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	    <title>header</title>
 	    <link rel="stylesheet/less" type="text/css" href="body1.less" />
+	    <link rel="stylesheet/less" type="text/css" href="../assets/css/custom_product_list.less" />
 	   
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">  
+	    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,bold' rel='stylesheet' type='text/css'>
 	    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 	    
@@ -32,17 +33,29 @@
         <div class="row ">
          	<div class="col-lg-3" id="product">
 				
+				<!-- start of team member -->
 				<div class="product_item">
 					<div class="uc_contact">
 						<img class="uc_avatar" src="product_item.jpg">
 						<div class="uc_link">
-							<a href="#" class="uc_icon" ><img src="like_icon.jpg" alt=""></a>
-							<a href="#" class="uc_icon" id="show" onclick="display_mode('object_share','show');"><img src="share_icon.jpg" alt=""></a>
-							<a href="#" class="uc_icon" ><img src="allert_icon.jpg" alt=""></a>
-							<a href="#" class="uc_icon buy_product"><span>BUY</span></a>
+							<a href="#" id="active1" class="uc_icon" onclick="toggleColor('active1')" >
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="uc_icon" onclick="display_mode('object_share','show');">
+								<i class="fa fa-share-alt" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" id="active2" class="uc_icon" onclick="toggleColor('active2')" >
+								<i class="fa fa-bell-o" aria-hidden="true"></i>
+							</a>
+
+							<a href="#" class="buy_product"><span>BUY</span></a>
 						</div>				
-					</div>
+					</div>		<!-- End .product_item -->
+
 					<div class="clear_float"></div>
+
 					<div class="share_product" id="object_share" >
 						<i class="fa fa-times " aria-hidden="true" onclick="display_mode('object_share','hide');"></i>
 						<h2>SHARE VIA</h2>
@@ -79,12 +92,13 @@
 								<i class="fa fa-envelope-o fa-2x " aria-hidden="true"></i> 
 								<span>Email</span>
 							</a>
-						</div>
-							
-					</div>
+						</div>					
+					</div>		<!-- End .share_product -->
+
 					<div class="clear_float"></div>
+
 					<div class="uc_info">
-						<p class="uc_job"><span>65.00 CAD </span>&nbsp;48.00 CAD</p>
+						<p class="uc_job"><span>65.00 CAD</span>&nbsp;&nbsp;48.00 CAD</p>
 						<p>Puma Football Windbreaker</p>
 					</div>
 				</div>
@@ -156,14 +170,24 @@
 		<button class="btn-st-silver">Load more</button>
 	</div>
 	</div>
-	<script type="text/javascript">
+		<script type="text/javascript">
 
 			function display_mode(id, mode) {
-			var e = document.getElementById(id);
-			if(mode == 'show') e.style.display = 'block';
-			else e.style.display = 'none';
-	    }
+				var e = document.getElementById(id);
+				if(mode == 'show') e.style.display = 'block';
+				else e.style.display = 'none';
+	    	}
 
+	    	function toggleColor(id) { 
+				var myClasses = document.getElementById(id).classList;
+				if (myClasses.contains("active")) {
+				myClasses.remove("active");
+				} else {
+				myClasses.add("active");
+				}
+				
+			}
+	    	
 		</script>
     </body>
 </html>
