@@ -112,20 +112,23 @@
         </div>
     </div>
 
-        <div id="banner-container" class="container-fluid">
-            <div id="banner">
-                <div class="col-lg-5 col-lg-offset-2 banner-content">
-                    <h2>LOREM IPSUM TEXT</h2>
-                    <p>Whether for casual or business attire, get choices tailored to you.</p>
-                    <a href="#"><span class="btn btn-default">GET DRESSED</span></a>
-                </div>
-            </div> 
+    <div id="banner" class="container-fluid">
+        <div class="col-lg-5 col-lg-offset-2 banner-content">
+            <h2>LOREM IPSUM TEXT</h2>
+            <p>Whether for casual or business attire, get choices tailored to you.</p>
+            <a href="#"><span class="btn btn-default">GET DRESSED</span></a>
         </div>
-        <div id="body-container" class="container-fluid">
-            
+    </div> 
+
+    <div id="body-container" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">Left</div>
+            <div class="col-lg-8">Right</div>
         </div>
-        <footer class="container-fluid">
-            <?php //include 'footer_block/index.php'; ?>
-        </footer>
+    </div>
+    
+    <footer class="container-fluid">
+        <?php //include 'footer_block/index.php'; ?>
+    </footer>
 
 <?php include 'footer.php'; ?>
