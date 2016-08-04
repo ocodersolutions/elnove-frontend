@@ -7,6 +7,7 @@
 	padding: 0;
 }
 .product_item {
+	font-family: 'Roboto', sans-serif;
 	position: relative;
 	width: 300px;
 	text-align: center;
@@ -18,23 +19,42 @@
 	text-decoration: none;
 	display: block;
     float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #86a2ba;
     margin-right: 1px;
+    color: #fffefb;
+}
+.product_item .uc_link {
+	height: 42px;
+}
+.product_item .uc_link a:hover {
+	margin-top: 2px;
 }
 .product_item .buy_product {
+	text-decoration: none;
+	display: block;
+    float: left;
 	margin: 0;
 }
 .product_item .uc_link span {
+	font-size: 15px;
 	vertical-align: top;
 	background: #2f5c8c;
 	line-height: 36px;
-	padding: 9px 78px 10px 77px;
+	padding: 9px 79px 10px 79px;
 	color: white;
+}
+.product_item .uc_link .active {
+	background: #ff3d00;
 }
 .clear_float {
 	clear: both;
 }
 .product_item .uc_info p {
 	color: #444444;
+	font-size: 12.86px;
 }
 .product_item p.uc_job {
 	color: #33648D;
@@ -45,8 +65,6 @@
 	text-decoration: line-through;
     color: #ADC1D1;
 }
-
-
 
 
 
@@ -61,14 +79,19 @@
 }
 .share_product .fa-times {
 	display: block;
-    text-align: right;
-    padding: 15px 20px 0px 0px;
+    width: 16px;
+    margin-left: 265px;
+    margin-top: 15px;
     color: #d1dbe4;
+    cursor: pointer;
+    text-align: left;
 }
 .share_product h2 {
+	font-size: 25px;
     padding-top: 15px;
     padding-bottom: 30px;
     color: #e1e6ea;
+    font-weight: normal;
 }
 .share_product .share_page i {
     display: block;
