@@ -19,8 +19,9 @@
         }
         .uc_link{
             height: 42px;
-            a:hover {
+            span:hover {
                 margin-top: 2px;
+                cursor: pointer;
             }
             .uc_icon {
                 text-decoration: none;
@@ -38,15 +39,24 @@
                 display: block;
                 float: left;
                 margin: 0;
+                p {
+                    margin: 0px;
+                    font-size: 15px;
+                    vertical-align: top;
+                    background: #2f5c8c;
+                    line-height: 34px;
+                    padding: 1px 80px 1px 80px;
+                    color: white;
+                }
             }
-            span {
-                font-size: 15px;
-                vertical-align: top;
-                background: #2f5c8c;
-                line-height: 34px;
-                padding: 9px 80px 10px 80px;
-                color: white;
-            }
+            // span {
+            //     font-size: 15px;
+            //     vertical-align: top;
+            //     background: #2f5c8c;
+            //     line-height: 34px;
+            //     padding: 9px 80px 10px 80px;
+            //     color: white;
+            // }
             .active {
                 background: #ff3d00;
             }
