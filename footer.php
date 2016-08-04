@@ -28,7 +28,9 @@
 		                    inputBox.focusout();
 		                    isOpen = false;
 		                   	$("#search").removeAttr("style");
+		                   	//$("#show-hide-menu").click();
 		                }
+		                 
 		            });  
 		             submitIcon.mouseup(function(){
 		                    return false;
@@ -50,6 +52,17 @@
 		                     $('.searchbox-input').val('');
 		                } 
 		            }
+		            var flag = false;
+		            $("#show-hide-menu").click(function(){
+		            	$("#show-hide-menu").toggleClass("angleplus");
+		            	if(flag == false){
+		                    $('.searchbox-icon').click();
+		                    flag = true;
+		                } else {
+		                	flag = false;
+		                }
+		            	
+		            });
 	            var icons = {
                 header: "ui-icon-circle-arrow-e",
                 activeHeader: "ui-icon-circle-arrow-s"
