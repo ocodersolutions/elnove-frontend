@@ -5,7 +5,7 @@
             <div class="header-top-navbar col-lg-12 ">
                 <div class="row top-bar">
                     <div class="left-side col-lg-3 col-xs-12">MENU</div>
-                    <div class="logo col-lg-6 col-xs-12"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
+                    <div class="logo col-lg-6 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo"></div>
                     <div class="right-side col-lg-3 col-xs-12">
                         <div class="uc_clean_accordion">
                             <div class="uc_clean_accordion_wrap">
@@ -97,8 +97,8 @@
         </div>
         <div class="row" id="menu-logo">
             <div class="col-xs-12" >
-                <span></span>
-                <img src="../lnove/assets/images/logo.png" alt="logo mobile" class="logo"/>
+                <span class="fa fa-plus"></span>
+                <img src="assets/images/logo.png" alt="logo mobile" class="logo"/>
             </div>
         </div>
             

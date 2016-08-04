@@ -9,38 +9,9 @@
 	    <link rel="stylesheet/less" type="text/css" href="../bk/assets/css/quang.less" />
 	    <script   src="../assets/js/jquery-1.12.4.min.js"></script>
 	    <script src="../assets/js/less.min.js"></script>
-
-
-
-        <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-      <!-- Javascript -->
-      <script>
-         $(function() {
-            $( "#slider-3" ).slider({
-               range:true,
-               min: 0,
-               max: 1000,
-               values: [ 250, 1000 ],
-               slide: function( event, ui ) {
-                  mp = $( "#min-price" ).val(ui.values[ 0 ]);
-                  console.log(mp);
-                  $( "#max-price" ).val(ui.values[ 1 ]);
-
-               }
-           });
-        // $( "#min-price" ).val( "$" + $( "#slider-3" ).slider( "values", 0 ) );
-        // $( "#max-price" ).val( "$" + $( "#slider-3" ).slider( "values", 1 ) );
-         });
-
-        $( document ).ready(function() {
-            $( "#slider-3 a:eq(0)" ).append( "<span><input id='min-price' disabled='disabled'></span>" );   
-            $( "#slider-3 a:eq(1)" ).append( "<span><input id='max-price' disabled='disabled'></span>" );  
-        });
-         
-
-      </script>
+        <link href="jquery-ui.css" rel="stylesheet">
+        <script src="jquery-ui.js"></script>
+        
 
     </head>
     <body>
@@ -70,13 +41,11 @@
         						<li>ACCESSORIES</li>
         						<li>BRANDS</li>
         						<li id="prices">PRICE</li>
-                              <!--   <input id="min-price">
-                                <input id="max-price"> -->
                                     <div class="price prices"> 
                                         <div id="slider-3"></div>
                                     </div>
         						<li id="colors">COLOR</li>    
-                                        <div class="select colors">
+                                        <div class="colors">
                                             <div class="list-color">
                                              <div class="color" style="background: #000"></div>
                                              <div class="color" style="background: #F5F5DC"></div>
@@ -105,15 +74,15 @@
                                         </ul>
                                     </div>
         						<li id="sizes">SIZE</li>
-                                    <div class="select sizes" >
+                                    <div class="sizes" >
                                         <div class="list-size">
-                                            <div class="size"><span>XS</span></div>
-                                            <div class="size"><span>S</span></div>
-                                            <div class="size"><span>M</span></div>
-                                            <div class="size"><span>L</span></div>
-                                            <div class="size"><span>XL</span></div>
-                                            <div class="size"><span>XXL</span></div>
-                                            <div class="size"><span>XXXL</span></div>
+                                            <div class="size"><span value="xs">XS</span></div>
+                                            <div class="size"><span value="s" >S</span></div>
+                                            <div class="size"><span value="m">M</span></div>
+                                            <div class="size"><span value="l">L</span></div>
+                                            <div class="size"><span value="xl">XL</span></div>
+                                            <div class="size"><span value="xxl">XXL</span></div>
+                                            <div class="size"><span value="xxxl">XXXL</span></div>
                                         </div>
                                     </div>
         						<li id="stores">STORE</li>
@@ -159,34 +128,74 @@
 
         </div>
     <!-- refine_block -->
+    <?php var_dump($_POST); ?>
+    <form method="post">
+        <input class="footwear" name="footwear">
+        <input class="footwear" name="price">
+        <input class="footwear" name="color">
+        <input class="footwear" name="deals">
+        <input class="footwear" name="size">
+        <input class="footwear" name="store">
+        <button type="submit"></button>
+    </form>
 
 
-<script type="text/javascript">
-$('.refine .refine-colum .deals ul li').click(function(){
-     $(this).attr('class','selected');
-});
-$('.refine .refine-colum .footwear ul li').click(function(){
-     $(this).attr('class','selected');
-});
-$('.refine .refine-colum .brand .list-brand ul li').click(function(){
-     $(this).attr('class','selected');
-});
-$('.refine .refine-colum .select .list-size .size span').click(function(){
-     $(this).attr('class','selected');
-});
-$('.refine .refine-colum .select .list-color .color').click(function(){
-     $(this).append(" <i class='fa fa-check' aria-hidden='true'></i>");;
-});
-    $('.refine .refine-colum ul li').click(function(){
-        var currentId = $(this).attr('id');
+    <script type="text/javascript">
+        $(function() {
+            $( "#slider-3" ).slider({
+               range:true,
+               min: 0,
+               max: 1000,
+               values: [ 250, 1000 ],
+               change: function( event, ui ) {
+                minprice = (ui.values[0]);
+                maxprice = (ui.values[1]);
+                $('#slider-3 a:eq(0) span').empty().append(minprice);
+                $('#slider-3 a:eq(1) span').empty().append(maxprice);
+               }
+           });
+        $( "#min-price" ).val( "$" + $( "#slider-3" ).slider( "values", 0 ) );
+        $( "#max-price" ).val( "$" + $( "#slider-3" ).slider( "values", 1 ) );
+         });
+        $( document ).ready(function() {
+            $( "#slider-3 a:eq(0)" ).append( "<span>250</span>" );   
+            $( "#slider-3 a:eq(1)" ).append( "<span>1000+</span>" ); 
+            $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li').addClass('select');
+          
+                 $('.select').click(function(){
+                    val_size = this.getAttribute("value");
+                    val_color = this.getAttribute("value");
+                    $('input[name="size"]').val(val_size);
+
+                    if( $(this).hasClass( "selected") == false){
+                        $(this).addClass('selected');
+                    } else{
+                        $(this).removeClass('selected');
+                    }
+                   
+            });
+        });
+        $('.refine .refine-colum .list-color .color').click(function(){
+            
+            if( $(this).hasClass( "selected") == false){
+                        $(this).addClass('selected').append(" <i class='hello fa fa-check' aria-hidden='true'></i>");
+                    } else{
+                        $(this).removeClass('selected');
+                        $('.hello').remove();
+                    }
+             
+        });
         
-        $('.refine .refine-colum .'+currentId+'').animate({
-        left: "+=50",
-        height: "toggle"
-      }, 800, function() {
-  });
-    });
-</script>
+            $('.refine .refine-colum ul li').click(function(){
+                var currentId = $(this).attr('id');
+                
+                $('.refine .refine-colum .'+currentId+'').animate({
+                left: "+=50",
+                height: "toggle"
+              }, 800, function() {
+          });
+            });
+    </script>
 
     </body>
 </html>
