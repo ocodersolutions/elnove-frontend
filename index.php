@@ -97,7 +97,7 @@
         </div>
         <div class="row" id="menu-logo">
             <div class="col-xs-12" >
-                <span class="fa fa-plus"></span>
+                <span class="fa fa-plus" id="pop-menu" data-popup="#popup"></span>
                 <img src="assets/images/logo.png" alt="logo mobile" class="logo"/>
             </div>
         </div>
@@ -107,8 +107,25 @@
             <form class="searchbox-mobile col-xs-12">
                     <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="m-search" class="m-searchbox-input"  >
                     <button type="submit" class="searchbox-submit">
-                    <span class="m-searchbox-icon" id="pop-menu"><i class="fa fa-search" aria-hidden="true" id="m-search_btn"></i></span></button>
-                </form>
+                    <span class="m-searchbox-icon" ><i class="fa fa-search" aria-hidden="true" id="m-search_btn"></i></span></button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-left" id="popup">
+            
+                <p> MENU</p>
+                <ul>
+                    <li><a href="">HOW IT WORKS</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">SHIPPING</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">EXCHANGE & RETURNS</a></li>
+                    <li><a href="">CAREERS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
