@@ -71,7 +71,7 @@ a.btn-st-blue:hover{
     .left-side {
         cursor: pointer;
         display: inline-block;
-        padding: 33px 30px;
+        padding: 36px 30px;
         font-size: 20px;
         color: #33648D;
         &:before{
@@ -90,6 +90,7 @@ a.btn-st-blue:hover{
        }
     }
     .right-side{
+        padding-top: 15px; 
         text-align: right;
         display: inline-block;
         .uc_clean_accordion {
@@ -106,7 +107,7 @@ a.btn-st-blue:hover{
                 background-color: #fff;
                 border: 1px solid #eee;
                 margin: 15px 0 1px 0;
-                padding: 12px 20px 12px 10px;
+                padding: 10px 20px 13px 10px;
                 //padding-top: 0;
                 position: relative;
                 text-transform: none;
@@ -226,7 +227,7 @@ a.btn-st-blue:hover{
 }
 #menu{
     display: block;
-    
+    position: relative;
     #row-top-navbar{
        border-bottom: 1px solid #eee; 
     #top-nav{
@@ -237,14 +238,14 @@ a.btn-st-blue:hover{
         color: #444444; 
         ul{
             li{
-                padding:23px 9px 23px 4px;
+                padding:23px 9px 23px 20px;
                 display: inline-block;
             }
         }
     }
 }
     #search{
-        top: 112px;
+        top: 12px;
         position: absolute;
         #formsearch{
         // padding: 20px 0;
@@ -294,6 +295,7 @@ a.btn-st-blue:hover{
 
 .searchbox-icon,
 .searchbox-submit{
+    z-index: 99;
     font-size: 23px;
     display: block;
     position: absolute;

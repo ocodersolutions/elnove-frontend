@@ -1,13 +1,14 @@
 <?php include 'header.php'; ?>
-<?php include 'banner.php'; ?>
 
         <div id="header-container" class="container-fluid">
             <div class="row">
                 <div class="header-top-navbar col-lg-12">
                     <div class="row top-bar">
-                        <div class="left-side col-lg-3">MENU</div>
-                        <div class="logo col-lg-6"><img src="assets/images/logo.png" alt="" class="top-logo"></div>
-                        <div class="right-side col-lg-3">
+
+                        <div class="left-side col-lg-3 col-xs-12">MENU</div>
+                        <div class="logo col-lg-6 col-xs-12"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
+                        <div class="right-side col-lg-3 col-xs-12">
+
                             <div class="uc_clean_accordion">
                                 <div class="uc_clean_accordion_wrap">
                                     <div id="accordion" class="uc_clean_accorder_content">
@@ -37,7 +38,7 @@
         <nav id="menu">
             <div class="col-lg-12" id="row-top-navbar">
                 <div class="row">
-                    <div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
+                    <div class="col-lg-12 text-center" id="top-nav" class="top-navbar">
                         <ul>
                             <li><a href="">HOW IT WORKS</a></li>
                             <li><a href="">ABOUT US</a></li>
