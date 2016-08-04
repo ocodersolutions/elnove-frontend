@@ -146,26 +146,26 @@
                                     <div class="uc_contact">
                                         <img class="uc_avatar" src="assets/images/product_item.jpg">
                                         <div class="uc_link">
-                                            <span href="#" id="active1" class="uc_icon" onclick="toggleColor('active1')" >
+                                            <span class="uc_icon icon_like">
                                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                                             </span>
 
-                                            <span href="#" class="uc_icon" onclick="display_mode('object_share','show');">
+                                            <span class="uc_icon show_item">
                                                 <i class="fa fa-share-alt" aria-hidden="true"></i>
                                             </span>
 
-                                            <span href="#" id="active2" class="uc_icon" onclick="toggleColor('active2')" >
+                                            <span class="uc_icon icon_alert" >
                                                 <i class="fa fa-bell-o" aria-hidden="true"></i>
                                             </span>
 
-                                            <span href="#" class="buy_product"><p>BUY</p></span>
+                                            <span class="buy_product uc_icon">BUY</span>
                                         </div>              
                                     </div>      <!-- End .product_item -->
 
                                     <div class="clear_float"></div>
 
-                                    <div class="share_product" id="object_share" >
-                                        <i class="fa fa-times " aria-hidden="true" onclick="display_mode('object_share','hide');"></i>
+                                    <div class="share_product" >
+                                        <i class="fa fa-times hide_item" aria-hidden="true"></i>
                                         <h2>SHARE VIA</h2>
                                         <div class="share_page">
                                             <a href="#">
@@ -286,24 +286,36 @@
     <footer class="container-fluid">
         <?php //include 'footer_block/index.php'; ?>
     </footer>
-    <script type="text/javascript">
-
-        function display_mode(id, mode) {
-            var e = document.getElementById(id);
-            if(mode == 'show') e.style.display = 'block';
-            else e.style.display = 'none';
-        }
-
-        function toggleColor(id) { 
-            var myClasses = document.getElementById(id).classList;
-            if (myClasses.contains("active")) {
-            myClasses.remove("active");
-            } else {
-            myClasses.add("active");
-            }
-            
-        }
-        
-    </script>
 
 <?php include 'footer.php'; ?>
+    
+    <script type="text/javascript">
+
+       
+        $(".hide_item").click(function(){
+            $(".share_product").hide();
+        });
+
+        $(".show_item").click(function(){
+            $(".share_product").show();
+        });
+        
+        $( ".icon_like" ).click(function() {
+            var myClasses = this.classList;
+            if (myClasses.contains("active")) {
+                myClasses.remove("active");
+            } else {
+                myClasses.add("active");
+            }
+        });
+
+        $( ".icon_alert" ).click(function() {
+            var myClasses = this.classList;
+            if (myClasses.contains("active")) {
+                myClasses.remove("active");
+            } else {
+                myClasses.add("active");
+            }
+        });
+        
+    </script>
