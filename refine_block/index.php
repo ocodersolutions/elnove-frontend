@@ -26,19 +26,45 @@
         			<div class="col-lg-4">
         				<div class="refine-colum">
         					<ul>
-        						<li>CATEGORIES</li>
-        						<li>CLOTHING</li>
-        						<li id="footwear">FOOTWEAR</li>
-                                    <div class="footwear">
-                						<ul>
-                							<li>Sneakers</li>
-                                            <li>Sandals</li>   
-                                            <li>Dress</li>   
-                                            <li>Casual</li>   
-                                            <li>Boots</li> 
-                						</ul>
+        						<li id="category">CATEGORIES</li>
+                                    <div class="category">
+            						    <ul>
+                                            <li id="clothing">CLOTHING</li>
+                                                <div class="clothing">
+                                                    <ul>
+                                                        <li>Filter</li>
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li> 
+                                                    </ul>
+                                                </div>
+                                        </ul>
+                                        <ul>
+            						    <li id="footwear">FOOTWEAR</li>
+                                            <div class="footwear">
+                        						<ul>
+                        							<li>Sneakers</li>
+                                                    <li>Sandals</li>   
+                                                    <li>Dress</li>   
+                                                    <li>Casual</li>   
+                                                    <li>Boots</li> 
+                        						</ul>
+                                            </div>
+                                        </ul>
+                                        <ul>
+            						        <li id="accessories">ACCESSORIES</li>
+                                                <div class="accessories">
+                                                    <ul>
+                                                        <li>Filter</li>
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li> 
+                                                    </ul>
+                                                </div>
+                                        </ul>
                                     </div>
-        						<li>ACCESSORIES</li>
         						<li>BRANDS</li>
         						<li id="prices">PRICE</li>
                                     <div class="price prices"> 
@@ -88,7 +114,7 @@
         						<li id="stores">STORE</li>
                                     <div class="stores">
                                         <div class="brand" >
-                                        <div class="label-brand">Search Stores</div>
+                                        <input class="label-brand" placeholder="Search Stores">
                                             <div class="list-brand">
                                                 <ul>
                                                     <li>Brand Name</li>
@@ -128,8 +154,8 @@
 
         </div>
     <!-- refine_block -->
-    <?php var_dump($_POST); ?>
-    <form method="post">
+    
+  <!--   <form method="post">
         <input class="footwear" name="footwear">
         <input class="footwear" name="price">
         <input class="footwear" name="color">
@@ -137,7 +163,7 @@
         <input class="footwear" name="size">
         <input class="footwear" name="store">
         <button type="submit"></button>
-    </form>
+    </form> -->
 
 
     <script type="text/javascript">
@@ -160,7 +186,7 @@
         $( document ).ready(function() {
             $( "#slider-3 a:eq(0)" ).append( "<span>250</span>" );   
             $( "#slider-3 a:eq(1)" ).append( "<span>1000+</span>" ); 
-            $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li').addClass('select');
+            $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li, .refine .refine-colum .clothing ul li, .refine .refine-colum .accessories ul li').addClass('select');
           
                  $('.select').click(function(){
                     val_size = this.getAttribute("value");
@@ -172,23 +198,26 @@
                     } else{
                         $(this).removeClass('selected');
                     }
-                   
             });
         });
         $('.refine .refine-colum .list-color .color').click(function(){
             
             if( $(this).hasClass( "selected") == false){
-                        $(this).addClass('selected').append(" <i class='hello fa fa-check' aria-hidden='true'></i>");
+                        $(this).addClass('selected').append(" <i class='check fa fa-check' aria-hidden='true'></i>");
                     } else{
                         $(this).removeClass('selected');
-                        $('.hello').remove();
+                        ($(this).find(".check")).remove();
                     }
-             
         });
-        
             $('.refine .refine-colum ul li').click(function(){
-                var currentId = $(this).attr('id');
                 
+                if( $(this).hasClass( "change") == false){
+                    $(this).addClass('change');
+                }else{
+                    $(this).removeClass('change');
+                }
+                var attrContent = getComputedStyle(this,':after').content;
+                var currentId = $(this).attr('id');                     
                 $('.refine .refine-colum .'+currentId+'').animate({
                 left: "+=50",
                 height: "toggle"

@@ -5,28 +5,61 @@
 @height-refine: 25px;
 
 
+
+::-webkit-scrollbar-thumb
+{
+  background: #5C83A4;
+}
+
 .refine{
 	font-family: @font;
 	font-size: 9px;
 	.refine-colum{
 		width: 100%;
 		float: right;
-			.footwear{
+			.category{
 				display: none;
 				ul{
-					li{
-						border:0px;
+					.change:after{
+						content: "\f106";
 					}
-					.selected{
-						background: #F0F1F2;
-					}
-					.selected:after{
-						content: "\f00c";
-						font: normal normal normal 9px/1 FontAwesome;
+					li:after{
+						content: "\f107";
+						font: normal normal normal 13px/1 FontAwesome;
 						line-height: 25px;
 					}
 				}
+
+				.footwear{
+					display: none;
+					ul{
+						li{
+							border:0px;
+							color: rgba(68, 68, 68, 0.7);
+							padding-left: 30px;
+						}
+						li:after{
+							content: "";
+						}
+						.selected{
+							background: #F0F1F2;
+							color: #000;
+						}
+						.selected:after{
+							content: "\f00c";
+							font: normal normal normal 9px/1 FontAwesome;
+							line-height: 25px;
+						}
+					}
 			}
+
+
+			}
+			.change:after{
+				
+			content: "\f106";
+			}
+			
 			ul{
 
 				list-style: none;
@@ -41,17 +74,19 @@
 					}
 				}
 				li{
+
 					cursor: pointer;
 					background: #F0F1F2;
 					margin-bottom: 3px;
 					padding-left: 15px;
+					font-weight: bold;
 					height: @height-refine;
 					line-height: @height-refine;
 				}
 				
 				li:after{
-					content: "\f078";
-					font: normal normal normal 9px/1 FontAwesome;
+					content: "\f107";
+					font: normal normal normal 13px/1 FontAwesome;
 					float: right;
 					padding-right: 15px;
 					line-height: @height-refine;
@@ -61,8 +96,13 @@
 		.deals{
 			display: none;
 				ul{
+					li{
+						border:0px;
+						color: rgba(68, 68, 68, 0.7);
+					}
 					.selected{
 						background: #F0F1F2;
+						color: #000;
 					}
 					.selected:after{
 						content: "\f00c";
@@ -78,6 +118,48 @@
 		}
 		.stores{
 			display: none;
+		}
+		.clothing{
+			display: none;
+				ul{
+					li{
+						padding-left: 30px;
+						color: rgba(68, 68, 68, 0.7);
+					}
+					li:after{
+						content: "";
+					}
+					.selected{
+						background: #F0F1F2;
+						color: #000;
+					}
+					.selected:after{
+						content: "\f00c";
+						font: normal normal normal 9px/1 FontAwesome;
+						line-height: 25px;
+					}
+				}
+		}
+		.accessories{
+			display: none;
+				ul{
+					li{
+						padding-left: 30px;
+						color: rgba(68, 68, 68, 0.7);
+					}
+					li:after{
+							content: "";
+						}
+					.selected{
+						background: #F0F1F2;
+						color: #000;
+					}
+					.selected:after{
+						content: "\f00c";
+						font: normal normal normal 9px/1 FontAwesome;
+						line-height: 25px;
+					}
+				}
 		}
 		.colors{
 			border: 1px solic #F3F4F5;
@@ -140,13 +222,38 @@
 
 		}
 		.brand{
+			input::-webkit-input-placeholder {
+			color: #ADC1D1;
+			}
+			 
+			input:-moz-placeholder { 
+			color: #ADC1D1;  
+			}
+			 
+			input::-moz-placeholder { 
+			color: #ADC1D1;  
+			}
+			 
+			input:-ms-input-placeholder {  
+			color: #ADC1D1;  
+			}
+
 			.label-brand{
 				line-height: 25px;
 				background: #F0F4F7;
+				width: 100%;
+				border: 0px;
 				padding-left: 15px;
 				margin: 2px 0;		
 			}
 			.list-brand{
+				scrollbar-face-color: #000000;
+scrollbar-shadow-color: #2D2C4D;
+scrollbar-highlight-color:#7D7E94;
+scrollbar-3dlight-color: #7D7E94;
+scrollbar-darkshadow-color: #2D2C4D;
+scrollbar-track-color: #7D7E94;
+scrollbar-arrow-color: #C1C1D1;
 				border: 1px solid #D5D8DA;
 				overflow: auto;
 				height: 400px;
@@ -154,7 +261,7 @@
 					li{
 						background: #fff;
 						border: none;
-						color: #444444;
+						color: rgba(68, 68, 68, 0.7);
 						&.selected{
 							color: #000;
 						}

@@ -6,6 +6,21 @@ a{
          color:#444444;
     }
 }
+::-webkit-input-placeholder {
+   color: #85A2BB;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #85A2BB;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #85A2BB;  
+}
+
+:-ms-input-placeholder {  
+   color: #85A2BB;  
+}
 .btn-st-silver{
     text-transform: uppercase;
     border:0;
@@ -69,7 +84,7 @@ a.btn-st-blue:hover{
                 .uc_head_line{
                 width: 150px;
                 display: block;
-                background-color: #fff;
+                background-color: #E6ECF1;
                 border: 1px solid #eee;
                 margin: 15px 0 1px 0;
                 padding: 10px 20px 13px 10px;
@@ -77,6 +92,9 @@ a.btn-st-blue:hover{
                 position: relative;
                 text-transform: none;
                 letter-spacing: inherit;
+                &:focus{
+                    outline:0;
+                }
                 .ui-state-active {
                     border-bottom: 0px;
                 }
@@ -122,6 +140,7 @@ a.btn-st-blue:hover{
                 }
             }
             .ui-accordion-header-active.ui-state-active{
+                background: #fff;
                 border-bottom:0; 
             }
             .ui-accordion-header-active.ui-state-active >.ui-icon:after{
@@ -177,6 +196,11 @@ a.btn-st-blue:hover{
             content: "\f068";
             font-family: FontAwesome;
             margin-right: 27px;
+        }
+    }
+    .angleplus{
+        &:before{
+            content:  "\f067";
         }
     }
     .logo{
@@ -391,6 +415,7 @@ ul {
         }
         #mtop-right{
             padding-left: 5px;
+
             a.btn-st-blue{
                 width: 100%;
             }
@@ -405,13 +430,71 @@ ul {
         height: 70px;
         border-bottom: 1px solid #eee;
         text-align: center;
-        
+        span.fa.fa-plus {
+            cursor: pointer;
+            font-size: 24px;
+            position: absolute;
+            top: 23px;
+            left: 17px;
+            }
         img{
             vertical-align: middle;
-            margin-top: 0;
+            margin-top: 6px;
             margin-bottom: 0;
             width: 50%;
             
+        }
+    }
+    #search-bar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .searchbox-mobile{
+            position: relative;
+            .m-searchbox-input{
+                width: 100%;
+                font-family: Roboto;
+                font-size: 14px;
+                border: 0;
+                outline: 0;
+                z-index: 1;
+                width: 100%;
+                height: 40px;
+                margin: 0;
+                padding: 0px 55px 0px 20px;
+                color: #85A2BB;
+                background-color: #F0F4F7;
+            }
+            .searchbox-submit{
+                position: absolute;
+                right: 30px;
+                top: 4px;
+                z-index: 99;
+                font-size: 23px;
+                display: block;
+                padding: 0;
+                margin: 0;
+                border: 0;
+                outline: 0;
+                background: transparent;
+                text-align: center;
+                cursor: pointer;
+                color: #33648D;
+            }
+        }
+    }
+    #popup{
+        height: 100%;
+        p{
+            line-height: 45px;
+            border-bottom: 1px solid #eee;
+        }
+        ul{
+            li{
+                border-bottom: 1px solid #eee;
+                a{
+
+                }
+            }
         }
     }
 }

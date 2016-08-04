@@ -5,6 +5,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>
+         <script src="assets/js/jquery.fullscreen-popup.min.js"></script>
 
         <script>
 			//
@@ -28,7 +29,9 @@
 		                    inputBox.focusout();
 		                    isOpen = false;
 		                   	$("#search").removeAttr("style");
+		                   	//$("#show-hide-menu").click();
 		                }
+		                 
 		            });  
 		             submitIcon.mouseup(function(){
 		                    return false;
@@ -50,6 +53,17 @@
 		                     $('.searchbox-input').val('');
 		                } 
 		            }
+		            var flag = false;
+		            $("#show-hide-menu").click(function(){
+		            	$("#show-hide-menu").toggleClass("angleplus");
+		            	if(flag == false){
+		                    $('.searchbox-icon').click();
+		                    flag = true;
+		                } else {
+		                	flag = false;
+		                }
+		            	
+		            });
 	            var icons = {
                 header: "ui-icon-circle-arrow-e",
                 activeHeader: "ui-icon-circle-arrow-s"
@@ -66,7 +80,9 @@
 					collapsible: true,
                     active: false
                 });
-		
+				$("#pop-menu").fullScreenPopup({
+					bgColor: '#fff'
+				});
 		  </script>  
 
   	</body>
