@@ -5,6 +5,12 @@
 @height-refine: 25px;
 
 
+
+::-webkit-scrollbar-thumb
+{
+  background: #5C83A4;
+}
+
 .refine{
 	font-family: @font;
 	font-size: 9px;
@@ -113,6 +119,48 @@
 		.stores{
 			display: none;
 		}
+		.clothing{
+			display: none;
+				ul{
+					li{
+						padding-left: 30px;
+						color: rgba(68, 68, 68, 0.7);
+					}
+					li:after{
+						content: "";
+					}
+					.selected{
+						background: #F0F1F2;
+						color: #000;
+					}
+					.selected:after{
+						content: "\f00c";
+						font: normal normal normal 9px/1 FontAwesome;
+						line-height: 25px;
+					}
+				}
+		}
+		.accessories{
+			display: none;
+				ul{
+					li{
+						padding-left: 30px;
+						color: rgba(68, 68, 68, 0.7);
+					}
+					li:after{
+							content: "";
+						}
+					.selected{
+						background: #F0F1F2;
+						color: #000;
+					}
+					.selected:after{
+						content: "\f00c";
+						font: normal normal normal 9px/1 FontAwesome;
+						line-height: 25px;
+					}
+				}
+		}
 		.colors{
 			border: 1px solic #F3F4F5;
 		 	height: @height-refine*3;
@@ -178,11 +226,11 @@
 			color: #ADC1D1;
 			}
 			 
-			input:-moz-placeholder { /* Firefox 18- */
+			input:-moz-placeholder { 
 			color: #ADC1D1;  
 			}
 			 
-			input::-moz-placeholder {  /* Firefox 19+ */
+			input::-moz-placeholder { 
 			color: #ADC1D1;  
 			}
 			 
@@ -199,6 +247,13 @@
 				margin: 2px 0;		
 			}
 			.list-brand{
+				scrollbar-face-color: #000000;
+scrollbar-shadow-color: #2D2C4D;
+scrollbar-highlight-color:#7D7E94;
+scrollbar-3dlight-color: #7D7E94;
+scrollbar-darkshadow-color: #2D2C4D;
+scrollbar-track-color: #7D7E94;
+scrollbar-arrow-color: #C1C1D1;
 				border: 1px solid #D5D8DA;
 				overflow: auto;
 				height: 400px;

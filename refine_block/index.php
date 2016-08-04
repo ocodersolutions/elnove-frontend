@@ -29,7 +29,16 @@
         						<li id="category">CATEGORIES</li>
                                     <div class="category">
             						    <ul>
-                                            <li>CLOTHING</li>
+                                            <li id="clothing">CLOTHING</li>
+                                                <div class="clothing">
+                                                    <ul>
+                                                        <li>Filter</li>
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li> 
+                                                    </ul>
+                                                </div>
                                         </ul>
                                         <ul>
             						    <li id="footwear">FOOTWEAR</li>
@@ -44,7 +53,16 @@
                                             </div>
                                         </ul>
                                         <ul>
-            						        <li>ACCESSORIES</li>
+            						        <li id="accessories">ACCESSORIES</li>
+                                                <div class="accessories">
+                                                    <ul>
+                                                        <li>Filter</li>
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li>   
+                                                        <li>Filter</li> 
+                                                    </ul>
+                                                </div>
                                         </ul>
                                     </div>
         						<li>BRANDS</li>
@@ -136,8 +154,8 @@
 
         </div>
     <!-- refine_block -->
-    <?php var_dump($_POST); ?>
-    <form method="post">
+    
+  <!--   <form method="post">
         <input class="footwear" name="footwear">
         <input class="footwear" name="price">
         <input class="footwear" name="color">
@@ -145,7 +163,7 @@
         <input class="footwear" name="size">
         <input class="footwear" name="store">
         <button type="submit"></button>
-    </form>
+    </form> -->
 
 
     <script type="text/javascript">
@@ -168,7 +186,7 @@
         $( document ).ready(function() {
             $( "#slider-3 a:eq(0)" ).append( "<span>250</span>" );   
             $( "#slider-3 a:eq(1)" ).append( "<span>1000+</span>" ); 
-            $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li').addClass('select');
+            $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li, .refine .refine-colum .clothing ul li, .refine .refine-colum .accessories ul li').addClass('select');
           
                  $('.select').click(function(){
                     val_size = this.getAttribute("value");
