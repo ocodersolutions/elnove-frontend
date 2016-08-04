@@ -1,11 +1,12 @@
 <?php include 'header.php'; ?>
+<?php include 'banner.php'; ?>
 
         <div id="header-container" class="container-fluid">
             <div class="row">
                 <div class="header-top-navbar col-lg-12">
                     <div class="row top-bar">
                         <div class="left-side col-lg-3">MENU</div>
-                        <div class="logo col-lg-6"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
+                        <div class="logo col-lg-6"><img src="assets/images/logo.png" alt="" class="top-logo"></div>
                         <div class="right-side col-lg-3">
                             <div class="uc_clean_accordion">
                                 <div class="uc_clean_accordion_wrap">
@@ -66,7 +67,14 @@
         </nav>
         
         <div id="banner-container" class="container-fluid">
-            <?php //include 'banner_block/index.php'; ?>
+            
+            <div id="banner">
+                <div class="col-lg-5 col-lg-offset-2 banner-content">
+                    <h2>LOREM IPSUM TEXT</h2>
+                    <p>Whether for casual or business attire, get choices tailored to you.</p>
+                    <a href="#"><span class="btn btn-default">GET DRESSED</span></a>
+                </div>
+            </div>  
         </div>
         <div id="body-container" class="container-fluid">
             
