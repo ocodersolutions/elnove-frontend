@@ -180,7 +180,6 @@
                     } else{
                         $(this).removeClass('selected');
                     }
-                   
             });
         });
         $('.refine .refine-colum .list-color .color').click(function(){
@@ -189,11 +188,9 @@
                         $(this).addClass('selected').append(" <i class='check fa fa-check' aria-hidden='true'></i>");
                     } else{
                         $(this).removeClass('selected');
-                        $('.check').remove();
+                        ($(this).find(".check")).remove();
                     }
-             
         });
-        
             $('.refine .refine-colum ul li').click(function(){
                 
                 if( $(this).hasClass( "change") == false){
@@ -201,15 +198,8 @@
                 }else{
                     $(this).removeClass('change');
                 }
-                
-                
-
                 var attrContent = getComputedStyle(this,':after').content;
-                
-
-                var currentId = $(this).attr('id');
-                
-                
+                var currentId = $(this).attr('id');                     
                 $('.refine .refine-colum .'+currentId+'').animate({
                 left: "+=50",
                 height: "toggle"
