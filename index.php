@@ -1,54 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="favicon.ico">
+<?php include 'header.php'; ?>
 
-        <title>eLnove.com</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <link href="assets/css/custom.less" rel="stylesheet/less" type="text/css">
-        <link href="assets/css/custom_header.less" rel="stylesheet/less" type="text/css">
-        <link href="assets/css/custom_banner.less" rel="stylesheet/less" type="text/css">
-        <link href="assets/css/custom_refine.less" rel="stylesheet/less" type="text/css">
-        <link href="assets/css/custom_product_list.less" rel="stylesheet/less" type="text/css">
-        <link href="assets/css/custom_footer.less" rel="stylesheet/less" type="text/css">
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-
-    <body>
         <div id="header-container" class="container-fluid">
-            <?php include 'header_block/index.php'; ?>
+            <div class="row">
+                <div class="header-top-navbar col-lg-12">
+                    <div class="row top-bar">
+                        <div class="left-side col-lg-3">MENU</div>
+                        <div class="logo col-lg-6"><img src="logo.png" alt="" class="top-logo"></div>
+                        <div class="right-side col-lg-3">
+                            <div class="uc_clean_accordion">
+                                <div class="uc_clean_accordion_wrap">
+                                    <div id="accordion" class="uc_clean_accorder_content">
+                                        <!-- start of line 1 -->
+                                        <h3 class="uc_head_line">
+                                           <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                                        </h3>
+                                        <div class="uc_line_content">
+                                            <ul class="uc_des">
+                                                <li><a href="">My Profile</a></li>
+                                                <li><a href="">Logout</a></li>  
+                                            </ul>
+                                            
+                                        </div>
+                                        <!-- end of line 1 -->
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn-st-blue">GET STYLED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <nav id="menu">
+            <div class="col-lg-12" id="row-top-navbar">
+                <div class="row">
+                    <div class="col-lg-9 text-right" id="top-nav" class="top-navbar">
+                        <ul>
+                            <li><a href="">HOW IT WORKS</a></li>
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">SHIPPING</a></li>
+                            <li><a href="">PRICING</a></li>
+                            <li><a href="">EXCHANGE & RETURNS</a></li>
+                            <li><a href="">CAREERS</a></li>
+                            <li><a href="">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-lg-12" id="search">
+                <!-- <form action="" id="formsearch" class="">
+                    <input type="text" length="1000" placeholder="Search lorem ipsum dolor sit amet consectur..." id="input_search">
+                    <button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
+                </form> -->
+                <form class="searchbox">
+                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                    <button type="submit" class="searchbox-submit">
+                    <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></span></button>
+                </form>
+            </div>  
+                
+        </nav>
+        
         <div id="banner-container" class="container-fluid">
-            <?php include 'banner_block/index.php'; ?>
+            <?php //include 'banner_block/index.php'; ?>
         </div>
         <div id="body-container" class="container-fluid">
             
         </div>
         <footer class="container-fluid">
-            <?php include 'footer_block/index.php'; ?>
+            <?php //include 'footer_block/index.php'; ?>
         </footer>
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-        <script src="assets/js/jquery-ui.js"></script>
-  </body>
-</html>
+<?php include 'footer.php'; ?>
