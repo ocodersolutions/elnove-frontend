@@ -71,7 +71,7 @@
 						<button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
 		        	</form> -->
 		        	<form class="searchbox">
-				        <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+				        <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();">
 				        <button type="submit" class="searchbox-submit">
 				        <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></span></button>
 				    </form>
@@ -87,7 +87,10 @@
 		            var inputBox = $('.searchbox-input');
 		            var searchBox = $('.searchbox');
 		            var isOpen = false;
-		            submitIcon.click(function(){
+		            submitIcon.click(function(e){
+		            	if(inputBox.val()==""){
+		            		e.preventDefault();
+		            	}
 		                if(isOpen == false){
 		                    searchBox.addClass('searchbox-open');
 		                    inputBox.focus();
