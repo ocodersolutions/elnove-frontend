@@ -60,6 +60,12 @@
 					collapsible: true,
                     active: false
                 });
+                $( "#accordion-m" ).accordion({
+                    icons: icons,
+                    heightStyle:"content",
+					collapsible: true,
+                    active: false
+                });
 		
 		  </script>  
 

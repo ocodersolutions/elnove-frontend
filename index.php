@@ -1,40 +1,38 @@
 <?php include 'header.php'; ?>
 
-        <div id="header-container" class="container-fluid">
-            <div class="row">
-                <div class="header-top-navbar col-lg-12">
-                    <div class="row top-bar">
-
-                        <div class="left-side col-lg-3 col-xs-12">MENU</div>
-                        <div class="logo col-lg-6 col-xs-12"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
-                        <div class="right-side col-lg-3 col-xs-12">
-
-                            <div class="uc_clean_accordion">
-                                <div class="uc_clean_accordion_wrap">
-                                    <div id="accordion" class="uc_clean_accorder_content">
-                                        <!-- start of line 1 -->
-                                        <h3 class="uc_head_line">
-                                           <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
-                                        </h3>
-                                        <div class="uc_line_content">
-                                            <ul class="uc_des">
-                                                <li><a href="">My Profile</a></li>
-                                                <li><a href="">Logout</a></li>  
-                                            </ul>
-                                            
-                                        </div>
-                                        <!-- end of line 1 -->
-
+    <div id="header-container" class="container-fluid hidden-xs">
+        <div class="row">
+            <div class="header-top-navbar col-lg-12 ">
+                <div class="row top-bar">
+                    <div class="left-side col-lg-3 col-xs-12">MENU</div>
+                    <div class="logo col-lg-6 col-xs-12"><img src="../lnove/assets/images/logo.png" alt="" class="top-logo"></div>
+                    <div class="right-side col-lg-3 col-xs-12">
+                        <div class="uc_clean_accordion">
+                            <div class="uc_clean_accordion_wrap">
+                                <div id="accordion" class="uc_clean_accorder_content">
+                                    <!-- start of line 1 -->
+                                    <h3 class="uc_head_line">
+                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                                    </h3>
+                                    <div class="uc_line_content">
+                                        <ul class="uc_des">
+                                            <li><a href="">My Profile</a></li>
+                                            <li><a href="">Logout</a></li>  
+                                        </ul>
                                         
                                     </div>
+                                    <!-- end of line 1 -->
+
+                                    
                                 </div>
                             </div>
-                            <a href="#" class="btn-st-blue">GET STYLED</a>
                         </div>
+                        <a href="#" class="btn-st-blue">GET STYLED</a>
                     </div>
                 </div>
             </div>
         </div>
+        
         <nav id="menu">
             <div class="col-lg-12" id="row-top-navbar">
                 <div class="row">
@@ -66,16 +64,62 @@
             </div>  
                 
         </nav>
-        
-        <div id="banner-container" class="container-fluid">
+    </div>
+    <div id="mobile-header" class="container-fluid visible-xs">
+        <div class="row">
+            <div  class="col-xs-12" id="mtop-bar">
+                        <div class="uc_clean_accordion col-xs-6" id="mtop-left">
+                            <div class="uc_clean_accordion_wrap">
+                                <div id="accordion-m" class="uc_clean_accorder_content">
+                                    <!-- start of line 1 -->
+                                    <h3 class="uc_head_line">
+                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                                    </h3>
+                                    <div class="uc_line_content">
+                                        <ul class="uc_des">
+                                            <li><a href="">My Profile</a></li>
+                                            <li><a href="">Logout</a></li>  
+                                        </ul>
+                                        
+                                    </div>
+                                    <!-- end of line 1 -->
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6" id="mtop-right">
+                            <a href="#" class="btn-st-blue">GET STYLED</a>
+                        </div>
+            </div>
+                        
             
+        </div>
+        <div class="row" id="menu-logo">
+            <div class="col-xs-12" >
+                <span></span>
+                <img src="../lnove/assets/images/logo.png" alt="logo mobile" class="logo"/>
+            </div>
+        </div>
+            
+      
+        <div class="row" id="search-bar">
+            <form class="searchbox-mobile">
+                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="m-search" class="m-searchbox-input" onkeyup="buttonUp();" >
+                    <button type="submit" class="searchbox-submit">
+                    <span class="m-searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="m-search_btn"></i></span></button>
+                </form>
+        </div>
+    </div>
+
+        <div id="banner-container" class="container-fluid">
             <div id="banner">
                 <div class="col-lg-5 col-lg-offset-2 banner-content">
                     <h2>LOREM IPSUM TEXT</h2>
                     <p>Whether for casual or business attire, get choices tailored to you.</p>
                     <a href="#"><span class="btn btn-default">GET DRESSED</span></a>
                 </div>
-            </div>  
+            </div> 
         </div>
         <div id="body-container" class="container-fluid">
             
