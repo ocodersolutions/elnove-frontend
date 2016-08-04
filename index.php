@@ -97,8 +97,8 @@
         </div>
         <div class="row" id="menu-logo">
             <div class="col-xs-12" >
-                <span></span>
-                <img src="../lnove/assets/images/logo.png" alt="logo mobile" class="logo"/>
+                <span class="fa fa-plus"></span>
+                <img src="../assets/images/logo.png" alt="logo mobile" class="logo"/>
             </div>
         </div>
             
