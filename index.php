@@ -8,7 +8,7 @@
     <?php include 'banner-block.php'; ?>
 </div>
 <div id="filter-selected" class="container-fluid" >
-    <?php include '/selected_filter_block/index.php'; ?>
+    <?php include 'selected_filter.php'; ?>
 </div> 
 
 <div id="body-container" class="container-fluid">
