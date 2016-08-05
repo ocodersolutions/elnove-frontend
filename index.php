@@ -112,7 +112,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12 text-left" id="popup">
-            
+                <div class="row">
                 <p> MENU</p>
                 <ul>
                     <li><a href="">HOW IT WORKS</a></li>
@@ -125,6 +125,7 @@
                     <li><a href="">CAREERS</a></li>
                     <li><a href="">CONTACT US</a></li>
                 </ul>
+                </div>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>
-         <script src="assets/js/jquery.fullscreen-popup.min.js"></script>
+         <script src="assets/js/jquery.fullscreen-popup.js"></script>
 
         <script>
 			//
