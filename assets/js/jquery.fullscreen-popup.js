@@ -96,7 +96,7 @@
           href: "#",
           html: "<span class='fa fa-times'></span>",
           "class": "" + this.options.closePopupClass,
-          "style": this.options.inlineStyles ? "position: absolute; right: 1.56em; top: 2em;" : void 0
+          "style": this.options.inlineStyles ? "position: absolute; right: 1.56em; top: 1.56em;" : void 0
         }).appendTo(this.mainWrapper);
       };
 
