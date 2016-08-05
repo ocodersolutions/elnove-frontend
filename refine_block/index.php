@@ -9,7 +9,6 @@
 	    <link rel="stylesheet/less" type="text/css" href="../bk/assets/css/quang.less" />
 	    <script   src="../assets/js/jquery-1.12.4.min.js"></script>
 	    <script src="../assets/js/less.min.js"></script>
-        <link href="jquery-ui.css" rel="stylesheet">
         <script src="jquery-ui.js"></script>
         
 
