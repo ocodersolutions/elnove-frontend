@@ -34,13 +34,8 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Robotohttps://www.google.com/fonts#UsePlace:use/Collection:Roboto" media="all">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
         <link rel="stylesheet/less" type="text/css" href="bk/assets/css/quang.less" />
         <script   src="assets/js/jquery-1.12.4.min.js"></script>
-        <script src="assets/js/less.min.js"></script>
         <link href="refine_block/jquery-ui.css" rel="stylesheet">
         <script src="refine_block/jquery-ui.js"></script>
 
