@@ -1,7 +1,12 @@
 #filter-selected{
-			margin: 15px 0px;
-			font-family: 'Roboto', sans-serif;
-	    	font-size: 9px;
+	margin: 15px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 9px;
+	.refine-search{
+		span{
+			margin-left: -5%;
+		}
+	}
 	.option-filter{
 		float: left;
 		span{
@@ -60,8 +65,7 @@
 	font-family: @font;
 	font-size: 9px;
 	.refine-colum{
-		width: 100%;
-		float: right;
+		
 			.category{
 				display: none;
 				ul{
@@ -138,6 +142,9 @@
 
 				}
 			}
+		#deals{
+			clear: both;
+		}
 		.deals{
 			display: none;
 				ul{
@@ -160,6 +167,9 @@
 			border: 1px solic #F3F4F5;
 		 	height: @height-refine*3;
 			display: none;
+		}
+		#stores{
+			clear: both;
 		}
 		.stores{
 			display: none;
@@ -212,16 +222,13 @@
 			display: none;
 		}
  		.list-color{
- 			padding: 10px;
- 			
+ 			margin-top: 15px;
  			height: 100%;
- 			padding: 0 70px;
- 			margin-top: 20px;
-
+ 			margin-left: 3%;
  			.color{
  				cursor: pointer;
- 				width: 10%;
- 				height: 27%;
+ 				width: 20px;
+ 				height: 20px;
  				background: blue;
  				float: left;
  				margin: 5px;
@@ -236,7 +243,7 @@
  			}
  		}
  		.list-size{
- 		    padding: 0 70px;
+ 		    padding-left: 5px;
  		    height: 100%;
  			.size{
 
@@ -245,7 +252,7 @@
  					float: left;
  					margin: 5px;
  					border: 1px solid #F0F1F2;
- 					width: 40px;
+ 					width: 35px;
  					height: 25px;
  					text-align: center;
  					line-height: 25px;
