@@ -1,3 +1,4 @@
+<?php include 'header.php'; ?>
 <div id="header-container" class="container-fluid hidden-xs">
     <div class="row">
         <div class="header-top-navbar col-lg-12 ">
@@ -80,13 +81,14 @@
     <div class="row">
         <div class="col-xs-12" id="mtop-bar">
             <div class="uc_clean_accordion col-xs-6" id="mtop-left">
+
                 <div class="uc_clean_accordion_wrap">
-                    <div id="accordion-m" class="uc_clean_accorder_content">
+                    <div id="" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
-                        <h3 class="uc_head_line">
-                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                        <h3 class="uc_head_line" id="m-show-userbox">
+                                       WELCOME ,JOHN
                                     </h3>
-                        <div class="uc_line_content">
+                       <!--  <div class="uc_line_content">
                             <ul class="uc_des">
                                 <li><a href="">My Profile</a>
                                 </li>
@@ -94,7 +96,7 @@
                                 </li>
                             </ul>
 
-                        </div>
+                        </div> -->
                         <!-- end of line 1 -->
 
 
@@ -110,7 +112,7 @@
     <div class="row" id="menu-logo">
         <div class="col-xs-12">
             <span class="fa fa-plus" id="pop-menu" data-popup="#popup"></span>
-            <img src="assets/images/logo.png" alt="logo mobile" class="logo" />
+            <img src="assets/images/mobile-logo.png" alt="logo mobile" class="logo" />
         </div>
     </div>
     
@@ -149,4 +151,17 @@
             </div>
         </div>
     </div>
+    
+    <div class="row">
+        <div class="user-mhiden" id="user-mblock">
+            <p class="tit-head">WELCOM,JOHN <span class="fa fa-times" id="hid-userbox"></span></p>
+            <ul class="link-box-user">
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Log out</a></li>
+            </ul>
+         </div>   
+        
+    </div>
 </div>
+
+<?php include 'footer.php'; ?>
