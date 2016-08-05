@@ -3,10 +3,10 @@
     <div class="row">
         <div class="header-top-navbar col-lg-12 ">
             <div class="row top-bar">
-                <div class="left-side col-lg-3 col-xs-12" id="show-hide-menu">MENU</div>
-                <div class="logo col-lg-6 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
+                <div class="left-side col-lg-4 col-xs-12" id="show-hide-menu">MENU</div>
+                <div class="logo col-lg-4 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
                 </div>
-                <div class="right-side col-lg-3 col-xs-12">
+                <div class="right-side col-lg-4 col-xs-12">
                     <div class="uc_clean_accordion">
                         <div class="uc_clean_accordion_wrap">
                             <div id="accordion" class="uc_clean_accorder_content">
@@ -35,7 +35,7 @@
         </div>
     </div>
 
-    <nav id="menu">
+    <nav id="menu" class="row">
         <div class="col-lg-12" id="row-top-navbar">
             <div class="row">
                 <div class="col-lg-12 text-center" id="top-nav" class="top-navbar">
