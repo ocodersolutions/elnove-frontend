@@ -472,9 +472,7 @@
     </div>
 </div>
 
-<footer class="container-fluid">
-    <?php //include 'footer_block/index.php'; ?>
-</footer>
+<?php include 'footer.php'; ?>
 <script type="text/javascript">
     $(function() {
         $("#slider-3").slider({
@@ -493,7 +491,6 @@
         $("#max-price").val("$" + $("#slider-3").slider("values", 1));
     });
     $(document).ready(function() {
-        alert(123);
         $("#slider-3 span:eq(0)").append("<p>250</p>");
         $("#slider-3 span:eq(1)").append("<p>1000+</p>");
         $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li, .refine .refine-colum .clothing ul li, .refine .refine-colum .accessories ul li').addClass('select');
@@ -535,7 +532,7 @@
     });
 </script>
 
-<?php include 'footer.php'; ?>
+
 
 <script type="text/javascript">
     $(".hide_item").click(function() {

@@ -11,10 +11,9 @@
     font-size: 13px;
     margin:0 auto;
     position: relative;
-    // width: 300px;
     text-align: center;
     div {
-        max-width: 100% !important;
+        max-width: 100%;
     }
     img {
         max-width: 100% !important;
@@ -120,4 +119,71 @@
             font-size: 12.86px;
         }
     }
+}
+@media (min-width: 1280px) {
+    // .product_item .uc_contact .uc_link .uc_icon {
+    //     // padding-left: 4%;
+    //     // padding-right: 11%;
+    //     // padding-top: 3%;
+    //     // padding-bottom: 1%;
+    //     padding: 3% 11% 1% 4%;
+    // }
+    // .product_item .uc_contact .uc_link .buy_product {
+    //     padding-top: 1.5%;
+    //     padding-bottom: 1%;
+    //     width: 53%;
+    // }
+    .product_item {
+        .uc_contact {
+            .uc_link {
+                .uc_icon {
+                    padding: 3% 11% 1% 4%;
+                }
+                .buy_product {
+                    padding-top: 1.5%;
+                    padding-bottom: 1%;
+                    width: 53%;
+                }
+            }
+        }
+    }    
+}
+@media (min-width: 1366px) {
+    .product_item {
+        .uc_contact {
+            .uc_link {                
+                .buy_product {                    
+                    padding-bottom: 0.9%;                    
+                }
+            }
+        }
+    }    
+}
+@media (min-width: 1600px) {
+    .product_item {
+        .uc_contact {
+            .uc_link {    
+                .uc_icon {
+                    padding: 3% 10% 2% 4%;
+                }          
+                .buy_product {                    
+                    padding-bottom: 1.1%;                    
+                }
+            }
+        }
+    }    
+}
+@media (min-width: 1920px) {
+    .product_item {
+        .uc_contact {
+            .uc_link {    
+                .uc_icon {
+                    padding: 3% 7% 2% 4%;
+                }          
+                .buy_product {                    
+                    padding-bottom: 1%;                    
+                }
+            }
+        }
+    }    
 }
