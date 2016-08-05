@@ -7,10 +7,13 @@
 <div id="banner" class="container-fluid">
     <?php include 'banner-block.php'; ?>
 </div>
+<div id="filter-selected" >
+    <?php include '/selected_filter_block/index.php'; ?>
+</div> 
 
 <div id="body-container" class="container-fluid">
     <div class="row">
-        <div class="refine col-lg-4">
+        <div class="refine col-lg-2 col-lg-offset-1 ">
             <?php include 'refine-block.php'; ?>
         </div>
 
@@ -83,12 +86,12 @@
 
 
 <script type="text/javascript">
-    $(".hide_item").click(function() {
-        $(".share_product").hide();
+    $(".hide_item").click(function() {        
+        $(this).parents(".product_item").find(".share_product").hide();
     });
 
     $(".show_item").click(function() {
-        $(".share_product").show();
+        $(this).parents('.product_item').find('.share_product').show();
     });
 
     $(".icon_like").click(function() {
