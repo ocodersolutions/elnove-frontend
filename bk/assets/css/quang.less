@@ -2,7 +2,11 @@
 	margin: 15px 0px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 9px;
+	.box{
+		display: none;
+	}
 	.refine-search{
+		display: block;
 		span{
 			margin-left: -5%;
 			font-weight: bold;
@@ -56,7 +60,7 @@
 @height: 50px;
 @height-copy-right: 50px;
 @font: 'Roboto', sans-serif;
-@height-refine: 25px;
+@height-refine: 30px;
 
 ::-webkit-scrollbar-thumb
 {
@@ -173,6 +177,9 @@
 			clear: both;
 		}
 		.stores{
+			display: none;
+		}
+		.brands{
 			display: none;
 		}
 		.clothing{
@@ -328,6 +335,7 @@
 				}
 			}
 		}
+
 		.price{
 			width: 80%;
 			margin: 0 auto;
@@ -538,6 +546,7 @@ footer{
 	 	line-height: 25px;
 	 	text-align: center;
 	    border: 1px solid #85A2BB;
+	    cursor: pointer;
 	}
 	.refine-search{
 		width: 100px;
@@ -556,6 +565,8 @@ footer{
 	    margin-left: 1%;
 	}
 	.sort-list{
+
+		margin-right: -15px;
 		width: 30px;
 	    float: right;
 	    margin-left: 1%;

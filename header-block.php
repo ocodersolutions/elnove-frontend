@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<!-- <?php //include 'header.php'; ?> -->
 <div id="header-container" class="container-fluid hidden-xs">
     <div class="row">
         <div class="header-top-navbar col-lg-12 ">
@@ -163,3 +163,5 @@
         
     </div>
 </div>
+
+<?php //include 'footer.php'; ?>
