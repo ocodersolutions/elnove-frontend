@@ -112,7 +112,7 @@
     <div class="row" id="menu-logo">
         <div class="col-xs-12">
             <span class="fa fa-plus" id="pop-menu" data-popup="#popup"></span>
-            <img src="assets/images/logo.png" alt="logo mobile" class="logo" />
+            <img src="assets/images/logo.png" alt="logo mobile" class="m-logo" />
         </div>
     </div>
     
