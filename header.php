@@ -36,7 +36,6 @@
 
         <link rel="stylesheet/less" type="text/css" href="bk/assets/css/quang.less" />
         <script   src="assets/js/jquery-1.12.4.min.js"></script>
-        <link href="refine_block/jquery-ui.css" rel="stylesheet">
         <script src="refine_block/jquery-ui.js"></script>
 
     </head>
