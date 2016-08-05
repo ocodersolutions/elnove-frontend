@@ -177,7 +177,7 @@
 
                     <div class="clear_float"></div>
 
-                    <div class="share_product" style="display: block;">
+                    <div class="share_product">
                         <i class="fa fa-times hide_item" aria-hidden="true"></i>
                         <h2>SHARE VIA</h2>
                         <div class="share_page">
@@ -824,7 +824,7 @@
                     <div class="uc_contact">
                         <img class="uc_avatar" src="assets/images/product_item.jpg">
                         <div class="uc_link">
-                            <span class="uc_icon icon_like active">
+                            <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                             </span>
 
@@ -832,7 +832,7 @@
                                 <i class="fa fa-share-alt" aria-hidden="true"></i>
                             </span>
 
-                            <span class="uc_icon icon_alert active">
+                            <span class="uc_icon icon_alert">
                                 <i class="fa fa-bell-o" aria-hidden="true"></i>
                             </span>
 
