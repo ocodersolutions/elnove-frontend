@@ -7,17 +7,17 @@
 <div id="banner" class="container-fluid">
     <?php include 'banner-block.php'; ?>
 </div>
-<div id="filter-selected" >
+<div id="filter-selected" class="container-fluid" >
     <?php include '/selected_filter_block/index.php'; ?>
 </div> 
 
 <div id="body-container" class="container-fluid">
     <div class="row">
-        <div class="refine col-lg-2 col-lg-offset-1 ">
+        <div class="refine col-lg-3 ">
             <?php include 'refine-block.php'; ?>
         </div>
 
-        <div class="col-lg-8">
+        <div class="col-lg-9">
             <?php include 'products-block.php'; ?>
         </div>
     </div>

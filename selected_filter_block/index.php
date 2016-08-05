@@ -1,8 +1,12 @@
 
-	<div class="container">
+	<div class="container-fluid">
 	    <div class="row">
 	        
-	        <div class="col-lg-3"> <span>REFINE SEARCH</span></div>
+	        <div class="col-lg-3">
+	        	<div class="refine-search">
+	         		<span>REFINE SEARCH</span>
+	         	</div>
+	         </div>
 	        <div class="col-lg-9">
 		        <div class="option-filter">
 		        	<input type="radio">
