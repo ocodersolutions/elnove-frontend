@@ -125,6 +125,9 @@
 				$("#pop-menu").fullScreenPopup({
 					bgColor: '#fff'
 				});
+				$("#refine-search-popup").fullScreenPopup({
+					bgColor: '#fff'
+				});
 				$("#m-show-userbox").click(function(event) {
 		            $("#user-mblock").css('display','block');
 		        });
