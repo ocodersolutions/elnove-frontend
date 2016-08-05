@@ -48,6 +48,7 @@ a{
     }
 }
 .btn-st-blue{
+    width: 150px;
     text-transform: uppercase;
     border:0;
     font-family: roboto;
@@ -55,6 +56,7 @@ a{
     background-color: #2F5C82;
     display: inline-block;
     padding: 0 15px;
+    margin-top: -2px;
     margin-bottom: 0;
     font-size: 13px;
     font-weight: 400;
@@ -131,7 +133,7 @@ a.btn-st-blue:hover{
                     min-width: 100%;
                     font-size: 13px;
                     color: inherit;
-                    line-height: 40px;
+                    line-height: 38px;
                     transition: none;
                     text-decoration: none;
                     font-weight: normal;
@@ -402,14 +404,13 @@ ul {
 @media (min-width:320px)and(max-width: 480px){
     #mobile-header{
         position: relative;
-        font-family: roboto;
-        font-size: 13px;
         color: #444444;
         #user-mblock{
+            font-family: roboto;
+            font-size: 13px;
             display: none;
             background: #fff;
             z-index: 999;
-            position: relative;
             width: 100%;
             position: absolute;
             top: 0;
@@ -458,7 +459,7 @@ ul {
                 &:after{
                     font-family: FontAwesome;
                     font-size: 13px;
-                    line-height: 37px;
+                    line-height: 33px;
                     content: "\f078";
                     position: absolute;
                     top: 0;
@@ -472,13 +473,18 @@ ul {
         }
         #mtop-right{
             padding-left: 5px;
-
+            line-height: 35px;
             a.btn-st-blue{
+                line-height: 35px;
                 width: 100%;
+                &:active,&:visited{
+                    color: #fff;
+                }
             }
         }
     }
     .uc_head_line{
+        line-height: 33px;
         font-size: 13px;
         width: 100% !important;
         margin-top: 0 !important;
