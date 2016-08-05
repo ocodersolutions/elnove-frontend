@@ -40,14 +40,12 @@
 				        </div>
 				    </div>
 					
-					<div class="row">
-					    <div class="copyright">
-					        <span class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC. ALL RIGHTS RESERVED</span>
-					        <span class="copyright-text">| &nbsp; &nbsp; TERMS &amp; CONDITIONS</span>
-					        <span class="copyright-text">| &nbsp; &nbsp; PRIVACY &amp; POLICY</span>
-					    </div>
-					</div>	
-			</div>
+				    <div class="copyright">
+				        <span class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC. ALL RIGHTS RESERVED</span>
+				        <span class="copyright-text">| &nbsp; &nbsp; TERMS &amp; CONDITIONS</span>
+				        <span class="copyright-text">| &nbsp; &nbsp; PRIVACY &amp; POLICY</span>
+				    </div>
+		</div>
 		</footer>
 		<!-- End-Footer -->
 
