@@ -10,7 +10,7 @@
 
 <div id="body-container" class="container-fluid">
     <div class="row">
-        <div class="refine col-lg-4">
+        <div class="refine col-lg-2 col-lg-offset-1 ">
             <?php include 'refine-block.php'; ?>
         </div>
 
