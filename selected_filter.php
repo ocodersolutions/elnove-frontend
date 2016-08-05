@@ -3,7 +3,7 @@
 	    <div class="row">
 	        
 	        <div class="col-lg-2 col-lg-offset-1 ">
-	        	<div class="box refine-search">
+	        	<div class="box refine-search" id="refine-search-popup" data-popup="#rfs-content-popup">
 	         		<span>REFINE SEARCH</span>
 	         	</div>
 	         	<div class="box popup-sort-item">

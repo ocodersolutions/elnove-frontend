@@ -23,7 +23,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-lg-4">
-        				<div class="refine-colum">
+        				<div class="refine-colum" id="popup-refine">
         					<ul>
         						<li id="category">CATEGORIES</li>
                                     <div class="category">
