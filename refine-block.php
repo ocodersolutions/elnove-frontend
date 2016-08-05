@@ -39,7 +39,35 @@
                 </div>
             </ul>
         </div>
-        <li>BRANDS</li>
+        <li id="brands">BRANDS</li>
+        <div class="brands"> 
+            <div class="brand">
+                <input class="label-brand" placeholder="Search Brands">
+                <div class="list-brand">
+                    <ul>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                        <li>Brand Name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
         <li id="prices">PRICE</li>
         <div class="price prices">
             <div id="slider-3"></div>
@@ -120,6 +148,8 @@
                 </div>
             </div>
         </div>
+
+      
 
         <button id="submit" type="submit" form="form1" value="Submit">CLEAR FILTER</button>
     </ul>
