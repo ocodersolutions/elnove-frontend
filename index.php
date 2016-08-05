@@ -86,8 +86,8 @@
                     <div id="accordion-m" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
                         <h3 class="uc_head_line">
-                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
-                                    </h3>
+                           <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                        </h3>
                         <div class="uc_line_content">
                             <ul class="uc_des">
                                 <li><a href="">My Profile</a>
