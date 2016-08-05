@@ -83,12 +83,12 @@
 
 
 <script type="text/javascript">
-    $(".hide_item").click(function() {
-        this.parent().hide();
+    $(".hide_item").click(function()        
+        console.log($(this).parents('.product_item').find('.share_product').hide());
     });
 
     $(".show_item").click(function() {
-        this.parent().show();
+        console.log($(this).parents('.product_item').find('.share_product').show());
     });
 
     $(".icon_like").click(function() {
