@@ -127,6 +127,12 @@
 				$("#pop-menu").fullScreenPopup({
 					bgColor: '#fff'
 				});
+				$("#m-show-userbox").click(function(event) {
+		            $("#user-mblock").css('display','block');
+		        });
+		        $("#hid-userbox").click(function(){
+		        	$("#user-mblock").removeAttr("style");
+		        })
 		  </script>  
 
   	</body>

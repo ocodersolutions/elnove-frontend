@@ -86,12 +86,12 @@
 
 
 <script type="text/javascript">
-    $(".hide_item").click(function()        
-        console.log($(this).parents('.product_item').find('.share_product').hide());
+    $(".hide_item").click(function() {        
+        $(this).parents(".product_item").find(".share_product").hide();
     });
 
     $(".show_item").click(function() {
-        console.log($(this).parents('.product_item').find('.share_product').show());
+        $(this).parents('.product_item').find('.share_product').show();
     });
 
     $(".icon_like").click(function() {
