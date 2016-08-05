@@ -414,7 +414,7 @@
 }
 
 footer{
-	font-size:8px;
+	font-size:9px;
 	font-family: @font;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -547,6 +547,7 @@ footer{
 	 	text-align: center;
 	    border: 1px solid #85A2BB;
 	    cursor: pointer;
+	    display: block;
 	}
 	.refine-search{
 		width: 100px;
@@ -582,22 +583,42 @@ footer{
 	}
 }
  footer{
+ 	.copyright{
+ 		position: absolute;
+    	margin-top: 500px;
+ 	}
+ 	.line-footer{
+ 		display: none;
+ 	}
  	.footer-above{
-
+ 		.newsletter{
+ 			.newsletter-wrap{
+	 			.newsletter-input{
+	 				input{
+	 					width: 85%;
+	 					margin-left: 0px;
+	 				}
+	 			}
+ 			}
+ 		}
  		.menu-footer{
  			padding: 0px;
  			height: auto;
  			.list-menu{
  				ul{
+ 					li:first-child{
+ 						border-top: 1px solid #D5D8DA;
+ 					}
  					li{
 						clear: both;
 						width: 100%;
-						background: #F0F4F7;
+						background: #fafbfc;
 						padding-left: 30px;
+						border-bottom: 1px solid #D5D8DA;
  					}
  					li:after{
- 						content: "\f054";
- 						font: normal normal normal 14px/1 FontAwesome;
+ 						content: "\f105";
+ 						font: normal normal normal 18px/1 FontAwesome;
  						float: right;
  						margin-right: 25px;
  						line-height: @height;
@@ -609,18 +630,24 @@ footer{
  			clear: both;
  			.newsletter-wrap {
  				margin-left: 0;
- 				span{
-	 			    width: 100%;
-	    			text-align: center;
-	    		}
+ 					.newsletter{
+ 						input{
+ 							width: 85%;
+ 						}
+ 						
+ 					}
+	 				span{
+		 			    width: 100%;
+		    			text-align: center;
+		    			height: 40px;
+		    		}
     		}
  		}
+ 		.footer-social{
+	 		margin-top: 140px;
+ 		}	
  	}
- 	.footer-social{
- 		.social-block{
- 			clear:both;
- 		}
- 	}
+ 	
 
  }
  .copyright{
