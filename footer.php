@@ -20,11 +20,13 @@
 					    </div>
 
 					    <div class="newsletter col-lg-4">
-				            <div class="newsletter-wrap ">
-				                <span>Sign up for newsletter</span>
+				            <div class="newsletter-wrap">
+				                <div class="newsletter-signup">
+				                	<span>Sign up for newsletter</span>
+				                </div>
 				                <div class="newsletter-input ">
-				                <input placeholder="Your Email Address Here" >
-				                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+					                <input placeholder="Your Email Address Here" >
+					                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
 				                </div>
 				            </div>
 				        </div>
@@ -41,7 +43,7 @@
 				    </div>
 					
 				    <div class="copyright">
-				        <span class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC. ALL RIGHTS RESERVED</span>
+				        <span class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC.<p> ALL RIGHTS RESERVED</p></span>
 				        <span class="copyright-text">| &nbsp; &nbsp; TERMS &amp; CONDITIONS</span>
 				        <span class="copyright-text">| &nbsp; &nbsp; PRIVACY &amp; POLICY</span>
 				    </div>
