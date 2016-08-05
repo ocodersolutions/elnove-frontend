@@ -51,18 +51,6 @@
 		</footer>
 		<!-- End-Footer -->
 
-
-
-
-  		<!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
-        <script src="assets/js/jquery-ui.js"></script>
-         <script src="assets/js/jquery.fullscreen-popup.js"></script>
-
         <script>
 			//
 		    $(document).ready(function(){
