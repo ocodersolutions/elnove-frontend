@@ -35,8 +35,16 @@
         <![endif]-->
 
         <link rel="stylesheet/less" type="text/css" href="bk/assets/css/quang.less" />
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
         <script   src="assets/js/jquery-1.12.4.min.js"></script>
-        <script src="refine_block/jquery-ui.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
+        <script src="assets/js/jquery-ui.js"></script>
+        <script src="assets/js/jquery.fullscreen-popup.js"></script>
 
     </head>
 
