@@ -1,21 +1,6 @@
 <div class="row">
     <div id="body-main-sideright" class="col-lg-12">
-        <div class="row top-option">
-            <form action="" id="check-option" class="col-lg-3">
-                <input type="radio" name="radio-1" id="radio-1">
-                <label for="radio-1"><span class="rd-check"></span>ALL</label>
-                <input type="radio" name="radio-1" id="radio-2">
-                <label for="radio-2"><span class="rd-check"></span>SALE</label>
-                <input type="radio" name="radio-1" id="radio-3">
-                <label for="radio-3"><span class="rd-check"></span>SAVED ITEMS</label>
-            </form>
-            <div class="items-tag"><span>PUMA<i class="fa fa-times" aria-hidden="true"></i></span>
-            </div>
-            <div class="items-tag"><span>BLUE<i class="fa fa-times" aria-hidden="true"></i></span>
-            </div>
-            <div class="items-tag"><span>SPECIAL OFFERS<i class="fa fa-times" aria-hidden="true"></i></span>
-            </div>
-        </div>
+       
         <div class="row ">
             <div class="col-lg-3" class="product">
 
