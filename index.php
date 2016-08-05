@@ -472,9 +472,7 @@
     </div>
 </div>
 
-<footer class="container-fluid">
-    <?php //include 'footer_block/index.php'; ?>
-</footer>
+<?php include 'footer.php'; ?>
 <script type="text/javascript">
     $(function() {
         $("#slider-3").slider({
@@ -535,7 +533,7 @@
     });
 </script>
 
-<?php include 'footer.php'; ?>
+
 
 <script type="text/javascript">
     $(".hide_item").click(function() {
