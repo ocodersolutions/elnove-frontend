@@ -541,11 +541,11 @@
 
 <script type="text/javascript">
     $(".hide_item").click(function() {
-        $(".share_product").hide();
+        this.parent().hide();
     });
 
     $(".show_item").click(function() {
-        $(".share_product").show();
+        this.parent().show();
     });
 
     $(".icon_like").click(function() {
