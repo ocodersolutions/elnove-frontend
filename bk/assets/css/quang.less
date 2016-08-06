@@ -445,7 +445,7 @@ footer{
 						list-style: none;
 						display:inline-block;
 						margin: 0px;
-						margin-right: 30px;
+						margin-right: 25px;
 						float:left;
 						line-height: @height;
 
@@ -532,10 +532,31 @@ footer{
 		
 		text-align: center;
 		line-height: @height-copy-right;
-		.copyright-text{
-			margin: 10px;
+		.copyright-wrap{
+			width: 50%;
+			float: left;
+			.copyright-text{
+				float: right;
+				margin-right: -10px;
 			}
-		}	
+		}
+		
+		.terms{
+			float: right;
+			width: 50%;
+			.terms-wrap{
+				padding-left: 50px;
+				span{
+					float: left;
+					line-height: 70px;
+				}
+			}
+			.copyright-text{
+				float: left;
+				
+			}
+		}
+	}	
 }
 
 /* responsive */
@@ -586,6 +607,20 @@ footer{
  	.copyright{
  		position: absolute;
     	margin-top: 500px;
+    	line-height: 20px;
+    	width: 100%;
+    	.copyright-text{
+		    width: 222px;
+			margin: 0 auto;
+    	}
+    	.terms{
+    		span{
+    			float: left;
+    		}
+    		p{
+    			float: left;
+    		}
+    	}
  	}
  	.line-footer{
  		display: none;
@@ -647,11 +682,6 @@ footer{
 	 		margin-top: 140px;
  		}	
  	}
- 	
-
- }
- .copyright{
-  	clear: both;
  }
 
 }
