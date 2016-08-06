@@ -7,23 +7,19 @@
 	padding: 0;
 }
 .product_item {
+    max-width: 345px;
     font-family: roboto;
     font-size: 13px;
     margin:0 auto;
     position: relative;
     text-align: center;
-    div {
-        max-width: 100%;
-    }
-    img {
-        max-width: 100% !important;
-    }
     .uc_contact{
+        margin: auto;
         .uc_avatar{
-            display: block;
+            // display: block;
         }
         .uc_link{
-            padding-bottom: 17%;
+            padding-bottom: 14%;
             span:hover {
                 box-shadow: 0px 2px 3px #7D9CB6;
                 cursor: pointer;
@@ -61,8 +57,8 @@
         opacity: 0.9;
         i.fa-times {
             display: block;
-            padding-left: 90%;
-            padding-top: 6%;
+            margin-left: 90%;
+            margin-top: 6%;
             color: #d1dbe4;
             cursor: pointer;
             text-align: left;
@@ -121,7 +117,35 @@
         }
     }
 }
-@media (min-width: 1280px) {
+@media (min-width: 380px)and(max-width: 600px) {
+    .product_item {
+        .uc_contact {
+            .uc_link {                         
+                .buy_product {                    
+                    padding: 3% 1% 2.15% 1%;
+                    width: 63%;                  
+                }
+            }
+        }
+        .share_product {
+            padding-bottom: 6%;
+            .share_page {
+                a { 
+                    i {
+                        margin-left: 8%;
+                        padding-top: 6%;
+                        padding-bottom: 6%;
+                    }                   
+                    span {
+                        padding: 5% 0% 4.38% 10%;
+                        width: 65%;
+                    }
+                }
+            }
+        }   
+    }    
+}
+@media (min-width: 1280px)and(max-width: 1365px) {
     .product_item {
         .uc_contact {
             .uc_link {
@@ -141,7 +165,7 @@
                         padding: 2% 1% 1% 1%;
                     }
                     span {
-                        padding: 1.5% 1% 2% 5%;
+                        padding: 1.5% 1% 2.05% 5%;
                         font-size: 1.4em;
                     }
                 }
@@ -149,24 +173,39 @@
         }
     }    
 }
-@media (min-width: 1366px) {
+@media (min-width: 1366px)and(max-width: 1599px) {
     .product_item {
         .uc_contact {
-            .uc_link {                
+            .uc_link { 
+                .uc_icon {
+                    padding: 2% 2% 1% 2%;
+                }               
                 .buy_product {                    
-                    padding-bottom: 0.95%;                    
+                    padding: 1% 1% 0.5% 1%;                
                 }
             }
         }
         .share_product {
+            padding-bottom: 6.5%;
             h2 {
                 padding-top: 9%;
                 padding-bottom: 15%;
             }
+            .share_page {
+                a {
+                    i {
+                        padding: 2% 1% 1% 1%;
+                    }
+                    span {
+                        padding: 1.5% 1% 2.02% 5%;
+                        font-size: 1.4em;
+                    }
+                }
+            }
         }
     }    
 }
-@media (min-width: 1600px) {
+@media (min-width: 1600px)and(max-width: 1919px) {
     .product_item {
         .uc_contact {
             .uc_link {    
@@ -174,20 +213,21 @@
                     padding: 3% 10% 2% 4%;
                 }          
                 .buy_product {                    
-                    padding-bottom: 1%;
+                    padding-bottom: 0.7%;
                     padding-left: 10%;
                     width: 56.6%;                   
                 }
             }
         }
         .share_product {
+            padding-bottom: 13%;
             .share_page {
                 a {
                     i {
                         padding: 4% 1% 2.2% 1%;
                     }
                     span {
-                        padding: 2% 1% 2.1% 5%;
+                        padding: 2% 1% 2.07% 5%;
                         font-size: 1.7em;
                     }
                 }
@@ -203,19 +243,22 @@
                     padding: 3% 7% 2% 4%;
                 }          
                 .buy_product {                    
-                    padding: 2% 7% 1.95% 7%;
+                    padding: 2% 7% 1.97% 7%;
                     width: 62.9%;                  
                 }
             }
         }
         .share_product {
+            padding-bottom: 9%;
             .share_page {
                 a {
                     i {
-                        padding: 4.5% 1% 4% 1%;
+                        padding: 4.5% 1% 5% 1%;
+                        margin-left: 9%;
                     }
                     span {
-                        padding: 2% 1% 2.7% 5%;
+                        width: 62%;
+                        padding: 3% 1% 2.72% 5%;
                         font-size: 2em;
                     }
                 }
