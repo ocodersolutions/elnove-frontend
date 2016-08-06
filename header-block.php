@@ -86,7 +86,7 @@
                     <div id="" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
                         <h3 class="uc_head_line" id="m-show-userbox">
-                                       WELCOME ,JOHN
+                                      <span class="uc_link_tittle">WELCOME,JOHN LENON</span>
                                     </h3>
                        <!--  <div class="uc_line_content">
                             <ul class="uc_des">
