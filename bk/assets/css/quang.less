@@ -605,21 +605,45 @@ footer{
 }
  footer{
  	.copyright{
+ 	    border-top: 1px solid #D5D8DA;
+ 		border-bottom: 1px solid #D5D8DA;
  		position: absolute;
-    	margin-top: 500px;
+    	margin-top: 510px;
     	line-height: 20px;
+
+    	height: 50px;
     	width: 100%;
+    	.copyright-wrap{
+    		float: none;
+    		margin: 0 auto;
+    		.copyright-text{
+    			margin-top: 5px;
+    		}
+    	}
     	.copyright-text{
 		    width: 222px;
 			margin: 0 auto;
     	}
     	.terms{
-    		span{
-    			float: left;
-    		}
-    		p{
-    			float: left;
-    		}
+    		width: 100%;
+    		.terms-wrap{
+    			margin: 0 auto;
+    		    padding-left: 0px;
+    			height: 50px;
+    			width: 250px;
+	    		span:first-child{
+	    			display: none;
+	    		}
+	    		span{
+	    			float: left;
+	    			line-height: 50px;
+	    		}
+	    		p{
+	    			float: left;
+	    			width: 120px;
+	    			line-height: 50px;
+	    		}
+	    	}
     	}
  	}
  	.line-footer{
