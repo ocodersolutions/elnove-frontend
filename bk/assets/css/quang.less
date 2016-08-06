@@ -1,3 +1,20 @@
+//style chung
+::-webkit-input-placeholder {
+   color: #ADC1D1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ADC1D1;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ADC1D1;  
+}
+
+:-ms-input-placeholder {  
+   color: #ADC1D1;  
+}
+//style block
 #filter-selected{
 	margin: 15px 0px;
 	font-family: 'Roboto', sans-serif;
@@ -674,6 +691,7 @@ footer{
 						background: #fafbfc;
 						padding-left: 30px;
 						border-bottom: 1px solid #D5D8DA;
+
  					}
  					li:after{
  						content: "\f105";
@@ -707,5 +725,83 @@ footer{
  		}	
  	}
  }
+#rfs-content-popup{
+	font-family: @font;
+	font-size: 13px;
+	
+	p{
+		border-bottom: 1px solid #eee;
+		line-height: 70px;
+		margin: 0;
+		font-size: 22px;
+		padding:0 34px;
+	}
+	ul{
+		li{
+			position: relative;
+		    padding: 0 34px;
+		    border-bottom: 1px solid #eee;
+		    line-height: 65px;
+		    &:after{
+		    	font-family: FontAwesome;
+		    	font-size: 18px;
+			    content: "\f107";
+			    position: absolute;
+			    top: 0px;
+			    right: 30px;
+		    }
+		}
+	}
+	.brands{
 
+		.brand{
+			padding: 10px 15px;
+			input.label-brand{
+				line-height: 44px;
+			    background: #F0F4F7;
+			    width: 100%;
+			    border: 0px;
+			    padding-left: 15px;
+			    margin: 2px 0;
+
+			}
+			.list-brand{
+				 scrollbar-face-color: #000000;
+			    scrollbar-highlight-color: #000000;
+			    scrollbar-3dlight-color: #000000;
+			    scrollbar-darkshadow-color: #000000;
+			    scrollbar-shadow-color: #000000;
+			    scrollbar-arrow-color: #FF99FF;
+			    scrollbar-track-color: #FFCCFF;
+				margin-top: 10px;
+			    border: 1px solid #D5D8DA;
+			    overflow: auto;
+			    height: 490px;
+			    ul{
+			    	list-style: none;
+    				padding:15px 0;
+    				li{
+    					position: relative;
+    					color: #8F8F8F;
+    					border:none;
+    					line-height: 30px;
+    					&:after{
+    						content: "";
+    					}
+    				}
+    				.selected {
+    					color:#444444;
+    					&:after{
+    						content: "\f00c";
+						    font: normal 9px/1 FontAwesome;
+						    position: absolute;
+						    top: 25px;
+						    right: 30px;
+    					}
+    				}
+			    }
+			}
+		}
+	}
+}
 }

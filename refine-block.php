@@ -156,7 +156,8 @@
 </div>
 <!-- popup-->
 
-<div  id="rfs-content-popup" style="display: none;">
+<div  class="refine-colum" id="rfs-content-popup" style="display: none;">
+    <p> REFINE SEARCH</p>
     <ul>
         <li id="category">CATEGORIES</li>
         <div class="category">
