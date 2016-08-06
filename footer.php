@@ -43,11 +43,17 @@
 				    </div>
 					
 				    <div class="copyright">
-				        <p class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC.<span> ALL RIGHTS RESERVED</span>
-				        </p>
+				    	<div class="copyright-wrap">
+					        <p class="copyright-text"> COPYRIGHT 2016 STITCH STYLE SOLUTIONS INC.<span> ALL RIGHTS RESERVED</span>
+					        </p>
+					    </div>
 				        <div class="terms">
-					        <span>|</span><p class="copyright-text"> TERMS &amp; CONDITIONS</p><span>|</span>
-					        <p class="copyright-text"> PRIVACY &amp; POLICY</p>
+				        	<div class="terms-wrap">
+						        <span>|</span>
+						        <p class="copyright-text"> TERMS &amp; CONDITIONS</p>
+						        <span>|</span>
+						        <p class="copyright-text"> PRIVACY &amp; POLICY</p>
+					        </div>
 				        </div>
 				    </div>
 		</div>
