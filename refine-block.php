@@ -155,7 +155,7 @@
     </ul>
 </div>
 <!-- popup-->
-
+<div class="refine">
 <div  class="refine-colum" id="rfs-content-popup" style="display: none;">
     <p> REFINE SEARCH</p>
     <ul>
@@ -312,4 +312,5 @@
 
         <button id="submit" type="submit" form="form1" value="Submit">CLEAR FILTER</button>
     </ul>
+</div>
 </div>
