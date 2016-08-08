@@ -728,7 +728,15 @@ footer{
 #rfs-content-popup{
 	font-family: @font;
 	font-size: 13px;
-	
+	input.label-brand{
+		line-height: 44px;
+	    background: #F0F4F7;
+	    width: 100%;
+	    border: 0px;
+	    padding-left: 15px;
+	    margin: 2px 0;
+
+	}
 	p{
 		border-bottom: 1px solid #eee;
 		line-height: 70px;
@@ -738,6 +746,7 @@ footer{
 	}
 	ul{
 		li{
+			cursor: pointer;
 			position: relative;
 		    padding: 0 34px;
 		    border-bottom: 1px solid #eee;
@@ -750,23 +759,42 @@ footer{
 			    top: 0px;
 			    right: 30px;
 		    }
+
 		}
+		ul{
+			.select{
+				padding-left: 50px;
+				&:after{
+					content: "";
+				}	
+			}
+			li.change{
+				background-color:#F0F1F2;
+				&:after{
+					content:"\f106";
+				}
+			}
+			.selected {
+				color:#444444;
+				&:after{
+					content: "\f00c" !important;
+				    font: normal 13px/1 FontAwesome;
+				    position: absolute;
+				    top: 25px;
+				    right: 30px;
+				}
+			}
+
+		}
+		
 	}
-	.brands{
+	
 
 		.brand{
 			padding: 10px 15px;
-			input.label-brand{
-				line-height: 44px;
-			    background: #F0F4F7;
-			    width: 100%;
-			    border: 0px;
-			    padding-left: 15px;
-			    margin: 2px 0;
-
-			}
+			
 			.list-brand{
-				 scrollbar-face-color: #000000;
+				scrollbar-face-color: #000000;
 			    scrollbar-highlight-color: #000000;
 			    scrollbar-3dlight-color: #000000;
 			    scrollbar-darkshadow-color: #000000;
@@ -789,17 +817,65 @@ footer{
     						content: "";
     					}
     				}
-    				.selected {
-    					color:#444444;
-    					&:after{
-    						content: "\f00c";
-						    font: normal 9px/1 FontAwesome;
-						    position: absolute;
-						    top: 25px;
-						    right: 30px;
-    					}
-    				}
+    				
 			    }
+			}
+		}
+	
+	.stores{
+		// padding: 10px 0;
+	}
+	.sizes{
+		.list-size{
+			padding: 20px 45px;
+			.size{
+				display: inline-block;
+				span.select{
+					cursor: pointer;
+				    margin: 5px;
+				    border: 1px solid #F0F1F2;
+				    text-align: center;
+				   
+			    }
+			    .selected{
+					background-color: #F0F4F7;
+			    }
+			}
+		}
+	}
+	.m-button-foot{
+		padding: 10px;
+		.btn-refine{
+			button{
+			width: 100%;
+			border: 1px solid #A0A2A3;
+			background-color: #fff;
+			color: #444444;
+			line-height: 50px;
+			text-align: center;
+			}
+		}
+		
+	}
+	
+	.option-filter{
+		.option-filter-row{
+			cursor: pointer;
+			position: relative;
+			padding:0 34px;
+			border-bottom: 1px solid #eee;
+			label{
+				line-height: 65px;
+				margin: 0;
+				font-weight: 400;
+			}
+			input[type="radio"]{
+				position: absolute;
+				top:22px;
+				right: 22px;
+				line-height: 65px;
+				width: 16px;
+				height: 16px;
 			}
 		}
 	}
