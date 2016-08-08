@@ -745,8 +745,12 @@ footer{
 		font-size: 22px;
 		padding:0 34px;
 	}
+	.category,.brands,.colors,.deals,.sizes,.stores {
+	    //display: none;
+	}
 	ul{
 		li{
+			background: #FCFCFC;
 			cursor: pointer;
 			position: relative;
 		    padding: 0 34px;
@@ -764,6 +768,7 @@ footer{
 		}
 		ul{
 			.select{
+				background: #FCFCFC;
 				padding-left: 50px;
 				&:after{
 					content: "";
@@ -810,12 +815,14 @@ footer{
 			    	list-style: none;
     				padding:15px 0;
     				li{
+    					background-color: #fff;
     					position: relative;
     					color: #8F8F8F;
     					border:none;
     					line-height: 30px;
     					&:after{
     						content: "";
+    						top:8px;
     					}
     				}
     				
@@ -832,11 +839,13 @@ footer{
 			.size{
 				display: inline-block;
 				span.select{
-					cursor: pointer;
+					width: 62px;
+			    	cursor: pointer;
 				    margin: 5px;
 				    border: 1px solid #F0F1F2;
 				    text-align: center;
-				   
+				    display: block;
+				    line-height: 39px;	
 			    }
 			    .selected{
 					background-color: #F0F4F7;
@@ -847,6 +856,13 @@ footer{
 	.m-button-foot{
 		padding: 10px;
 		.btn-refine{
+			padding:0;
+			&:first-child{
+				padding-right: 3px;
+			}
+			&:last-child{
+				padding-left: 3px;
+			}
 			button{
 			width: 100%;
 			border: 1px solid #A0A2A3;
@@ -861,6 +877,7 @@ footer{
 	
 	.option-filter{
 		.option-filter-row{
+			background: #FCFCFC;
 			cursor: pointer;
 			position: relative;
 			padding:0 34px;
