@@ -155,16 +155,31 @@
     </ul>
 </div>
 <!-- popup-->
-
+<div class="refine">
 <div  class="refine-colum" id="rfs-content-popup" style="display: none;">
     <p> REFINE SEARCH</p>
+    <div class="option-filter">
+        <div class="option-filter-row">
+            <label><span>ALL</span></label>
+            <input type="radio">
+        </div>
+            <div class="option-filter-row">
+            <label><span>SALE</span></label>
+            <input type="radio">
+        </div>
+       
+        <div class="option-filter-row">
+        <label><span>SAVE ITEMS</span></label>
+        <input type="radio">
+        </div>
+    </div>
     <ul>
         <li id="category">CATEGORIES</li>
         <div class="category">
             <ul>
                 <li id="clothing">CLOTHING</li>
                 <div class="clothing">
-                    <ul>
+                    <ul class="m-sub">
                         <li>Filter</li>
                         <li>Filter</li>
                         <li>Filter</li>
@@ -176,7 +191,7 @@
             <ul>
                 <li id="footwear">FOOTWEAR</li>
                 <div class="footwear">
-                    <ul>
+                    <ul class="m-sub">
                         <li>Sneakers</li>
                         <li>Sandals</li>
                         <li>Dress</li>
@@ -188,7 +203,7 @@
             <ul>
                 <li id="accessories">ACCESSORIES</li>
                 <div class="accessories">
-                    <ul>
+                    <ul class="m-sub">
                         <li>Filter</li>
                         <li>Filter</li>
                         <li>Filter</li>
@@ -251,7 +266,7 @@
 
         <li id="deals">DEALS</li>
         <div class="deals">
-            <ul>
+            <ul class="m-sub">
                 <li>All item on sale</li>
                 <li>New today</li>
                 <li>New this week</li>
@@ -309,7 +324,14 @@
         </div>
 
       
-
-        <button id="submit" type="submit" form="form1" value="Submit">CLEAR FILTER</button>
+        <div class="m-button-foot col-xs-12">
+            <div class="col-xs-6 btn-refine" >
+                <button type="submit" id="clear-submit" form="form1" value="Submit" name="clear-filter">CLEAR FILTER</button>
+            </div>
+            <div class="col-xs-6 btn-refine" >
+                <button type="submit" id="apply-submit" form="form1" value="Submit" name="apply">APPLY</button>
+            </div>
+        </div>
     </ul>
+</div>
 </div>
