@@ -76,7 +76,7 @@
         }
         var attrContent = getComputedStyle(this, ':after').content;
         var currentId = $(this).attr('id');
-        $('.refine .refine-colum .' + currentId + ', .fsp-wrapper .refine-colum .' + currentId + '').animate({
+        $('.refine .refine-colum .' + currentId + ',.fsp-wrapper .refine-colum .' + currentId + '').animate({
             left: "+=50",
             height: "toggle"
         }, 800, function() {});

@@ -746,7 +746,7 @@ footer{
 		padding:0 34px;
 	}
 	.category,.brands,.colors,.deals,.sizes,.stores {
-	    //display: none;
+	    display: none;
 	}
 	ul{
 		li{
@@ -766,6 +766,12 @@ footer{
 		    }
 
 		}
+		li.change{
+				background-color:#F0F1F2;
+				&:after{
+					content:"\f106";
+				}
+			}
 		ul{
 			.select{
 				background: #FCFCFC;
@@ -829,7 +835,14 @@ footer{
 			    }
 			}
 		}
-	
+	.prices{
+		.price{
+			width: 80%;
+		    margin: 0 auto;
+		    display: none;
+		    height: 65px;
+		}
+	}
 	.stores{
 		// padding: 10px 0;
 	}
