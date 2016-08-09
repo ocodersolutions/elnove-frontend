@@ -1,4 +1,4 @@
-<div class="refine-colum">
+<div class="refine-colum hidden-xs">
     <ul>
         <?php include './refine_block/category-filter-block.php'; ?>
         <?php include './refine_block/brands-block.php'; ?>
