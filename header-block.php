@@ -3,22 +3,17 @@
     <div class="row">
         <div class="header-top-navbar col-lg-12 ">
             <div class="row top-bar">
-                <div class="left-side col-lg-4 col-xs-12" id="show-hide-menu">MENU</div>
-                <div class="logo col-lg-4 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
+                <div class="left-side col-lg-4 col-md-4 col-xs-12" id="show-hide-menu">MENU</div>
+                <div class="logo col-lg-4 col-md-4 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
                 </div>
-                <div class="right-side col-lg-4 col-xs-12">
+                <div class="right-side col-lg-4 col-md-4 col-xs-12">
                     <div class="uc_clean_accordion">
                         <div class="uc_clean_accordion_wrap">
-                            <div class="login_signup">
-                                <a href="#">LOGIN</a>
-                                /
-                                <a href="#">SIGN UP</a>
-                            </div>
                             <div id="accordion" class="uc_clean_accorder_content">
                                 <!-- start of line 1 -->
                                 <h3 class="uc_head_line">
-                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
-                                </h3>
+                                       <p class="uc_link_tittle">WELCOME ,JOHN JOHN</p>
+                                    </h3>
                                 <div class="uc_line_content">
                                     <ul class="uc_des">
                                         <li><a href="">My Profile</a>
@@ -29,6 +24,8 @@
 
                                 </div>
                                 <!-- end of line 1 -->
+
+
                             </div>
                         </div>
                     </div>
@@ -39,9 +36,9 @@
     </div>
 
     <nav id="menu" class="row">
-        <div class="col-lg-12" id="row-top-navbar">
+        <div class="col-lg-12 col-xs-12" id="row-top-navbar">
             <div class="row">
-                <div class="col-lg-12 text-center" id="top-nav" class="top-navbar">
+                <div class="col-lg-12 col-xs-12 text-center" id="top-nav" class="top-navbar">
                     <ul>
                         <li><a href="">HOW IT WORKS</a>
                         </li>
@@ -65,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12" id="search">
+        <div class="col-lg-12 col-xs-12" id="search">
             <!-- <form action="" id="formsearch" class="">
                     <input type="text" length="1000" placeholder="Search lorem ipsum dolor sit amet consectur..." id="input_search">
                     <button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
@@ -86,15 +83,10 @@
             <div class="uc_clean_accordion col-xs-6" id="mtop-left">
 
                 <div class="uc_clean_accordion_wrap">
-                    <div class="login_signup">
-                        <a href="#">LOGIN</a>
-                        /
-                        <a href="#">SIGN UP</a>
-                    </div>
                     <div id="" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
                         <h3 class="uc_head_line" id="m-show-userbox">
-                                      <span class="uc_link_tittle">WELCOME,JOHN LENON</span>
+                                      <p class="uc_link_tittle">WELCOME,JOHN JOHN</p>
                                     </h3>
                        <!--  <div class="uc_line_content">
                             <ul class="uc_des">
@@ -173,3 +165,11 @@
 </div>
 
 <?php //include 'footer.php'; ?>
+<script>
+jQuery(document).ready(function($) {
+    var width = jQuery(window).width();
+    console.log( "You clicked a paragraph:"+ width );
+       
+});
+    
+</script>
