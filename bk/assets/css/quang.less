@@ -14,6 +14,9 @@
 :-ms-input-placeholder {  
    color: #ADC1D1;  
 }
+.selected_right {
+	padding-right: 0px;
+}
 //style block
 #filter-selected{
 	margin: 15px 0px;
@@ -61,11 +64,103 @@
 	}
 	.sort-item{
 		    float: right;
-    		margin-right: 12.5%;
-    		select{
-    			width: 117px;
-    			font-size: 9px;
-    		}
+    		width: 179px;
+			font-size: 13px;
+			.uc_head_line{
+                    width: 179px;
+                    display: block;
+                    background-color: #fff;
+                    border: 1px solid #eee;
+                    margin: 0;
+                    padding: 0;
+                    border: 1px solid #85A7BB;
+                    box-sizing: border-box;
+                    position: relative;
+                    text-transform: none;
+                    letter-spacing: inherit;
+                    &:focus{
+                        outline:0;
+                    }
+                    .ui-state-active {
+                        border-bottom: 0px;
+                    }
+                    .ui-accordion-header-icon.ui-icon{
+                        position: absolute;
+                        right: 5px;
+                        top:7px;
+                        width: 16px;
+                        height: 16px;
+                        display: block;
+                    }
+                    .ui-accordion-header-icon.ui-icon {
+                        position: absolute;
+                        right: 5px;
+                        top: 7px;
+                        width: 16px;
+                        height: 16px;
+                        display: block;
+                        &:after{
+                            font-family: FontAwesome;
+                            font-size: 13px;
+                            content: "\f078";
+                            display: block;
+                            width: 13px;
+                            height: 13px;
+                            margin-bottom: -7px;
+                            transition: all .2s;
+                        }
+                    }
+
+                    .uc_link_tittle {
+                        box-sizing: border-box;
+                        display: block;
+                        min-width: 100%;
+                        padding-left: 15px;
+                        font-size: 13px;
+                        color: #000;
+                        line-height: 33px;
+                        transition: none;
+                        text-decoration: none;
+                        font-weight: normal;
+                        text-align: left;
+                    }
+                }
+                .ui-accordion-header-active.ui-state-active{
+                    background: #fff;
+                    border-bottom:0; 
+                }
+                .ui-accordion-header-active.ui-state-active >.ui-icon:after{
+                    content: "\f077"; 
+                }
+                .uc_line_content {
+                    position: absolute;
+                    z-index: 99;
+                    padding: 10px 0px 0px 15px;
+                    background-color: #fff;
+                    border: 1px solid #85A7BB;
+                    border-top: none;
+                    margin-top: -1px;
+                    width: 179px;
+                    min-height: 130px;
+                    .uc_des{
+                        color: #5C83A4;
+                        line-height: 30px;
+                        text-align: left;
+                        display: block;
+                        clear:both;
+                        margin:0;
+                        box-sizing: border-box;
+                         li{
+                            padding: 0;
+                            display: block;
+                            a{
+                                color: #000;
+                                padding: 5px 0;
+                            }
+                        }
+                    }
+                   
+                }
 	}
 	    
 }
