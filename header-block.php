@@ -9,11 +9,16 @@
                 <div class="right-side col-lg-4 col-xs-12">
                     <div class="uc_clean_accordion">
                         <div class="uc_clean_accordion_wrap">
+                            <div class="login_signup">
+                                <a href="#">LOGIN</a>
+                                /
+                                <a href="#">SIGN UP</a>
+                            </div>
                             <div id="accordion" class="uc_clean_accorder_content">
                                 <!-- start of line 1 -->
                                 <h3 class="uc_head_line">
                                        <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
-                                    </h3>
+                                </h3>
                                 <div class="uc_line_content">
                                     <ul class="uc_des">
                                         <li><a href="">My Profile</a>
@@ -24,8 +29,6 @@
 
                                 </div>
                                 <!-- end of line 1 -->
-
-
                             </div>
                         </div>
                     </div>
@@ -83,6 +86,11 @@
             <div class="uc_clean_accordion col-xs-6" id="mtop-left">
 
                 <div class="uc_clean_accordion_wrap">
+                    <div class="login_signup">
+                        <a href="#">LOGIN</a>
+                        /
+                        <a href="#">SIGN UP</a>
+                    </div>
                     <div id="" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
                         <h3 class="uc_head_line" id="m-show-userbox">
