@@ -79,7 +79,6 @@ a.btn-st-blue:hover{
   box-shadow: 0px 2px 3px #888888;
  }
 .uc_clean_accordion {
-    width: 150px;
     display: inline-block;
     box-sizing: border-box;
     font-size: 13px;
@@ -134,10 +133,10 @@ a.btn-st-blue:hover{
 
                 .uc_link_tittle {
                     cursor: pointer;
-                    max-height: 39px;
+                    max-height: 38px;
                     box-sizing: border-box;
                     display: block;
-                    max-width: calc(100% - 10px);
+                    max-width: calc(100% - 5px);
                     font-size: 13px;
                     color: inherit;
                     line-height: 38px;
@@ -416,7 +415,20 @@ ul {
         margin-top: 0;
     }
  }
-
+@media (min-width:768px)and(max-width: 1199px){
+    #menu #row-top-navbar #top-nav ul{
+        width: calc(100% - 5px);
+    }
+    #menu #row-top-navbar #top-nav ul li {
+        padding: 23px 4px ;
+        a{
+            font-size: 12px;
+        }
+    }
+    .header-top-navbar .top-bar .right-side{
+        padding-left: 0;
+    }
+}
 @media (min-width:320px)and(max-width: 768px){
     #mobile-header{
         position: relative;
@@ -502,7 +514,7 @@ ul {
         }
         #mtop-right{
             padding-left: 5px;
-            line-height: 35px;
+            line-height: 34px;
             a.btn-st-blue{
                 line-height: 35px;
                 width: 100%;
