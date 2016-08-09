@@ -42,9 +42,12 @@ a{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    &:hover,&:focus,&:active{
+    &:hover,&:focus{
         color:#444444;text-decoration: none;
         box-shadow: 0px 2px 3px #888888;
+    }
+    &:active{
+        color: #fff !important;
     }
 }
 .btn-st-blue{
@@ -76,10 +79,10 @@ a.btn-st-blue:hover{
   box-shadow: 0px 2px 3px #888888;
  }
 .uc_clean_accordion {
-            display: inline-block;
-            //width: 150px;
-            box-sizing: border-box;
-            font-size: 13px;
+    width: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 13px;
         .uc_clean_accordion_wrap{ 
             .uc_clean_accorder_content{
 
@@ -94,6 +97,8 @@ a.btn-st-blue:hover{
                 position: relative;
                 text-transform: none;
                 letter-spacing: inherit;
+                
+                    
                 &:focus{
                     outline:0;
                 }
@@ -128,9 +133,11 @@ a.btn-st-blue:hover{
                 }
 
                 .uc_link_tittle {
+                    cursor: pointer;
+                    max-height: 39px;
                     box-sizing: border-box;
                     display: block;
-                    min-width: 100%;
+                    max-width: calc(100% - 10px);
                     font-size: 13px;
                     color: inherit;
                     line-height: 38px;
@@ -138,6 +145,8 @@ a.btn-st-blue:hover{
                     text-decoration: none;
                     font-weight: normal;
                     text-align: center;
+                    overflow: hidden;
+                    margin: 0;
                 }
             }
             .ui-accordion-header-active.ui-state-active{
@@ -192,7 +201,6 @@ a.btn-st-blue:hover{
     border-bottom: 1px solid #eee;
     .left-side {
         cursor: pointer;
-        display: inline-block;
         padding: 36px 30px;
         font-size: 20px;
         color: #33648D;
@@ -216,9 +224,15 @@ a.btn-st-blue:hover{
        }
     }
     .right-side{
-        line-height: 100px;
+            padding-top: 30px;
         text-align: right;
         display: inline-block;
+        a{
+            margin-top: -32px;
+            &:active{
+                color: #fff;
+            }
+        }
         
       .user-info{
         width: 152px;
@@ -403,7 +417,7 @@ ul {
     }
  }
 
-@media (min-width:320px)and(max-width: 480px){
+@media (min-width:320px)and(max-width: 768px){
     #mobile-header{
         position: relative;
         color: #444444;
@@ -472,10 +486,12 @@ ul {
                     left: calc(100% - 15px);
 
                 }
-                span.uc_link_tittle{
+                .uc_link_tittle{
+                    margin:0;
+                    box-sizing: border-box;
                     font-size: 12px;
                     line-height: 33px;
-                    max-width: calc(100% - 35px);
+                    max-width: calc(100% - 10px);
                     max-height: 35px;
                     overflow: hidden;
                 }

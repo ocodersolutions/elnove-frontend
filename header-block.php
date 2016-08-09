@@ -12,7 +12,7 @@
                             <div id="accordion" class="uc_clean_accorder_content">
                                 <!-- start of line 1 -->
                                 <h3 class="uc_head_line">
-                                       <a href="" class="uc_link_tittle">WELCOME ,JOHN</a>
+                                       <p class="uc_link_tittle">WELCOME ,JOHN JOHN</p>
                                     </h3>
                                 <div class="uc_line_content">
                                     <ul class="uc_des">
@@ -86,7 +86,7 @@
                     <div id="" class="uc_clean_accorder_content">
                         <!-- start of line 1 -->
                         <h3 class="uc_head_line" id="m-show-userbox">
-                                      <span class="uc_link_tittle">WELCOME,JOHN LENON</span>
+                                      <p class="uc_link_tittle">WELCOME,JOHN JOHN</p>
                                     </h3>
                        <!--  <div class="uc_line_content">
                             <ul class="uc_des">
