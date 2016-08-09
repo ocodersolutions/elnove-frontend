@@ -1,8 +1,11 @@
-<div class="refine-colum">
+<div class="refine-colum hidden-xs">
     <ul>
         <?php include './refine_block/category-filter-block.php'; ?>
         <?php include './refine_block/brands-block.php'; ?>
-        <?php include './refine_block/price-block.php'; ?>
+        <div id="1">
+            <?php include './refine_block/price-block.php'; ?>
+        </div>
+        
         <?php include './refine_block/color-block.php'; ?>
         <?php include './refine_block/deals-block.php'; ?>
         <?php include './refine_block/size-block.php'; ?>
@@ -33,7 +36,8 @@
     <ul>
         <?php include './refine_block/category-filter-block.php'; ?>
         <?php include './refine_block/brands-block.php'; ?>
-        <?php include './refine_block/price-block.php'; ?>
+        <div id="2"><?php include './refine_block/price-block.php'; ?></div>
+        
         <?php include './refine_block/color-block.php'; ?>
         <?php include './refine_block/deals-block.php'; ?>
         <?php include './refine_block/size-block.php'; ?>

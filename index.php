@@ -25,25 +25,13 @@
 
 <?php include 'footer.php'; ?>
 <script type="text/javascript">
-    $(function() {
-        $("#slider-3").slider({
-            range: true,
-            min: 0,
-            max: 1000,
-            values: [250, 1000],
-            change: function(event, ui) {
-                minprice = (ui.values[0]);
-                maxprice = (ui.values[1]);
-                $('#slider-3 span:eq(0) p').empty().append(minprice);
-                $('#slider-3 span:eq(1) p').empty().append(maxprice);
-            }
-        });
-        $("#min-price").val("$" + $("#slider-3").slider("values", 0));
-        $("#max-price").val("$" + $("#slider-3").slider("values", 1));
-    });
+    
     $(document).ready(function() {
-        $("#slider-3 span:eq(0)").append("<p>250</p>");
-        $("#slider-3 span:eq(1)").append("<p>1000+</p>");
+         $("#1 .slider-3 span:eq(0)").append("<p>250</p>");
+        $("#1 .slider-3 span:eq(1)").append("<p>1000+</p>");
+        $("#2 .slider-3 span:eq(0)").append("<p>250</p>");
+        $("#2 .slider-3 span:eq(1)").append("<p>1000+</p>");
+        
         $('.refine .refine-colum  .list-size .size span, .refine .refine-colum .brand .list-brand ul li, .refine .refine-colum .footwear ul li, .refine .refine-colum .deals ul li, .refine .refine-colum .clothing ul li, .refine .refine-colum .accessories ul li').addClass('select');
 
         $('.select').click(function() {
@@ -76,7 +64,7 @@
         }
         var attrContent = getComputedStyle(this, ':after').content;
         var currentId = $(this).attr('id');
-        $('.refine .refine-colum .' + currentId + ', .fsp-wrapper .refine-colum .' + currentId + '').animate({
+        $('.refine .refine-colum .' + currentId + ',.fsp-wrapper .refine-colum .' + currentId + '').animate({
             left: "+=50",
             height: "toggle"
         }, 800, function() {});

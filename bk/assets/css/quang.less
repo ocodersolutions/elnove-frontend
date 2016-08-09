@@ -359,7 +359,7 @@
 			margin: 0 auto;
 			display: none;
 			height: 65px;
-			#slider-3{
+			.slider-3{
 				&.ui-widget{
 				    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
 					font-size: 1.1em;
@@ -633,14 +633,18 @@ footer{
     	width: 100%;
     	.copyright-wrap{
     		width: 70%;
+    		padding-top: 5px;
     		float: none;
     		margin: 0 auto;
     		.copyright-text{
     			margin-top: 5px;
+    			float: none;;
+    			margin: 0 auto;
+    			width: 222px;
     		}
     	}
     	.copyright-text{
-		    width: 222px;
+		    width: 100%;
 			margin: 0 auto;
     	}
     	.terms{
@@ -747,7 +751,7 @@ footer{
 		padding:0 34px;
 	}
 	.category,.brands,.colors,.deals,.sizes,.stores {
-	    //display: none;
+	    display: none;
 	}
 	ul{
 		li{
@@ -767,6 +771,12 @@ footer{
 		    }
 
 		}
+		li.change{
+				background-color:#F0F1F2;
+				&:after{
+					content:"\f106";
+				}
+			}
 		ul{
 			.select{
 				background: #FCFCFC;
@@ -831,6 +841,100 @@ footer{
 			}
 		}
 	
+		.price{
+			margin: 0 auto;
+		    display: none;
+		    height: 65px;
+		    padding: 0 60px;
+		    border-bottom: 1px solid #eee;
+		    .slider-3.ui-slider {
+			    position: relative;
+			    text-align: left;
+			}
+
+			.slider-3.ui-slider-horizontal {
+			    height: .65em;
+			}
+			.ui-corner-all {
+			    border-radius: 0;
+			}
+			.ui-widget-content {
+			    background: #F3F6F9;
+			    border: 1px solid #B6C7D6;
+			    margin-top: 50px;
+			}
+			.ui-slider-range {
+			    top: 0;
+			    height: 100%;
+			    position: absolute;
+			    z-index: 1;
+			    font-size: .7em;
+			    display: block;
+			    border: 0;
+			}
+			.slider-3 .ui-widget-header {
+			    background: #B6C7D6;
+			}
+			.slider-3 .ui-slider-handle {
+			    position: absolute;
+			    z-index: 2;
+			    margin-left: -0.6em;
+			    width: 8px;
+			    height: 20px;
+			    cursor: default;
+			    border-radius: 5px;
+			    top: -6px;
+			}
+			.slider-3 .ui-state-default {
+			    border: 1px solid #cccccc;
+			    background: #5C83A4;
+			    font-weight: bold;
+			    color: #1c94c4;
+			}
+			.slider-3 .ui-slider-handle p {
+				position: absolute;
+				top:-45px;
+				left: -12px;
+				padding: 0;
+				display: block;
+			    text-align: center;
+			    color: #444444;
+			    width: 30px;
+			    font-size: 12px;
+			    
+			}
+			
+		}
+
+	.colors {
+	    border: 1px solid #F3F4F5;
+	    display: none;
+		.list-color {
+	    	padding: 15px 30px;
+		    height: 100%;
+		    .color {
+		    	position: relative;
+			    cursor: pointer;
+			    width: 40px;
+			    height: 40px;
+			    background: blue;
+			    display: inline-block;
+			    margin: 3px;
+			    border: 1px solid #D6D6D6;
+			    text-align: center;
+			    .fa-check {
+		    	    position: absolute;
+				    cursor: pointer;
+				    width: 100%;
+				    height: 100%;
+				    display: block;
+				    line-height: 40px;
+				    color: #fff;
+				    font-size: 18px;
+				}
+			}
+		}
+	}
 	.stores{
 		// padding: 10px 0;
 	}
@@ -899,4 +1003,33 @@ footer{
 		}
 	}
 }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	footer{
+		.footer-above{
+			.menu-footer{
+				width: 100%;
+				.list-menu{
+					margin: 0 auto;
+					width: 650px;
+				}
+			}
+			.newsletter{
+				.newsletter-wrap{
+					width: 50%;
+    				margin: 0 auto;
+				}
+			}
+			.footer-social{
+			    margin-top: 80px;
+			    position: absolute;
+			    width: 100%;
+			    height: 9%;
+			}
+		}
+	}
+	.copyright{
+		clear: both;
+	}
 }
