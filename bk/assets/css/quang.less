@@ -19,22 +19,29 @@
 }
 //style block
 #filter-selected{
-	margin: 15px 0px;
+	padding-top: 38px;
+	padding-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 9px;
+	font-size: 14px;
+	font-weight: 400;
+	#refineseacrch-left{
+		padding-left: 10px;
+	}
 	.box{
 		display: none;
 	}
 	.refine-search{
 		display: block;
 		span{
-			margin-left: -5%;
-			font-weight: bold;
+			font-size: 14px;
+			line-height: 32px;
+				
 		}
 	}
 	.option-filter{
 		float: left;
 		line-height: normal;
+		padding: 8px 0;
 		input[type=radio] {
 		    margin-top: 0px;	
 		    line-height: 17px;
@@ -47,16 +54,17 @@
 			float: left;
 	    	font-size: 13px;    		
 	    	margin-right: 15px;
-			line-height: 17px;
+			line-height: 16px;
 		}
 	}
 	.option-selected{
+		padding:4px 0;
 		float:left;
 		.item{
+			position: relative;
 			width: 80px;
-			height: 20px;
-			line-height: 20px;
-			font-size: 10px;
+			line-height: 24px;
+			font-size: 13px;
 			background: #85A2BB;
 			color: #fff;
 			padding-left: 10px;
@@ -64,12 +72,12 @@
 			margin-right: 10px;
 		}
 		.fa-times{
-			float: right;
-    		line-height: 20px;
-    		margin-right: 10px;
+			position: absolute;
+			top:5px;
+			right: 5px;
     		cursor: pointer;
     		color: #CEDAE4;
-    		font: normal normal normal 17px/1 FontAwesome;
+    		font: normal normal normal 13px/1 FontAwesome;
 		}
 	}
 	.sort-item{
@@ -105,7 +113,7 @@
                     .ui-accordion-header-icon.ui-icon {
                         position: absolute;
                         right: 5px;
-                        top: 7px;
+                        top: 6px;
                         width: 16px;
                         height: 16px;
                         display: block;
@@ -128,7 +136,7 @@
                         padding-left: 15px;
                         font-size: 13px;
                         color: #000;
-                        line-height: 33px;
+                        line-height: 30px;
                         transition: none;
                         text-decoration: none;
                         font-weight: normal;
@@ -191,7 +199,7 @@
 }
 .refine{
 	font-family: @font;
-	font-size: 9px;
+	font-size: 13px;
 	.refine-colum{
 		
 			.category{
@@ -256,7 +264,7 @@
 					background: #F0F1F2;
 					margin-bottom: 3px;
 					padding-left: 15px;
-					font-weight: bold;
+					font-weight: 400;
 					height: @height-refine;
 					line-height: @height-refine;
 				}
@@ -685,36 +693,48 @@ footer{
 /* responsive */
 @media only screen and (max-width : 767px) {
 #filter-selected{
+	padding: 11px 15px;
+	border-bottom: 2px solid #D5D8DA;
 	.box{
-	 	height: 25px;
-	 	line-height: 25px;
+		padding: 0;
+		font-size: 12px;
+	 	line-height: 32px;
 	 	text-align: center;
-	    border: 1px solid #85A2BB;
+	    display: inline-block;
 	    cursor: pointer;
-	    display: block;
+	    span{
+	    	display: block;
+	    	width: calc(100% - 2px);
+	    	height: 34px;
+			border: 1px solid #85A2BB;
+	    }
+	    &:first-child{
+	    	
+	    }
 	}
 	.refine-search{
-		width: 100px;
-	    float: left;
-	    margin-left: -15px;
-
+		width: 37%;
+		span{
+			font-size: 12px;
+		}
 	}
 	.popup-sort-item{
-	    width: 100px;
-	    float: left;
-	    margin-left: 1%; 
+	    width: 37%;
+	}
+	.sort-grid,.sort-list{
+		float: right;
+		width: 11%;
+		padding: 0;
+	   	i{
+	   		line-height: 32px;
+	   		width: calc(100% - 2px);
+	   		height: 34px;
+	   		border: 1px solid #85A2BB;
+	   	}
 	}
 	.sort-grid{
-	    width: 30px;
-	    float: right;
-	    margin-left: 1%;
-	}
-	.sort-list{
-
-		margin-right: -15px;
-		width: 30px;
-	    float: right;
-	    margin-left: 1%;
+		margin-right: 5px;
+		
 	}
 	.option-filter{
 		display: none;
