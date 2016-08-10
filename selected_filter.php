@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 	    <div class="row">
 	        
-	        <div class="col-lg-2 col-lg-offset-1 " id="refineseacrch-left">
+	        <div class="col-lg-2 col-sm-3 col-lg-offset-1 " id="refineseacrch-left">
 	       		<div class="row">
 		        	<div class="box refine-search col-lg-12 " id="refine-search-popup" data-popup="#rfs-content-popup">
 		         		<span>REFINE SEARCH</span>
@@ -14,7 +14,7 @@
 		         	<div class="box sort-grid "><i class="fa fa-th-large" aria-hidden="true"></i></div>
 	         	</div>
 	         </div>
-	        <div class="col-lg-8 selected_right ">
+	        <div class="col-lg-8 col-sm-9 selected_right ">
 		        <div class="option-filter">
 		        	<input type="radio">
 		        	<span>ALL</span>
@@ -24,9 +24,9 @@
 		        	<span>SAVE ITEMS</span>
 		        </div>
 		        <div class="option-selected">
-		        	<div class="item"><span>Puma </span><i class="fa fa-times" aria-hidden="true"></i></div>
-		        	<div class="item"><span>Puma </span><i class="fa fa-times" aria-hidden="true"></i></div>
-		        	<div class="item"><span>Puma </span><i class="fa fa-times" aria-hidden="true"></i></div>
+		        	<div class="item"><span>Puma</span><i class="fa fa-times" aria-hidden="true"></i></div>
+		        	<div class="item"><span>Blue</span><i class="fa fa-times" aria-hidden="true"></i></div>
+		        	<div class="item"><span>Special Offer </span><i class="fa fa-times" aria-hidden="true"></i></div>
 		        </div>
 		        <div class="sort-item " id="accordion-select" >
 		        	<span class="uc_head_line">

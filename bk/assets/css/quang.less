@@ -15,7 +15,8 @@
    color: #ADC1D1;  
 }
 .selected_right {
-	padding-right: 0px;
+	padding-left: 9px;
+	padding-right: 3px;
 }
 //style block
 #filter-selected{
@@ -63,7 +64,7 @@
 		float:left;
 		.item{
 			position: relative;
-			width: 80px;
+			width: auto;
 			line-height: 24px;
 			font-size: 13px;
 			background: #85A2BB;
@@ -71,8 +72,15 @@
 			padding-left: 10px;
 			float: left;
 			margin-right: 10px;
+			margin-bottom: 10px;
+			span{
+			    display: block;
+			    padding-right: 30px;
+			    width: auto;
+			}
 		}
 		.fa-times{
+			display: block;
 			position: absolute;
 			top:5px;
 			right: 5px;
@@ -1128,8 +1136,14 @@ footer{
 	}
 }
 }
+@media (min-width:768px)and(max-width: 992px){
 
+}
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.selected_right{
+		padding-right: 0;
+	}
+
 	footer{
 		.footer-above{
 			.menu-footer{
