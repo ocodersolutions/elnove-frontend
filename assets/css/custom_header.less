@@ -42,9 +42,12 @@ a{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    &:hover,&:focus,&:active{
+    &:hover,&:focus{
         color:#444444;text-decoration: none;
         box-shadow: 0px 2px 3px #888888;
+    }
+    &:active{
+        color: #fff !important;
     }
 }
 .btn-st-blue{
@@ -76,124 +79,117 @@ a.btn-st-blue:hover{
   box-shadow: 0px 2px 3px #888888;
  }
 .uc_clean_accordion {
-            display: inline-block;
-            box-sizing: border-box;
-            font-size: 13px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 13px;
         .uc_clean_accordion_wrap{ 
-            .login_signup {
-                display: none;
+            .uc_clean_accorder_content{
+                
+
+                .uc_head_line{
                 width: 150px;
+                display: block;
                 background-color: #E6ECF1;
-                text-transform: uppercase;
-                font-weight: 400;
-                line-height: 40px;
+                border: 1px solid #eee;
                 margin: 0;
-                padding: 0 15px;
-                font-family: roboto;              
+                padding-right:15px;
+                box-sizing: border-box;
+                position: relative;
+                text-transform: none;
                 letter-spacing: inherit;
-                text-align: center;
-                &:hover {
+                &:hover{
                     text-decoration: none;
                     box-shadow: 0px 2px 3px #888888;
                 }
-            }
-            .uc_clean_accorder_content{
-                // display: none;
-                .uc_head_line{
-                    width: 150px;
-                    display: block;
-                    background-color: #E6ECF1;
-                    border: 1px solid #eee;
-                    margin: 0;
-                    padding: 0 15px;
-                    box-sizing: border-box;
-                    position: relative;
-                    text-transform: none;
-                    letter-spacing: inherit;
-                    &:focus{
-                        outline:0;
-                    }
-                    .ui-state-active {
-                        border-bottom: 0px;
-                    }
-                    .ui-accordion-header-icon.ui-icon{
-                        position: absolute;
-                        right: 5px;
-                        top:13px;
-                        width: 16px;
-                        height: 16px;
-                        display: block;
-                    }
-                    .ui-accordion-header-icon.ui-icon {
-                        position: absolute;
-                        right: 5px;
-                        top: 12px;
-                        width: 16px;
-                        height: 16px;
-                        display: block;
-                        &:after{
-                            font-family: FontAwesome;
-                            font-size: 13px;
-                            content: "\f078";
-                            display: block;
-                            width: 13px;
-                            height: 13px;
-                            margin-bottom: -7px;
-                            transition: all .2s;
-                        }
-                    }
-
-                    .uc_link_tittle {
-                        box-sizing: border-box;
-                        display: block;
-                        min-width: 100%;
-                        font-size: 13px;
-                        color: inherit;
-                        line-height: 38px;
-                        transition: none;
-                        text-decoration: none;
-                        font-weight: normal;
-                        text-align: center;
-                    }
+                    
+                &:focus{
+                    outline:0;
                 }
-                .ui-accordion-header-active.ui-state-active{
-                    background: #fff;
-                    border-bottom:0; 
+                .ui-state-active {
+                    border-bottom: 0px;
                 }
-                .ui-accordion-header-active.ui-state-active >.ui-icon:after{
-                    content: "\f077"; 
-                }
-                .uc_line_content {
+                .ui-accordion-header-icon.ui-icon{
                     position: absolute;
-                    z-index: 99;
-                    padding: 10px 20px 25px;
-                    background-color: #fff;
-                    border: 1px solid #eee;
-                    border-top: none;
-                    margin-top: -1px;
-                    width: 150px;
-                    min-height: 130px;
-                    .uc_des{
-                        color: #5C83A4;
-                        line-height: 30px;
-                        text-align: left;
+                    right: 5px;
+                    top:13px;
+                    width: 16px;
+                    height: 16px;
+                    display: block;
+                }
+                .ui-accordion-header-icon.ui-icon {
+                    position: absolute;
+                    right: 5px;
+                    top: 12px;
+                    width: 16px;
+                    height: 16px;
+                    display: block;
+                    &:after{
+                        font-family: FontAwesome;
+                        font-size: 13px;
+                        content: "\f078";
                         display: block;
-                        clear:both;
-                        margin:0 0 9px;
-                        box-sizing: border-box;
-                         li{
-                            padding: 3px 0;
-                            display: block;
-                            a{
-                                color: #5C83A4;
-                                padding: 5px 0;
-                            }
+                        width: 13px;
+                        height: 13px;
+                        margin-bottom: -7px;
+                        transition: all .2s;
+                    }
+                }
+
+                .uc_link_tittle {
+                    cursor: pointer;
+                    max-height: 38px;
+                    box-sizing: border-box;
+                    display: inline-flex;
+                    max-width: calc(100% - 5px);
+                    font-size: 13px;
+                    color: inherit;
+                    line-height: 38px;
+                    transition: none;
+                    text-decoration: none;
+                    font-weight: normal;
+                    text-align: center;
+                    overflow: hidden;
+                    margin: 0;
+                }
+            }
+            .ui-accordion-header-active.ui-state-active{
+                background: #fff;
+                border-bottom:0; 
+            }
+            .ui-accordion-header-active.ui-state-active >.ui-icon:after{
+                content: "\f077"; 
+            }
+            .uc_line_content {
+                position: absolute;
+                z-index: 99;
+                padding: 10px 20px 25px;
+                background-color: #fff;
+                border: 1px solid #eee;
+                border-top: none;
+                margin-top: -1px;
+                width: 150px;
+                min-height: 130px;
+                .uc_des{
+                    color: #5C83A4;
+                    line-height: 30px;
+                    text-align: left;
+                    display: block;
+                    clear:both;
+                    margin:0 0 9px;
+                    box-sizing: border-box;
+                     li{
+                        padding: 3px 0;
+                        display: block;
+                        a{
+                            color: #5C83A4;
+                            padding: 5px 0;
                         }
                     }
-                   
                 }
-            } 
-        }
+               
+            }
+        } 
+    }
         
     }
  //style cho block
@@ -208,7 +204,6 @@ a.btn-st-blue:hover{
     border-bottom: 1px solid #eee;
     .left-side {
         cursor: pointer;
-        display: inline-block;
         padding: 36px 30px;
         font-size: 20px;
         color: #33648D;
@@ -232,10 +227,35 @@ a.btn-st-blue:hover{
        }
     }
     .right-side{
-        line-height: 100px;
+        padding-top: 30px;
         text-align: right;
         display: inline-block;
-        
+        a{
+            // margin-top: -32px;
+            &:active{
+                color: #fff;
+            }
+        }
+        .login_signup {
+            display: inline-block;
+            width: 150px;
+            background-color: #E6ECF1;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 40px;
+            margin: 0;
+            padding: 0 15px;
+            font-family: roboto;              
+            letter-spacing: inherit;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+                box-shadow: 0px 2px 3px #888888;
+            }
+            a{
+                margin-top: 0;
+            }
+        }
       .user-info{
         width: 152px;
         display: inline-block;
@@ -418,8 +438,37 @@ ul {
         margin-top: 0;
     }
  }
-
-@media (min-width:320px)and(max-width: 480px){
+@media (min-width:992px)and(max-width: 1199px){
+    #menu #row-top-navbar #top-nav ul{
+        width: calc(100% - 5px);
+    }
+    
+    .header-top-navbar .top-bar .right-side{
+        padding-left: 0;
+    }
+}
+@media (min-width:768px)and(max-width: 992px){
+    .header-top-navbar .top-bar .right-side{
+        padding-left: 0;
+        .btn-st-blue{
+            width: 115px;
+        }
+    }
+    .header-top-navbar .top-bar .right-side .login_signup{
+        padding: 0;
+         width: 115px;
+    }
+    .header-top-navbar .top-bar .right-side h3.uc_head_line{
+        width: 115px;
+    }
+    #menu #row-top-navbar #top-nav ul li {
+        padding: 23px 4px ;
+        a{
+            font-size: 12px;
+        }
+    }
+}
+@media (min-width:320px)and(max-width: 768px){
     #mobile-header{
         position: relative;
         color: #444444;
@@ -474,43 +523,57 @@ ul {
         #mtop-left{
             padding-right:5px; 
             .login_signup {
-                display: none;
-                line-height: 35px;
-                width: 100%;
+            display: inline-block;
+            width: 100%;
+            background-color: #E6ECF1;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 35px;
+            margin: 0;
+            padding: 0 15px;
+            font-family: roboto;              
+            letter-spacing: inherit;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+                box-shadow: 0px 2px 3px #888888;
             }
-            .uc_clean_accorder_content {
-                // display: none;
-                #m-show-userbox{
-                    max-height: 35px;
-                    text-align: center;
-                    padding-left: 0 ;
-                    position: relative;
-                    &:after{
-                        font-family: FontAwesome;
-                        font-size: 12px;
-                        line-height: 33px;
-                        content: "\f078";
-                        position: absolute;
-                        top: 0px;
-                        left: calc(100% - 15px);
+            a{
+                margin-top: 0;
+            }
+        }
+            #m-show-userbox{
+                max-height: 35px;
+                text-align: center;
+                padding-left: 0 ;
+                position: relative;
+                &:after{
+                    font-family: FontAwesome;
+                    font-size: 12px;
+                    line-height: 33px;
+                    content: "\f078";
+                    position: absolute;
+                    top: 0px;
+                    left: calc(100% - 15px);
 
-                    }
-                    span.uc_link_tittle{
-                        font-size: 12px;
-                        line-height: 33px;
-                        max-width: calc(100% - 35px);
-                        max-height: 35px;
-                        overflow: hidden;
-                    }
                 }
-                .uc_line_content{
-                    width: 100% !important;
+                .uc_link_tittle{
+                    margin:0;
+                    box-sizing: border-box;
+                    font-size: 12px;
+                    line-height: 33px;
+                    max-width: calc(100% - 10px);
+                    max-height: 35px;
+                    overflow: hidden;
                 }
+            }
+            .uc_line_content{
+                width: 100% !important;
             }
         }
         #mtop-right{
             padding-left: 5px;
-            line-height: 35px;
+            line-height: 34px;
             a.btn-st-blue{
                 line-height: 35px;
                 width: 100%;
