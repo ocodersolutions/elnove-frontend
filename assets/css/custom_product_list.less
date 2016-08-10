@@ -10,7 +10,7 @@
 	padding: 0;
 }
 .product_item {
-    max-width: 345px;
+    max-width: 345px !important; 
     font-family: roboto;
     font-size: 13px;
     margin:0 auto;
@@ -19,7 +19,6 @@
     .uc_contact{
         margin: auto;
         .uc_avatar{
-            // display: block;
         }
         .uc_link{
             // padding-bottom: 14%;
@@ -27,11 +26,12 @@
                 box-shadow: 0px 2px 3px #7D9CB6;
                 cursor: pointer;
             }
-            .uc_icon {
-                padding-top: 3%;
-                padding-bottom: 3%; 
-                text-decoration: none;
-                display: block;
+            .uc_icon { 
+                i.fa {
+                    font-size: 15px;
+                    vertical-align: middle;
+                }
+                line-height: 190%;
                 float: left;
                 margin-right: 1px;
                 width: 12%;                
@@ -39,7 +39,7 @@
                 color: #fffefb;                            
             }
             .buy_product { 
-                padding-bottom: 2%;               
+                line-height: 164.7%;              
                 margin: 0;
                 width: 62%;
                 font-size: 15px;
@@ -55,7 +55,7 @@
         position: absolute;
         top: 0;
         width: 100%;
-        padding-bottom: 8%;
+        padding-bottom: 11%;
         background: #547ca0;
         opacity: 0.9;
         i.fa-times {
@@ -68,8 +68,8 @@
         }
         h2 {
             font-size: 25px;
-            padding-top: 6%;
-            padding-bottom: 12%;
+            padding-top: 3%;
+            padding-bottom: 9%;
             color: #e1e6ea;
             font-weight: normal;
         }
@@ -80,21 +80,27 @@
                     float: left;
                     width: 20%;
                     margin-left: 10%;
-                    padding-top: 5%;
-                    padding-bottom: 5%;
+                    padding-top: 1%;
+                    line-height: 150%;
                     background: #b6c8d6;
                     margin-bottom: 2px;
                     color: #5c85a5;
+
                 }
+                .fa-2x {
+                        font-size: 22px;
+                    }
                 span {
+                    line-height: 150%;
                     display: block;
                     float: left;
                     width: 60%;
-                    padding: 4% 0% 3% 10%;
+                    padding-top: 1%;
+                    padding-left: 5%;
                     background: #95abc0;
                     color: #c0cddd;
                     text-align: left;
-                    font-size: 25px;
+                    font-size: 22px;
                 }
             }
             
@@ -120,202 +126,179 @@
         }
     }
 }
-@media (min-width: 380px)and(max-width: 767px) {
+@media (min-width: 380px)and(max-width: 479px) {
     .product_item {
         .uc_contact {
-            .uc_link {                         
-                .buy_product {                    
-                    padding: 3% 1% 2.14% 1%;
-                    width: 63%;                  
+            .uc_link {    
+                .uc_icon {                    
+                    line-height: 250%;
+                }          
+                .buy_product {                        
+                    line-height: 216.7%;                  
                 }
             }
         }
-        .share_product {
-            padding-bottom: 6%;
+        .share_product {           
+            i.fa-times {
+                font-size: 25px;
+                margin-top: 4%;
+            }            
             .share_page {
-                a { 
+                a {
                     i {
-                        margin-left: 8%;
-                        padding-top: 6%;
-                        padding-bottom: 6%;
-                    }                   
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                        // font-size: 25px;                       
+                    }
+                    .fa-2x {
+                        font-size: 25px;
+                        line-height: 240%;
+                    }
                     span {
-                        padding: 5% 0% 4.19% 10%;
-                        width: 65%;
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
+                        font-size: 25px;
+                        line-height: 240%;
                     }
                 }
             }
         }   
     }    
 }
-@media (min-width: 768px)and(max-width: 1199px) {
-    // .product_item {
-    //     .uc_contact {
-    //         .uc_link {                         
-    //             .buy_product {                    
-    //                 padding: 3% 1% 2.14% 1%;
-    //                 width: 63%;                  
-    //             }
-    //         }
-    //     }
-    //     .share_product {
-    //         padding-bottom: 6%;
-    //         .share_page {
-    //             a { 
-    //                 i {
-    //                     margin-left: 8%;
-    //                     padding-top: 6%;
-    //                     padding-bottom: 6%;
-    //                 }                   
-    //                 span {
-    //                     padding: 5% 0% 4.19% 10%;
-    //                     width: 65%;
-    //                 }
-    //             }
-    //         }
-    //     }   
-    // }    
-}
-@media (min-width: 1200px)and(max-width: 1279px) {
+@media (min-width: 480px)and(max-width: 767px) {
     .product_item {
         .uc_contact {
             .uc_link {    
-                .uc_icon {
-                    padding-top: 2%;
-                    padding-bottom: 1%;  
-                }               
-                .buy_product {
-                    padding-bottom: 0%;
-                    padding-top: 1.91%;                   
-                    font-size: 1.1em;                 
+                .uc_icon {                    
+                    line-height: 250%;
+                }          
+                .buy_product {                        
+                    line-height: 216.7%;                  
                 }
             }
         }
         .share_product {
-            padding-bottom: 6%;
-            h2 {
-                font-size: 1.8em;
-                padding-top: 3%;
-                padding-bottom: 10%;
-            }
+            padding-bottom: 10%;           
+            i.fa-times {
+                font-size: 25px;
+                margin-top: 4%;
+            }            
             .share_page {
-                a { 
+                a {
                     i {
-                        margin-left: 8%;
-                        padding-top: 2%;
-                        padding-bottom: 1%;
-                        
-                    }                   
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                        // font-size: 25px;                       
+                    }
+                    .fa-2x {
+                        font-size: 25px;
+                        line-height: 252%;
+                    }
                     span {
-                        padding: 2% 0% 2.1% 10%;
-                        width: 65%;
-                        font-size: 1.3em;
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
+                        font-size: 25px;
+                        line-height: 252%;
                     }
                 }
             }
         }   
     }    
 }
-@media (min-width: 1280px)and(max-width: 1365px) {
+@media (min-width: 768px)and(max-width: 991px) {
     .product_item {
         .uc_contact {
-            .uc_link {
+            .uc_link {    
                 .uc_icon {
-                    padding: 3% 11% 1% 4%;
-                }
-                .buy_product {
-                    padding: 1.5% 11% 0.95% 11%;
-                    width: 53.3%;
-                }
-            }
-        }
-        .share_product {
-            .share_page {
-                a {
-                    i {
-                        padding: 2% 1% 1% 1%;
-                    }
-                    span {
-                        padding: 1.5% 1% 1.55% 5%;
-                        font-size: 1.4em;
-                    }
-                }
-            }
-        }
-    }    
-}
-@media (min-width: 1366px)and(max-width: 1599px) {
-    .product_item {
-        .uc_contact {
-            .uc_link { 
-                .uc_icon {
-                    padding: 2% 2% 1% 2%;
-                }               
+                    // padding: 3% 7% 2% 4%;
+                    // line-height: 250%;
+                    // margin-right: 1px;
+                }          
                 .buy_product {                    
-                    padding: 1% 1% 0.51% 1%;                
+                    // padding: 2% 7% 2.012% 7%;
+                    // width: 62.9%; 
+                    // line-height: 216.7%;                  
                 }
             }
         }
         .share_product {
-            padding-bottom: 6.8%;
+            padding-bottom: 10%;
             h2 {
-                padding-top: 9%;
-                padding-bottom: 15%;
+                font-size: 20px;
             }
             .share_page {
                 a {
                     i {
-                        padding: 2% 1% 1% 1%;
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                    }
+                    .fa-2x {
+                        font-size: 18px;
                     }
                     span {
-                        padding: 1.5% 1% 1.5% 5%;
-                        font-size: 1.4em;
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
+                        font-size: 18px;
                     }
                 }
             }
-        }
+        }   
     }    
 }
-@media (min-width: 1600px)and(max-width: 1919px) {
+@media (min-width: 992px)and(max-width: 1199px) {
     .product_item {
         .uc_contact {
             .uc_link {    
                 .uc_icon {
-                    padding: 3% 10% 2% 4%;
+                    // padding: 3% 7% 2% 4%;
+                    // line-height: 250%;
+                    // margin-right: 1px;
                 }          
                 .buy_product {                    
-                    padding-bottom: 0.79%;
-                    padding-left: 10%;
-                    width: 56.6%;                   
+                    // padding: 2% 7% 2.012% 7%;
+                    // width: 62.9%; 
+                    // line-height: 216.7%;                  
                 }
             }
         }
         .share_product {
-            padding-bottom: 13%;
+            padding-bottom: 12%;
             .share_page {
                 a {
                     i {
-                        padding: 4% 1% 2.2% 1%;
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                    }
+                    .fa-2x {
+                        font-size: 24px;
                     }
                     span {
-                        padding: 2% 1% 1.87% 5%;
-                        font-size: 1.7em;
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
+                        font-size: 24px;
                     }
                 }
             }
-        }
+        }   
     }    
 }
-@media (min-width: 1920px) {
+@media (min-width: 1200px)and(max-width: 1365px) {
     .product_item {
         .uc_contact {
             .uc_link {    
                 .uc_icon {
-                    padding: 3% 7% 2% 4%;
+                    // padding: 3% 7% 2% 4%;
+                    // line-height: 250%;
+                    // margin-right: 1px;
                 }          
                 .buy_product {                    
-                    padding: 2% 7% 2.012% 7%;
-                    width: 62.9%;                  
+                    // padding: 2% 7% 2.012% 7%;
+                    // width: 62.9%; 
+                    // line-height: 216.7%;                  
                 }
             }
         }
@@ -324,13 +307,50 @@
             .share_page {
                 a {
                     i {
-                        padding: 4.5% 1% 5% 1%;
-                        margin-left: 9%;
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                    }
+                    .fa-2x {
+                        font-size: 19px;
                     }
                     span {
-                        width: 62%;
-                        padding: 3% 1% 2.65% 5%;
-                        font-size: 2em;
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
+                        font-size: 19px;
+                    }
+                }
+            }
+        }   
+    }    
+}
+@media (min-width: 1920px) {
+    .product_item {
+        .uc_contact {
+            .uc_link {    
+                .uc_icon {
+                    // padding: 3% 7% 2% 4%;
+                    line-height: 250%;
+                }          
+                .buy_product {                    
+                    // padding: 2% 7% 2.012% 7%;
+                    // width: 62.9%;          
+                    line-height: 216.7%;        
+                }
+            }
+        }
+        .share_product {
+            // padding-bottom: 9%;
+            .share_page {
+                a {
+                    i {
+                        // padding: 4.5% 1% 5% 1%;
+                        // margin-left: 9%;
+                    }
+                    span {
+                        // width: 62%;
+                        // padding: 3% 1% 2.65% 5%;
+                        // font-size: 2em;
                     }
                 }
             }

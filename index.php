@@ -13,11 +13,11 @@
 
 <div id="body-container" class="container-fluid">
     <div class="row">
-        <div class="refine col-lg-2 col-lg-offset-1 ">
+        <div class="refine col-lg-2 col-lg-offset-1 col-sm-3">
             <?php include 'refine-block.php'; ?>
         </div>
 
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-sm-9">
             <?php include 'products-block.php'; ?>
         </div>
     </div>
