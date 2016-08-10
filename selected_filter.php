@@ -2,15 +2,17 @@
 	<div class="container-fluid">
 	    <div class="row">
 	        
-	        <div class="col-lg-2 col-lg-offset-1 ">
-	        	<div class="box refine-search" id="refine-search-popup" data-popup="#rfs-content-popup">
-	         		<span>REFINE SEARCH</span>
+	        <div class="col-lg-2 col-lg-offset-1 " id="refineseacrch-left">
+	       		<div class="row">
+		        	<div class="box refine-search col-lg-12 " id="refine-search-popup" data-popup="#rfs-content-popup">
+		         		<span>REFINE SEARCH</span>
+		         	</div>
+		         	<div class="box popup-sort-item ">
+		         		<span>SORT ITEMS</span>
+		         	</div>
+		         	<div class="box sort-list "><i class="fa fa-bars" aria-hidden="true"></i></div>
+		         	<div class="box sort-grid "><i class="fa fa-th-large" aria-hidden="true"></i></div>
 	         	</div>
-	         	<div class="box popup-sort-item">
-	         		<span>SORT ITEMS</span>
-	         	</div>
-	         	<div class="box sort-list"><i class="fa fa-bars" aria-hidden="true"></i></div>
-	         	<div class="box sort-grid"><i class="fa fa-th-large" aria-hidden="true"></i></div>
 	         </div>
 	        <div class="col-lg-8 selected_right ">
 		        <div class="option-filter">
