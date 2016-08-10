@@ -84,6 +84,7 @@ a.btn-st-blue:hover{
     font-size: 13px;
         .uc_clean_accordion_wrap{ 
             .uc_clean_accorder_content{
+                
 
                 .uc_head_line{
                 width: 150px;
@@ -91,12 +92,15 @@ a.btn-st-blue:hover{
                 background-color: #E6ECF1;
                 border: 1px solid #eee;
                 margin: 0;
-                padding: 0 15px;
+                padding-right:15px;
                 box-sizing: border-box;
                 position: relative;
                 text-transform: none;
                 letter-spacing: inherit;
-                
+                &:hover{
+                    text-decoration: none;
+                    box-shadow: 0px 2px 3px #888888;
+                }
                     
                 &:focus{
                     outline:0;
@@ -135,7 +139,7 @@ a.btn-st-blue:hover{
                     cursor: pointer;
                     max-height: 38px;
                     box-sizing: border-box;
-                    display: block;
+                    display: inline-flex;
                     max-width: calc(100% - 5px);
                     font-size: 13px;
                     color: inherit;
@@ -223,16 +227,35 @@ a.btn-st-blue:hover{
        }
     }
     .right-side{
-            padding-top: 30px;
+        padding-top: 30px;
         text-align: right;
         display: inline-block;
         a{
-            margin-top: -32px;
+            // margin-top: -32px;
             &:active{
                 color: #fff;
             }
         }
-        
+        .login_signup {
+            display: inline-block;
+            width: 150px;
+            background-color: #E6ECF1;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 40px;
+            margin: 0;
+            padding: 0 15px;
+            font-family: roboto;              
+            letter-spacing: inherit;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+                box-shadow: 0px 2px 3px #888888;
+            }
+            a{
+                margin-top: 0;
+            }
+        }
       .user-info{
         width: 152px;
         display: inline-block;
@@ -431,6 +454,10 @@ ul {
             width: 115px;
         }
     }
+    .header-top-navbar .top-bar .right-side .login_signup{
+        padding: 0;
+         width: 115px;
+    }
     .header-top-navbar .top-bar .right-side h3.uc_head_line{
         width: 115px;
     }
@@ -495,6 +522,26 @@ ul {
         border-bottom: 1px solid #eee;
         #mtop-left{
             padding-right:5px; 
+            .login_signup {
+            display: inline-block;
+            width: 100%;
+            background-color: #E6ECF1;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 35px;
+            margin: 0;
+            padding: 0 15px;
+            font-family: roboto;              
+            letter-spacing: inherit;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+                box-shadow: 0px 2px 3px #888888;
+            }
+            a{
+                margin-top: 0;
+            }
+        }
             #m-show-userbox{
                 max-height: 35px;
                 text-align: center;

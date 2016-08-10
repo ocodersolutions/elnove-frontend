@@ -7,12 +7,13 @@
                 <div class="logo col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
                 </div>
                 <div class="right-side col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="uc_clean_accordion">
+                    <!-- <div class="uc_clean_accordion">
                         <div class="uc_clean_accordion_wrap">
                             <div id="accordion" class="uc_clean_accorder_content">
-                                <!-- start of line 1 -->
+                                
+                                
                                 <h3 class="uc_head_line">
-                                       <p class="uc_link_tittle">WELCOME ,JOHN JOHN</p>
+                                       <a class="uc_link_tittle">WELCOME ,JOHN JOHN</a>
                                     </h3>
                                 <div class="uc_line_content">
                                     <ul class="uc_des">
@@ -23,11 +24,16 @@
                                     </ul>
 
                                 </div>
-                                <!-- end of line 1 -->
+                                
 
 
                             </div>
                         </div>
+                    </div> -->
+                    <div class="login_signup">
+                        <a href="#">LOGIN</a>
+                        /
+                        <a href="#">SIGN UP</a>
                     </div>
                     <a href="#" class="btn-st-blue">GET STYLED</a>
                 </div>
@@ -81,13 +87,17 @@
     <div class="row">
         <div class="col-xs-12" id="mtop-bar">
             <div class="uc_clean_accordion col-xs-6" id="mtop-left">
-
-                <div class="uc_clean_accordion_wrap">
+                <div class="login_signup">
+                    <a href="#">LOGIN</a>
+                    /
+                    <a href="#">SIGN UP</a>
+                </div>
+                <!-- <div class="uc_clean_accordion_wrap">
                     <div id="" class="uc_clean_accorder_content">
-                        <!-- start of line 1 -->
+                       
                         <h3 class="uc_head_line" id="m-show-userbox">
                                       <p class="uc_link_tittle">WELCOME,JOHN JOHN</p>
-                                    </h3>
+                                    </h3> -->
                        <!--  <div class="uc_line_content">
                             <ul class="uc_des">
                                 <li><a href="">My Profile</a>
@@ -100,8 +110,8 @@
                         <!-- end of line 1 -->
 
 
-                    </div>
-                </div>
+                    <!-- </div>
+                </div> -->
             </div>
             <div class="col-xs-6" id="mtop-right">
                 <a href="#" class="btn-st-blue">GET STYLED</a>
