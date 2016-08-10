@@ -15,11 +15,11 @@
 	        <div class="col-lg-8 selected_right ">
 		        <div class="option-filter">
 		        	<input type="radio">
-		        	<label><span>ALL</span></label>
+		        	<span>ALL</span>
 		        	<input type="radio">
-		        	<label><span>SALE</span></label>
+		        	<span>SALE</span>
 		        	<input type="radio">
-		        	<label><span>SAVE ITEMS</span></label>
+		        	<span>SAVE ITEMS</span>
 		        </div>
 		        <div class="option-selected">
 		        	<div class="item"><span>Puma </span><i class="fa fa-times" aria-hidden="true"></i></div>
