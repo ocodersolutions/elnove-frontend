@@ -76,6 +76,14 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $(".sort-list").css({"opacity": "0.3", "cursor": "default"});
+
+    });
+    $(window).resize(function() {
+        $('.share_product').height(function(){
+            var height1 = $(this).parents(".product_item").find(".uc_contact").height();
+            var height2 = $(this).parents(".product_item").find(".show_item").height();
+            return height1 + height2;
+        });
     });
     
 
@@ -99,6 +107,11 @@
 
     $(".show_item").click(function() {
         $(this).parents('.product_item').find('.share_product').show();
+        var height1 = $(this).height();
+        $(this).parents(".product_item").find(".share_product").height(function(){
+            var height2 = $(this).parents(".product_item").find(".uc_contact").height();
+            return height1 + height2;
+        });
     });
 
     $(".icon_like").click(function() {
