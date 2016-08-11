@@ -75,20 +75,20 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".sort-list").css({"opacity": "0.5", "cursor": "default"});
+        $(".sort-list").css({"opacity": "0.3", "cursor": "default"});
     });
     
 
     $(".sort-list").click(function(){
         $(this).parents("body").find(".product.col-lg-3.col-sm-4").removeClass("col-xs-6");
-        $(this).css({"opacity": "0.5", "cursor": "default"});
+        $(this).css({"opacity": "0.3", "cursor": "default"});
         $(this).parents(".row").find(".sort-grid").css({"opacity": "1", "cursor": "pointer"});
 
     });
 
     $(".sort-grid").click(function(){
         $(this).parents("body").find(".product.col-lg-3.col-sm-4").addClass("col-xs-6");
-        $(this).css({"opacity": "0.5", "cursor": "default"});
+        $(this).css({"opacity": "0.3", "cursor": "default"});
         $(this).parents(".row").find(".sort-list").css({"opacity": "1", "cursor": "pointer"});
 
     });
