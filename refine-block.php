@@ -17,7 +17,7 @@
 <!-- popup-->
 <div class="refine" style="display: none;">
 <div  class="refine-colum" id="rfs-content-popup" >
-    <p> REFINE SEARCH</p>
+    <p class="m-title"> REFINE SEARCH</p>
     <div class="option-filter">
         <div class="option-filter-row">
             <label><span>ALL</span></label>

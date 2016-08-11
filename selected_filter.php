@@ -52,7 +52,7 @@
                         </ul>
                     </div>
                     <div class="sort-filter-contentpopup visible-xs" id="sis-content-popup">
-                    	<p>SORT ITEMS BY</p>
+                    	<p class="m-title">SORT ITEMS BY</p>
                         <ul>
                         	<li><a href="">Relevance</a>
                             </li>
@@ -84,14 +84,14 @@
 	</div>  
 <script>
 jQuery(document).ready(function($) {
-	 $("#refine-search-popup").click(function(){
+	 $("#refine-search-popup,#pop-menu,#sort-item-popup").click(function(){
 	 	var w = jQuery(".fsp-content").width();
-	 	$("#rfs-content-popup p").css('width',w);
+	 	$("p.m-title").css('width',w);
  //    console.log( "You clicked a paragraph:"+ width );
 	});
     $(window).resize(function(){
     	var width = jQuery(".fsp-content").width();
-    	$("#rfs-content-popup p").css('width',width);
+    	$("p.m-title").css('width',width);
 	});
        
 });
