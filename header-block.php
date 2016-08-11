@@ -137,7 +137,7 @@
     <div class="row">
         <div class="col-xs-12 text-left" id="popup">
             <div class="row">
-                <p> MENU</p>
+                <p class="m-title"> MENU</p>
                 <ul>
                     <li><a href="">HOW IT WORKS</a>
                     </li>
