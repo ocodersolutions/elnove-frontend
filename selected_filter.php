@@ -4,10 +4,13 @@
 	        
 	        <div class="col-lg-2 col-sm-3 col-lg-offset-1 " id="refineseacrch-left">
 	       		<div class="row">
-		        	<div class="box refine-search col-lg-12 " id="refine-search-popup" data-popup="#rfs-content-popup">
+	       			<div class="box refine-search col-lg-12 hidden-xs" >
 		         		<span>REFINE SEARCH</span>
 		         	</div>
-		         	<div class="box popup-sort-item ">
+		        	<div class="box refine-search col-lg-12 visible-xs" id="refine-search-popup" data-popup="#rfs-content-popup">
+		         		<span>REFINE SEARCH</span>
+		         	</div>
+		         	<div class="box popup-sort-item " id="sort-item-popup" data-popup="#sis-content-popup" >
 		         		<span>SORT ITEMS</span>
 		         	</div>
 		         	<div class="box sort-list "><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -48,7 +51,23 @@
                             </li>
                         </ul>
                     </div>
-
+                    <div class="sort-filter-contentpopup visible-xs" id="sis-content-popup">
+                    	<p>SORT ITEMS BY</p>
+                        <ul>
+                        	<li><a href="">Relevance</a>
+                            </li>
+                            <li><a href="">Lowest price</a>
+                            </li>
+                            <li><a href="">Highest price</a>
+                            </li>
+                            <li><a href="">Most Popular</a>
+                            </li>
+                            <li><a href="">Favorites</a>
+                            </li>
+                            <li><a href="">Newest</a>
+                            </li>
+                        </ul>
+                    </div>
 		        	<!-- <select>
 		        		<option>Relevance</option>
 		        		<option>Lowest price</option>
@@ -63,4 +82,18 @@
 	        
 	    </div>
 	</div>  
-
+<script>
+jQuery(document).ready(function($) {
+	 $("#refine-search-popup").click(function(){
+	 	var w = jQuery(".fsp-content").width();
+	 	$("#rfs-content-popup p").css('width',w);
+ //    console.log( "You clicked a paragraph:"+ width );
+	});
+    $(window).resize(function(){
+    	var width = jQuery(".fsp-content").width();
+    	$("#rfs-content-popup p").css('width',width);
+	});
+       
+});
+    
+</script>

@@ -63,7 +63,7 @@
         <script>
 			//
 		    $(document).ready(function(){
-		            var submitIcon = $('.searchbox-icon');
+		    		var submitIcon = $('.searchbox-icon');
 		            var inputBox = $('.searchbox-input');
 		            var searchBox = $('.searchbox');
 		            var isOpen = false;
@@ -143,6 +143,9 @@
 					bgColor: '#fff'
 				});
 				$("#refine-search-popup").fullScreenPopup({
+					bgColor: '#fff'
+				});
+				$("#sort-item-popup").fullScreenPopup({
 					bgColor: '#fff'
 				});
 				$("#m-show-userbox").click(function(event) {
