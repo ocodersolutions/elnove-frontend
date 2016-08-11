@@ -863,6 +863,11 @@ footer{
  		}	
  	}
  }
+ .fsp-wrapper a.fsp-close{
+		position: fixed !important;
+		right: 2.96em !important;
+		z-index: 9;
+	}
 #rfs-content-popup{
 	font-family: @font;
 	font-size: 13px;
@@ -876,6 +881,12 @@ footer{
 
 	}
 	p{
+		background: #fff;
+		height: 70px;
+		z-index: 1;
+		position: fixed;
+		top: 0;
+		left: 0;
 		border-bottom: 1px solid #eee;
 		line-height: 70px;
 		margin: 0;
@@ -885,8 +896,19 @@ footer{
 	.category,.brands,.colors,.deals,.sizes,.stores {
 	    display: none;
 	}
+	.option-filter{
+		position: relative;
+		top: 70px;
+	}
+
 	ul{
+		.clothing,.footwear,.accessories{
+			display: none;
+		}
+		position: relative;
+		top: 70px;
 		li{
+			text-transform: uppercase;
 			background: #FCFCFC;
 			cursor: pointer;
 			position: relative;
@@ -910,6 +932,8 @@ footer{
 				}
 			}
 		ul{
+			position: relative;
+			top: 0;
 			.select{
 				background: #FCFCFC;
 				padding-left: 50px;
@@ -1134,7 +1158,11 @@ footer{
 			}
 		}
 	}
+
 }
+#filter-selected .box{
+		float:left;
+	}
 }
 @media (min-width:768px)and(max-width: 992px){
 	#filter-selected .option-filter{
@@ -1194,7 +1222,7 @@ footer{
 		clear: both;
 	}
 }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 	footer{
 		.copyright{
 

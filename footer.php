@@ -145,6 +145,9 @@
 				$("#refine-search-popup").fullScreenPopup({
 					bgColor: '#fff'
 				});
+				$("#sort-item-popup").fullScreenPopup({
+					bgColor: '#fff'
+				});
 				$("#m-show-userbox").click(function(event) {
 		            $("#user-mblock").css('display','block');
 		        });
