@@ -2,7 +2,7 @@
     <div id="body-main-sideright" class="col-lg-12">
        
         <div class="row ">
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
 
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
@@ -78,7 +78,7 @@
                 <!-- end of team member                 Member 01-->
             </div>
 
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 02-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -152,7 +152,7 @@
                 </div>
                 <!-- end of team member                 Member 02-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member           Member 03-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -226,7 +226,7 @@
                 </div>
                 <!-- end of team member                 Member 03-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 04-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -300,7 +300,7 @@
                 </div>
                 <!-- end of team member                 Member 04-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 05-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -374,7 +374,7 @@
                 </div>
                 <!-- end of team member                 Member 05-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 06-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -448,7 +448,7 @@
                 </div>
                 <!-- end of team member                 Member 06-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 07-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -522,7 +522,7 @@
                 </div>
                 <!-- end of team member                 Member 07-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 08-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -596,7 +596,7 @@
                 </div>
                 <!-- end of team member                 Member 08-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 09-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -670,7 +670,7 @@
                 </div>
                 <!-- end of team member                 Member 09-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 10-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -744,7 +744,7 @@
                 </div>
                 <!-- end of team member                 Member 10-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 11-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -818,7 +818,7 @@
                 </div>
                 <!-- end of team member                 Member 11-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 12-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -892,7 +892,7 @@
                 </div>
                 <!-- end of team member                 Member 12-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 13-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -966,7 +966,7 @@
                 </div>
                 <!-- end of team member                 Member 13-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 14-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1040,7 +1040,7 @@
                 </div>
                 <!-- end of team member                 Member 14-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 15-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1114,7 +1114,7 @@
                 </div>
                 <!-- end of team member                 Member 15-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 16-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1188,7 +1188,7 @@
                 </div>
                 <!-- end of team member                 Member 16-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 17-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1262,7 +1262,7 @@
                 </div>
                 <!-- end of team member                 Member 17-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 18-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1336,7 +1336,7 @@
                 </div>
                 <!-- end of team member                 Member 18-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 19-->
                 <div class="product_item">
                     <div class="uc_contact">
@@ -1410,7 +1410,7 @@
                 </div>
                 <!-- end of team member                 Member 19-->
             </div>
-            <div class="col-lg-3 col-sm-4" class="product">
+            <div class="product col-lg-3 col-sm-4">
                 <!-- start of team member               Member 20-->
                 <div class="product_item">
                     <div class="uc_contact">
