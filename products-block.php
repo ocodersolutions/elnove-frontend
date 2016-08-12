@@ -6,7 +6,9 @@
                 
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
+                
                     <div class="uc_contact">
+                		<div class="uc_contact_hover"></div>
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
@@ -23,7 +25,9 @@
 
                             <span class="buy_product uc_icon">BUY</span>
                         </div>
+                        <div class="quick-view"> <a href="">QUICK VIEW</a></div>
                     </div>
+
                     <!-- End .product_item -->
 
                     <div class="clear_float"></div>
