@@ -148,6 +148,9 @@
 				$("#sort-item-popup").fullScreenPopup({
 					bgColor: '#fff'
 				});
+				$(".uc_avatar.img-responsive").fullScreenPopup({
+					bgColor: '#fff'
+				});
 				$("#m-show-userbox").click(function(event) {
 		            $("#user-mblock").css('display','block');
 		        });
