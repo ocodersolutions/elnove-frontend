@@ -3,11 +3,11 @@
        
         <div class="row ">
             <div class="product col-lg-3 col-sm-4">
-
+                
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
+                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -74,6 +74,40 @@
                         <p class="uc_job"><span>65.00 CAD</span>&nbsp;&nbsp;48.00 CAD</p>
                         <p>Puma Football Windbreaker</p>
                     </div>
+                    <div class="product_item_detail text-center" id="detail-popup">
+                        <p class="m-title"></p>
+                        <div class="box-detail-header">
+                            <div class="item_detail_img">
+                                <img src="assets/images/product_item_detail-mobile.jpg" alt="image details"/>
+                            </div>
+                            <h3 class="product-name">Puma Number One Active Hoodie</h3>
+                            <p class="product-brand">PUMA</p>
+                            <span class="product-price">39.00 CAD</span>
+                        </div>
+                        <div class="buy-like">
+                            <a href="" class="btn-st-blue">BUY</a>
+                        </div>
+                        <div class="footer-detail">
+                            <p class="detail-tit">DETAILS</p>
+                            <span class="note-details">A classic sweater with line hood</span>
+                            <span class="note-details">Hooded</span>
+                            <span class="note-details">Long sleeves</span>
+                            <span class="note-details">Front pouch pocket</span>
+                            <span class="note-details">Cotton/polyester</span>
+                            <span class="note-details">Machine wash</span>
+                            <span class="note-details">Imported</span>
+                        </div>
+                        <div class="footer-detail-social">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-pinterest-p"></i>
+                            <i class="fa fa-tumblr"></i>
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="footer-detail-alert">
+                            <i class="fa fa-bell-o"></i>Get Sell Alert
+                        </div>
+                    </div>
                 </div>
                 <!-- end of team member                 Member 01-->
             </div>
@@ -82,7 +116,7 @@
                 <!-- start of team member               Member 02-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
+                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-popup="#detail-popup"/>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1491,3 +1525,10 @@
         </div>
     </div>
 </div>
+<script>
+   $(document).ready(function($) {
+        $(".footer-detail-alert").click(function(event) {
+            $(".fsp-content").prepend(  $(".footer-detail-alert") );
+        });
+    });
+</script>

@@ -30,10 +30,95 @@
 	margin-top: 42px;
 	margin-bottom: 25px;
 }
+ #detail-popup{
+    color: #444444;
+    display: none;
+    height: 667px;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 35px;
+    .item_detail_img{
+        margin-top: 25px;
+    }
+    .product-name{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .product-brand{
+        line-height: 35px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .product-price{
+        color: #33648D;
+        font-size: 16px;
+        margin:0;
+    }
+    .buy-like{
+        position: relative;
+        &:after{
+            font-weight: normal;
+            cursor: pointer;
+            width: 40px;
+            line-height: 35px;
+            content: "\f08a";
+            font-size: 20px;
+            font-family: FontAwesome;
+            position: absolute;
+            margin-left: 5px;
+        }
+        a.btn-st-blue{
+            width: 200px;
+        }
+    }
+    .footer-detail{
+        .detail-tit{
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        span{
+            display: block;
+            line-height: 20px;
+            font-size: 12px;
+            color: #9E9E9E;
+            font-weight: normal;
+            &:last-child{
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .footer-detail-social{
+        border-bottom: 1px solid #eee;
+        border-top: 1px solid #eee;
+        i.fa{
+            font-size: 20px;
+            cursor: pointer;
+            width: 40px;
+            line-height: 42px;
+            color: #D5D8DA;
+        }
+    }
+    .footer-detail-alert{
+        cursor: pointer;
+        line-height: 40px;
+        i.fa{
+            
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+} 
 .product{
 	margin: 0 auto;
-	border:1px solid #eee;
 	margin-bottom: 10px;
+    .product_item{
+       
+            
+        
+    }
 }
 #load-more {
     margin-top: 75px;
@@ -56,4 +141,10 @@
 }
 input[type=radio]{
 	margin-right: 5px;
+}
+@media (min-width:768px) {
+    // .fsp-wrapper{
+    //     display: none !important;
+    // }
+    
 }
