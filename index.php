@@ -71,7 +71,7 @@
     });
 </script>
 
-
+<!-- javascript of product-item -->
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -130,5 +130,29 @@
         } else {
             myClasses.add("active");
         }
-    });
+    });        
 </script> 
+
+<!-- End javascript of product-item -->
+
+<!-- Javascript of selected_filter.php/sort-item -->
+
+<script type="text/javascript">
+    $(".sort-item").mouseenter(function(){
+        $(".icon_arrow").removeClass("fa-chevron-down");
+        $(".icon_arrow").addClass("fa-chevron-up");
+        $(".uc_line_content").slideDown();
+    });
+    $(".sort-item").mouseleave(function(){
+        $(".icon_arrow").removeClass("fa-chevron-up");
+        $(".icon_arrow").addClass("fa-chevron-down");
+        $(".uc_line_content").slideUp();
+    });
+
+    $(".sort-item-select").click(function(){
+        var content_sl = $(this).html();
+        $(this).parents(".sort-item").find(".sort-item-selected").html(content_sl);
+    });
+</script>
+
+<!-- End Javascript of selected_filter.php/sort-item -->

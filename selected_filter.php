@@ -33,22 +33,17 @@
 		        </div>
 		        <div class="sort-item " id="accordion-select" >
 		        	<span class="uc_head_line">
-                        <a href="" class="uc_link_tittle">Lowest price</a>
+		        		<span class="icon_arrow fa fa-chevron-down"></span>
+                        <p class="uc_link_tittle sort-item-selected">Lowest price</p>
                     </span>
                     <div class="uc_line_content">
                         <ul class="uc_des">
-                        	<li><a href="">Relevance</a>
-                            </li>
-                            <li><a href="">Lowest price</a>
-                            </li>
-                            <li><a href="">Highest price</a>
-                            </li>
-                            <li><a href="">Most Popular</a>
-                            </li>
-                            <li><a href="">Favorites</a>
-                            </li>
-                            <li><a href="">Newest</a>
-                            </li>
+                        	<li class="sort-item-select">Relevance</li>
+                            <li class="sort-item-select">Lowest price</li>
+                            <li class="sort-item-select">Highest price</li>
+                            <li class="sort-item-select">Most Popular</li>
+                            <li class="sort-item-select">Favorites</li>
+                            <li class="sort-item-select">Newest</li>
                         </ul>
                     </div>
                     <div class="sort-filter-contentpopup visible-xs" id="sis-content-popup">
@@ -67,15 +62,7 @@
                             <li><a href="">Newest</a>
                             </li>
                         </ul>
-                    </div>
-		        	<!-- <select>
-		        		<option>Relevance</option>
-		        		<option>Lowest price</option>
-		        		<option>Highest price</option>
-		        		<option>Most Popular</option>
-		        		<option>Favorites</option>
-		        		<option>Newest</option>
-		        	</select> -->
+                    </div>		        	
 		        </div>
 
 	        </div>
@@ -87,7 +74,6 @@ jQuery(document).ready(function($) {
 	 $("#refine-search-popup,#pop-menu,#sort-item-popup").click(function(){
 	 	var w = jQuery(".fsp-content").width();
 	 	$("p.m-title").css('width',w);
- //    console.log( "You clicked a paragraph:"+ width );
 	});
     $(window).resize(function(){
     	var width = jQuery(".fsp-content").width();

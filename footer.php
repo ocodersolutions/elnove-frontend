@@ -133,12 +133,12 @@
 					collapsible: true,
                     active: false
                 });
-                $( "#accordion-select" ).accordion({
-                    icons: icons,
-                    heightStyle:"content",
-					collapsible: true,
-                    active: false
-                });
+     //            $( "#accordion-select" ).accordion({
+     //                icons: icons,
+     //                heightStyle:"content",
+					// collapsible: true,
+     //                active: false
+     //            });
 				$("#pop-menu").fullScreenPopup({
 					bgColor: '#fff'
 				});
