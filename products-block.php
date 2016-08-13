@@ -1541,6 +1541,9 @@
 </div>
 <script>
    $(document).ready(function($) {
+        $(".uc_avatar.img-responsive").fullScreenPopup({
+            bgColor: '#fff'
+        });
         var wd=0;
          $(".uc_avatar.img-responsive").click(function(){
             wd = $(".fsp-content").width();
