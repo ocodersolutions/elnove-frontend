@@ -152,6 +152,7 @@
     $(".sort-item-select").click(function(){
         var content_sl = $(this).html();
         $(this).parents(".sort-item").find(".sort-item-selected").html(content_sl);
+        $(this).parents(".uc_line_content").slideUp();
     });
 </script>
 
