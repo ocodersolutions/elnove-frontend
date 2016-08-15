@@ -38,6 +38,7 @@
             bottom: 0;
             right: 0;
             opacity: 0.4;
+            cursor: pointer;
         }
         .quick_view_content {
             display: none;
@@ -704,3 +705,176 @@
         }   
     }    
 }
+
+/***** style POPUP of product-item *****/
+.product_item_detail{
+    color: #444444;
+    display: block;
+    height: auto;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 35px;
+    .box-detail-header{
+        .footer-detail-alert{
+            background: #fff;
+            height: 70px;
+            z-index: 1;
+            position: fixed;
+            top: 0;
+            left: 0;
+            border-bottom: 1px solid #eee;
+            line-height: 70px;
+            margin: 0;
+            font-size: 22px;
+            padding: 0 34px;
+            i.fa{
+                line-height: 70px;
+                float: left;
+            }
+        }
+        .item_detail_img{
+            padding-top: 25px;
+        }
+        .product-name{
+            margin-top: 20px;
+            margin-bottom: 0;
+            font-size: 15px;
+            line-height: 35px;
+        }
+        .product-brand{
+            line-height: 35px;
+            margin: 0;
+            font-size: 14px;
+        }
+        .product-price{
+            color: #33648D;
+            font-size: 16px;
+            margin:0;
+        }
+    }
+    
+    .box-detail-footer{
+        position: relative;
+        .buy-like{
+            padding-top:5px;
+            position: relative;
+            &:after{
+                font-weight: normal;
+                cursor: pointer;
+                width: 40px;
+                line-height: 35px;
+                content: "\f08a";
+                font-size: 20px;
+                font-family: FontAwesome;
+                position: absolute;
+                margin-left: 5px;
+            }
+            a.btn-st-blue{
+                width: 200px;
+            }
+        }
+        .footer-detail{
+            .detail-tit{
+                margin-top: 20px;
+                margin-bottom: 0;
+            }
+            span{
+                display: block;
+                line-height: 20px;
+                font-size: 12px;
+                color: #9E9E9E;
+                font-weight: normal;
+                &:last-child{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .footer-detail-social{
+            border-bottom: 1px solid #eee;
+            border-top: 1px solid #eee;
+            i.fa{
+                font-size: 20px;
+                cursor: pointer;
+                width: 40px;
+                line-height: 42px;
+                color: #D5D8DA;
+            }
+        }
+        .footer-detail-alert{
+            cursor: pointer;
+            line-height: 40px;
+            i.fa{
+                
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+        .set-sale-alert{
+            width: 100%;
+            border-top: 1px solid #D5D8DA;
+            position: absolute;
+            top: 0;
+            background: #fff;
+            display: none;
+            .sale-alert-head{
+                padding: 20px 10px;
+               p{
+                    color: #5D5D5D;
+                    font-size: 17px;
+                    font-weight: normal;
+                    margin: 0;
+                    line-height: 25px;
+                } 
+            }
+            form.set-alert-form{
+                font-weight: normal;
+                padding: 0 10px;
+                ::-webkit-input-placeholder {
+                   color: #9E9E9E;
+                }
+
+                :-moz-placeholder { /* Firefox 18- */
+                   color: #9E9E9E; 
+                }
+
+                ::-moz-placeholder {  /* Firefox 19+ */
+                   color: #9E9E9E; 
+                }
+
+                :-ms-input-placeholder {  
+                   color: #9E9E9E;  
+                }
+                input.input-email-alert{
+                    margin-bottom: 10px;
+                    padding:0 15px;
+                    width: 100%;
+                    display: block;
+                    color: #9E9E9E;
+                    background: #F0F1F2;
+                    border: none;
+                    line-height: 50px;
+                }
+                button.btn-st-blue{
+                    line-height: 50px;
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .foot-set-alert {
+                padding: 15px 10px;
+                text-align: center;
+                line-height: 25px;
+                span{
+                    color: #9E9E9E;
+                    font-size: 14px;
+                    font-weight: normal;    
+                }
+            }
+            
+
+        }
+    }
+    
+}
+/***** End style POPUP of product-item *****/
