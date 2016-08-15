@@ -27,17 +27,17 @@
 <script type="text/javascript">
 
 
-$( ".uc_contact" ).mouseover(function() {
+// $( ".uc_contact" ).mouseover(function() {
 
-    $(this).find('.uc_link').css('display','none')
-    $(this).find('.uc_contact_hover').css('display','block')
-    $(this).find('.quick-view').css('display','block')
-  }).mouseout(function() {
-    $(this).find('.uc_link').css('display','block')
-    $(this).find('.uc_contact_hover').css('display','none')
-    $(this).find('.quick-view').css('display','none')
+//     $(this).find('.uc_link').css('display','none')
+//     $(this).find('.uc_contact_hover').css('display','block')
+//     $(this).find('.quick-view').css('display','block')
+//   }).mouseout(function() {
+//     $(this).find('.uc_link').css('display','block')
+//     $(this).find('.uc_contact_hover').css('display','none')
+//     $(this).find('.quick-view').css('display','none')
   
-  });
+//   });
 
 
 
