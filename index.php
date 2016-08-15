@@ -25,38 +25,8 @@
 
 <?php include 'footer.php'; ?>
 <script type="text/javascript">
-
-
-// $( ".uc_contact" ).mouseover(function() {
-
-//     $(this).find('.uc_link').css('display','none')
-//     $(this).find('.uc_contact_hover').css('display','block')
-//     $(this).find('.quick-view').css('display','block')
-//   }).mouseout(function() {
-//     $(this).find('.uc_link').css('display','block')
-//     $(this).find('.uc_contact_hover').css('display','none')
-//     $(this).find('.quick-view').css('display','none')
-  
-//   });
-
-
-
-// $( ".uc_avatar" ).mouseover(function() {
-//     $(this).parent('.uc_contact').find('.uc_link').css('display','none')
     
-//     $(this).parent('.uc_contact').find('.quick-view').css('display','block')
-//   }).mouseout(function() {
-//     $(this).parent('.uc_contact').find('.uc_link').css('display','block')
-    
-//     $(this).parent('.uc_contact').find('.quick-view').css('display','none')
-//   });
-
-
-
-
-
     $(document).ready(function() {
-        
          $("#1 .slider-3 span:eq(0)").append("<p>250</p>");
         $("#1 .slider-3 span:eq(1)").append("<p>1000+</p>");
         $("#2 .slider-3 span:eq(0)").append("<p>250</p>");
@@ -182,6 +152,7 @@
     $(".sort-item-select").click(function(){
         var content_sl = $(this).html();
         $(this).parents(".sort-item").find(".sort-item-selected").html(content_sl);
+        $(this).parents(".uc_line_content").slideUp();
     });
 </script>
 

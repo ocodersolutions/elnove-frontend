@@ -63,101 +63,96 @@
         <script>
 			//
 		    $(document).ready(function(){
-		            var submitIcon = $('.searchbox-icon');
-		            var inputBox = $('.searchbox-input');
-		            var searchBox = $('.searchbox');
-		            var isOpen = false;
-		            submitIcon.click(function(e){
-		            	if(inputBox.val()==""){
-		            		e.preventDefault();
-		            	}
-		                if(isOpen == false){
-		                    searchBox.addClass('searchbox-open');
-		                    inputBox.focus();
-		                    isOpen = true;
-		                     $("#search").css("z-index","99")
-		                    
-		                } else {
-		                    searchBox.removeClass('searchbox-open');
-		                    inputBox.focusout();
-		                    isOpen = false;
-		                   	$("#search").removeAttr("style");
-		                   	//$("#show-hide-menu").click();
-		                }
-		                 
-		            });  
-		             submitIcon.mouseup(function(){
-		                    return false;
-		                });
-		            searchBox.mouseup(function(){
-		                    return false;
-		                });
-		            $(document).mouseup(function(){
-		                    if(isOpen == true){
-		                        
-		                        submitIcon.click();
-		                    }
-		                });
-		        });
-		            function buttonUp(){
-		                var inputVal = $('.searchbox-input').val();
-		                inputVal = $.trim(inputVal).length;
-		                if( inputVal == 0){
-		                     $('.searchbox-input').val('');
-		                } 
-		            }
-		            var flag = false;
-		            $("#show-hide-menu").click(function(){
-		            	$("#show-hide-menu").toggleClass("angleplus");
-		            	if(flag == false){
-		                    $('.searchbox-icon').click();
-		                    flag = true;
-		                } else {
-		                	flag = false;
-		                }
-		            	
-		            });
-	            var icons = {
-                header: "ui-icon-circle-arrow-e",
-                activeHeader: "ui-icon-circle-arrow-s"
-                };
-                $( "#accordion" ).accordion({
-                    icons: icons,
-                    heightStyle:"content",
-					collapsible: true,
-                    active: false
-                });
-                $( "#accordion-m" ).accordion({
-                    icons: icons,
-                    heightStyle:"content",
-					collapsible: true,
-                    active: false
-                });
-     //            $( "#accordion-select" ).accordion({
-     //                icons: icons,
-     //                heightStyle:"content",
-					// collapsible: true,
-     //                active: false
-     //            });
-				$("#pop-menu").fullScreenPopup({
-					bgColor: '#fff'
-				});
-				$("#refine-search-popup").fullScreenPopup({
-					bgColor: '#fff'
-				});
-				$("#sort-item-popup").fullScreenPopup({
-					bgColor: '#fff'
-				});
-				$(".uc_avatar.img-responsive").fullScreenPopup({
-					bgColor: '#fff'
-				});
-				$("#m-show-userbox").click(function(event) {
-		            $("#user-mblock").css('display','block');
-		        });
-		        $("#hid-userbox").click(function(){
-		        	$("#user-mblock").removeAttr("style");
-		        })
-		  </script>  
+	            var submitIcon = $('.searchbox-icon');
+	            var inputBox = $('.searchbox-input');
+	            var searchBox = $('.searchbox');
+	            var isOpen = false;
+	            submitIcon.click(function(e){
+	            	if(inputBox.val()==""){
+	            		e.preventDefault();
+	            	}
+	                if(isOpen == false){
+	                    searchBox.addClass('searchbox-open');
+	                    inputBox.focus();
+	                    isOpen = true;
+	                     $("#search").css("z-index","99")
+	                    
+	                } else {
+	                    searchBox.removeClass('searchbox-open');
+	                    inputBox.focusout();
+	                    isOpen = false;
+	                   	$("#search").removeAttr("style");
+	                   	//$("#show-hide-menu").click();
+	                }
+	                 
+	            });  
+	             submitIcon.mouseup(function(){
+	                    return false;
+	                });
+	            searchBox.mouseup(function(){
+	                    return false;
+	                });
+	            $(document).mouseup(function(){
+	                    if(isOpen == true){
+	                        
+	                        submitIcon.click();
+	                    }
+	                });
+	        });
+	            function buttonUp(){
+	                var inputVal = $('.searchbox-input').val();
+	                inputVal = $.trim(inputVal).length;
+	                if( inputVal == 0){
+	                     $('.searchbox-input').val('');
+	                } 
+	            }
+	            var flag = false;
+	            $("#show-hide-menu").click(function(){
+	            	$("#show-hide-menu").toggleClass("angleplus");
+	            	if(flag == false){
+	                    $('.searchbox-icon').click();
+	                    flag = true;
+	                } else {
+	                	flag = false;
+	                }
+	            	
+	            });
+            var icons = {
+            header: "ui-icon-circle-arrow-e",
+            activeHeader: "ui-icon-circle-arrow-s"
+            };
+            $( "#accordion" ).accordion({
+                icons: icons,
+                heightStyle:"content",
+				collapsible: true,
+                active: false
+            });
+            $( "#accordion-m" ).accordion({
+                icons: icons,
+                heightStyle:"content",
+				collapsible: true,
+                active: false
+            });
+			$("#pop-menu").fullScreenPopup({
+				bgColor: '#fff'
+			});
+			$("#refine-search-popup").fullScreenPopup({
+				bgColor: '#fff'
+			});
+			$("#sort-item-popup").fullScreenPopup({
+				bgColor: '#fff'
+			});
+			$("#m-show-userbox").click(function(event) {
+	            $("#user-mblock").css('display','block');
+	        });
+	        $("#hid-userbox").click(function(){
+	        	$("#user-mblock").removeAttr("style");
+	        })
+
+	        $("#banner").css("margin-top",function(){
+	        	return $(this).parent().find("#header-block").height();
+	        });
+		</script>  
 
   	</body>
 </html>

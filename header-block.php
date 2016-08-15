@@ -175,11 +175,3 @@
 </div>
 
 <?php //include 'footer.php'; ?>
-<script>
-jQuery(document).ready(function($) {
-    var width = jQuery(window).width();
-    console.log( "You clicked a paragraph:"+ width );
-       
-});
-    
-</script>

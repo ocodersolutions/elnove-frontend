@@ -71,13 +71,14 @@
 	</div>  
 <script>
 jQuery(document).ready(function($) {
-	 $("#refine-search-popup,#pop-menu,#sort-item-popup").click(function(){
+	 $("#refine-search-popup,#pop-menu,#sort-item-popup,.uc_avatar.img-responsive").click(function(){
 	 	var w = jQuery(".fsp-content").width();
 	 	$("p.m-title").css('width',w);
 	});
     $(window).resize(function(){
     	var width = jQuery(".fsp-content").width();
     	$("p.m-title").css('width',width);
+    	$(".set-sale-alert").css("display","block");
 	});
        
 });
