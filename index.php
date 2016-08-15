@@ -130,7 +130,14 @@
         } else {
             myClasses.add("active");
         }
-    });        
+    }); 
+
+    $(".uc_contact").mouseenter(function(){
+        $(this).parent().find(".popup_item, .quick_view_item").show();        
+    });
+    $(".uc_contact").mouseleave(function(){
+        $(this).parent().find(".popup_item, .quick_view_item").hide();        
+    });   
 </script> 
 
 <!-- End javascript of product-item -->

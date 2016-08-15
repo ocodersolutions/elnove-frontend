@@ -14,7 +14,30 @@
     position: relative;
     text-align: center;
     .uc_contact{
+        position: relative;
         margin: auto;
+        .popup_item {
+            display: none; 
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 2;
+            background: blue;
+            top: 0;
+            left: 0;
+            opacity: 0.2;
+        }
+        .quick_view_item {
+            display: none; 
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            z-index: 3;
+            background: red;
+            bottom: 0;
+            right: 0;
+            opacity: 0.5;
+        }
         .uc_avatar{
         }
         .uc_link{
@@ -51,7 +74,7 @@
         position: absolute;
         top: 0;
         width: 100%;
-        // padding-bottom: 11%;
+        z-index: 4;
         background: #547ca0;
         opacity: 0.9;
         i.fa-times {
