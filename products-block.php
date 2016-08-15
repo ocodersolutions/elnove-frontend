@@ -1540,19 +1540,29 @@
     </div>
 </div>
 <script>
-   $(document).ready(function($) {
-        $(".uc_avatar.img-responsive").fullScreenPopup({
-            bgColor: '#fff'
-        });
-        var wd=0;
-         $(".uc_avatar.img-responsive").click(function(){
-            wd = $(".fsp-content").width();
+    $(document).ready(function($) {
+       
+         $(".uc_avatar.img-responsive").click(function(e){
+           if ($(window).width() < 751) {
+                $(".uc_avatar.img-responsive").fullScreenPopup({
+                bgColor: '#fff'
+            });
+              
+            } else {
+                  
+                e.preventDefault();
+            }
+            
          });
         $(".footer-detail-alert").click(function(event) {
-            $(".box-detail-header").append(  "<div class='footer-detail-alert'><i class='fa fa-bell-o'></i>Create Sale Alert</div>" );
-                $(".footer-detail-alert").css("width",wd);
-            $(".item_detail_img").css("margin-top",'70px');
+             wd = $(".fsp-content").width();
+            $(".footer-detail-alert").prependTo( $(".box-detail-header"));
             
+            $(".footer-detail-alert").css("width",wd);
+            $(".item_detail_img").css("margin-top",'70px');
+            $(".set-sale-alert").css("display","block");
+             $(".footer-detail-alert").html('<i class="fa fa-bell-o"></i>Create Sale Alert');
         });
+       
     });
 </script>
