@@ -86,7 +86,7 @@
 	                }
 	                 
 	            });  
-	             submitIcon.mouseup(function(){
+	            submitIcon.mouseup(function(){
 	                    return false;
 	                });
 	            searchBox.mouseup(function(){
@@ -149,9 +149,21 @@
 	        	$("#user-mblock").removeAttr("style");
 	        })
 
-	        $("#banner").css("margin-top",function(){
-	        	return $(this).parent().find("#header-block").height();
+	        // $("#banner").css("margin-top",function(){
+	        // 	return $(this).parent().find("#header-block").height();
+	        // });
+	        
+	        $(window).scroll(function(){
+	        	if($(this).scrollTop() >= $("#header-block").height())
+	        	{
+	        		$("#header-block").css({"position": "fixed", "width": "100%", "top": "0px", "background": "#fff", "z-index": "99"});
+	        	}
+	        	else 
+	        	{
+	        		$("#header-block").css("position","static");
+	        	}
 	        });
+	        
 		</script>  
 
   	</body>
