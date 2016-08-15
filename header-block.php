@@ -32,8 +32,6 @@
                     </div> -->
                     <div class="login_signup">
                         <a href="#">LOGIN</a>
-                        /
-                        <a href="#">SIGN UP</a>
                     </div>
                     <a href="#" class="btn-st-blue">GET STYLED</a>
                 </div>
