@@ -8,11 +8,9 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
-
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
-
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
-
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -138,6 +136,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-popup="#detail-popup"/>
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -214,6 +213,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">                      
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -290,6 +290,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -366,6 +367,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -442,6 +444,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -518,6 +521,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -594,6 +598,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -670,6 +675,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -746,6 +752,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -822,6 +829,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -898,6 +906,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -974,6 +983,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1050,6 +1060,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1126,6 +1137,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1202,6 +1214,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1278,6 +1291,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1354,6 +1368,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1430,6 +1445,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1506,6 +1522,7 @@
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
                         <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
                         <a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank" class="quick_view_item"></a>
+                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
