@@ -159,12 +159,14 @@
 	        		$("#header-block").css({"position": "fixed", "width": "100%", "top": "0px", "background": "#fff", "z-index": "99"});
 	        		$("#search").show();
 	        		$(".form_search").hide();
+	        		$("#search-bar").show();
 	        	}
 	        	else 
 	        	{
 	        		$("#header-block").css("position","static");
 	        		$("#search").hide();
 	        		$(".form_search").show();
+	        		$("#search-bar").hide();
 	        	}
 	        });
 	        
