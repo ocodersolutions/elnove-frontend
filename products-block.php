@@ -7,8 +7,10 @@
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
                     <div class="uc_contact">
+                        <div class="wrap_img">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        </div>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -134,7 +136,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-popup="#detail-popup"/>
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -211,7 +213,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">                      
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -288,7 +290,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -365,7 +367,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -442,7 +444,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -519,7 +521,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -596,7 +598,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -673,7 +675,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -750,7 +752,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -827,7 +829,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -904,7 +906,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -981,7 +983,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1058,7 +1060,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1135,7 +1137,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1212,7 +1214,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1289,7 +1291,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1366,7 +1368,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1443,7 +1445,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">
@@ -1520,7 +1522,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="https://www.youtube.com/watch?v=83Bnp59zFCw" target="_blank" class="popup_item"></a>
+                        <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
                         <div class="uc_link">

@@ -1,6 +1,6 @@
 <!-- <?php //include 'header.php'; ?> -->
 <div id="header-container" class="container-fluid hidden-xs">
-    <div class="row wrap-header-top-navbar">
+    <div class="row">
         <div class="header-top-navbar col-lg-12 ">
             <div class="row top-bar">
                 <div class="left-side col-lg-4 col-md-4 col-sm-4 col-xs-12" id="show-hide-menu">MENU</div>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 col-xs-12" id="search">
+        <div class="col-lg-10 col-lg-offseet-1 col-xs-10 col-xs-offset-1" id="search">
             <!-- <form action="" id="formsearch" class="">
                     <input type="text" length="1000" placeholder="Search lorem ipsum dolor sit amet consectur..." id="input_search">
                     <button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
