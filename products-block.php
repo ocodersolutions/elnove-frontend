@@ -7,12 +7,12 @@
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        
-                        <img class="uc_avatar img-responsive" id="img_avatar678" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
-
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -27,7 +27,7 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
-                            <div class="quick_view_v2">
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
                                 <span>QUICK VIEW</span>
                             </div>
                         </div>
@@ -138,10 +138,12 @@
                 <!-- start of team member               Member 02-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-popup="#detail-popup"/>
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -156,6 +158,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -215,10 +220,12 @@
                 <!-- start of team member           Member 03-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">                      
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -233,6 +240,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -292,10 +302,12 @@
                 <!-- start of team member               Member 04-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -310,6 +322,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -369,10 +384,12 @@
                 <!-- start of team member               Member 05-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -387,6 +404,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -446,10 +466,12 @@
                 <!-- start of team member               Member 06-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -464,6 +486,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -523,10 +548,12 @@
                 <!-- start of team member               Member 07-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -541,6 +568,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -600,10 +630,12 @@
                 <!-- start of team member               Member 08-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -618,6 +650,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -677,10 +712,12 @@
                 <!-- start of team member               Member 09-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -695,6 +732,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -754,10 +794,12 @@
                 <!-- start of team member               Member 10-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -772,6 +814,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -831,10 +876,12 @@
                 <!-- start of team member               Member 11-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -849,6 +896,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -908,10 +958,12 @@
                 <!-- start of team member               Member 12-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -926,6 +978,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -985,10 +1040,12 @@
                 <!-- start of team member               Member 13-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1003,6 +1060,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1062,10 +1122,12 @@
                 <!-- start of team member               Member 14-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1080,6 +1142,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1139,10 +1204,12 @@
                 <!-- start of team member               Member 15-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1157,6 +1224,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1216,10 +1286,12 @@
                 <!-- start of team member               Member 16-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1234,6 +1306,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1293,10 +1368,12 @@
                 <!-- start of team member               Member 17-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1311,6 +1388,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1370,10 +1450,12 @@
                 <!-- start of team member               Member 18-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1388,6 +1470,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1447,10 +1532,12 @@
                 <!-- start of team member               Member 19-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1465,6 +1552,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->
@@ -1524,10 +1614,12 @@
                 <!-- start of team member               Member 20-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg">
-                        <a href="#" target="_blank" class="popup_item"></a>
-                        <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
-                        <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
+                        <div class="product_item_popup">
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <a href="#" target="_blank" class="popup_item"></a>
+                            <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
+                            <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
+                        </div>
                         <div class="uc_link">
                             <span class="uc_icon icon_like">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -1542,6 +1634,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->

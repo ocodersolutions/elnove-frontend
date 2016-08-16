@@ -98,11 +98,14 @@
 *****/
         if(screen.width >= 992)
         {
-            $(".uc_avatar").mouseenter(function(){
+            $(".product_item_popup").mouseenter(function(){
                 $(this).parent().find(".popup_item, .quick_view_v2").show();
+                var height1 = $(this).parent().find(".icon_like").height();
+                console.log(height1);
+                $(this).parent().find(".quick_view_v2").height(height1).find("span").css("line-height",height1+'px');
             });
-            $(".uc_avatar").mouseleave(function(){
-                $(this).parent().find(".popup_item, .quick_view_v2").hide();
+            $(".uc_contact").mouseleave(function(){
+                $(this).parent().find(".popup_item, .quick_view_v2").hide() ;
             });
         }
     });
