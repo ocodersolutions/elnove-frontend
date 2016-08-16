@@ -1,10 +1,11 @@
 <!-- <?php //include 'header.php'; ?> -->
 <div id="header-container" class="container-fluid hidden-xs">
-    <div class="row">
+    <div class="row wrap-header-top-navbar">
         <div class="header-top-navbar col-lg-12 ">
             <div class="row top-bar">
                 <div class="left-side col-lg-4 col-md-4 col-sm-4 col-xs-12" id="show-hide-menu">MENU</div>
-                <div class="logo col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="assets/images/logo.png" alt="" class="top-logo">
+                <div class="logo col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="assets/images/logo1.jpg" alt="" class="top-logo">
                 </div>
                 <div class="right-side col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <!-- <div class="uc_clean_accordion">

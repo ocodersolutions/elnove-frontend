@@ -157,10 +157,14 @@
 	        	if($(this).scrollTop() >= $("#header-block").height())
 	        	{
 	        		$("#header-block").css({"position": "fixed", "width": "100%", "top": "0px", "background": "#fff", "z-index": "99"});
+	        		$("#search").show();
+	        		$(".form_search").hide();
 	        	}
 	        	else 
 	        	{
 	        		$("#header-block").css("position","static");
+	        		$("#search").hide();
+	        		$(".form_search").show();
 	        	}
 	        });
 	        
