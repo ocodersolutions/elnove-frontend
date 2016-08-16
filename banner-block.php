@@ -1,4 +1,4 @@
-<div class="col-lg-8 col-lg-offset-2 banner-content">
+<div class="col-lg-10 col-lg-offset-1 banner-content">
     <h1>LOREM IPSUM TEXT</h1>
     <h3>Whether for casual or business attire, get choices tailored to you.</h3>
     <a href="#"><span class="btn btn-default">GET DRESSED</span></a>
