@@ -7,9 +7,9 @@
                 <!-- start of team member               Member 01-->
                 <div class="product_item">
                     <div class="uc_contact">
-                        <div class="wrap_img">
-                        <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
-                        </div>
+                        
+                        <img class="uc_avatar img-responsive" id="img_avatar678" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+
                         <a href="#" target="_blank" class="popup_item"></a>
                         <span class="quick_view_item" data-toggle="modal" data-target=".bs-example-modal-lg"></span>
                         <span class="quick_view_content">+<br>QUICK<br>VIEW</span> 
@@ -27,6 +27,9 @@
                             </span>
 
                             <span class="buy_product uc_icon">BUY</span>
+                            <div class="quick_view_v2">
+                                <span>QUICK VIEW</span>
+                            </div>
                         </div>
                     </div>
                     <!-- End .product_item -->

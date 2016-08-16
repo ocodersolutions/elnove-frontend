@@ -76,7 +76,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $(".sort-list").css({"opacity": "0.3", "cursor": "default"});
-
+/*****
         if(screen.width >= 992)
         {
             $(".uc_contact").mouseenter(function(){
@@ -95,6 +95,16 @@
             $(this).css({"border-top": "80px solid transparent", "border-right": "80px solid #9c9c9c"});
             $(this).parent().find(".popup_item").show();
         });
+*****/
+        if(screen.width >= 992)
+        {
+            $(".uc_avatar").mouseenter(function(){
+                $(this).parent().find(".popup_item, .quick_view_v2").show();
+            });
+            $(".uc_avatar").mouseleave(function(){
+                $(this).parent().find(".popup_item, .quick_view_v2").hide();
+            });
+        }
     });
 
     $(window).resize(function() {
