@@ -168,14 +168,14 @@
         }
     });
 
-    $(".icon_alert").click(function() {
-        var myClasses = this.classList;
-        if (myClasses.contains("active")) {
-            myClasses.remove("active");
-        } else {
-            myClasses.add("active");
-        }
-    });     
+    // $(".icon_alert").click(function() {
+    //     var myClasses = this.classList;
+    //     if (myClasses.contains("active")) {
+    //         myClasses.remove("active");
+    //     } else {
+    //         myClasses.add("active");
+    //     }
+    // });     
 </script> 
 
 <!-- End javascript of product-item -->
