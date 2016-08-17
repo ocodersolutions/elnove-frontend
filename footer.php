@@ -161,6 +161,7 @@
 	        		$(".form_search").hide();
 	        		$("#search-bar").show();
 	        		$("#header-container").find(".row").addClass("wrap-header-top-navbar");
+	        		$(".searchbox").addClass("searchbox-open").css("z-index", "99");
 	        	}
 	        	else 
 	        	{
@@ -169,6 +170,7 @@
 	        		$(".form_search").show();
 	        		$("#search-bar").hide();
 	        		$("#header-container").find(".row").removeClass("wrap-header-top-navbar");
+	        		$(".searchbox").removeClass("searchbox-open");
 	        	}
 	        });
 	        
