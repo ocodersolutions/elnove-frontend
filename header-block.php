@@ -73,7 +73,10 @@
                     <button type="submit" class="btn-top-search"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></button>
                 </form> -->
             <form class="searchbox">
-                <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" onkeyup="buttonUp();">
+                 <div class="row">
+                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search1" class="searchbox-input " id="input1" onkeyup="buttonUp();"/>
+                    <input type="search2" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search" class="searchbox-input" id="input2" onkeyup="buttonUp();"/>
+                </div>
                 <button type="submit" class="searchbox-submit">
                     <span class="searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="search_btn"></i></span>
                 </button>
