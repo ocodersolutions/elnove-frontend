@@ -79,11 +79,11 @@
 
         $("#search").hide();
 
-        $(".buy_product").width(function(){
-            var height1 = $(this).parent().find(".uc_icon").width();
-            var height2 = $(this).parents(".uc_contact").width();
-            return height2 - (height1*3 + 5);
-        });
+        // $(".buy_product").width(function(){
+        //     var height1 = $(this).parent().find(".uc_icon").width();
+        //     var height2 = $(this).parents(".uc_contact").width();
+        //     return height2 - (height1*3 + 5);
+        // });
 /*****
         if(screen.width >= 992)
         {
@@ -109,7 +109,6 @@
             $(".product_item_popup").mouseenter(function(){
                 $(this).parent().find(".popup_item, .quick_view_v2").show();
                 var height1 = $(this).parent().find(".icon_like").height();
-                console.log(height1);
                 $(this).parent().find(".quick_view_v2").height(height1).find("span").css("line-height",height1+'px');
             });
             $(".uc_contact").mouseleave(function(){
@@ -124,13 +123,23 @@
             var height2 = $(this).parents(".product_item").find(".show_item").height();
             return height1 + height2;
         });
-        $(".buy_product").width(function(){
-            var height1 = $(this).parent().find(".uc_icon").width();
-            var height2 = $(this).parents(".uc_contact").width();
-            return height2 - (height1*3 + 5);
-        });
+        // $(".buy_product").width(function(){
+        //     var height1 = $(this).parent().find(".uc_icon").width();
+        //     var height2 = $(this).parents(".uc_contact").width();
+        //     return height2 - (height1*3 + 5);
+        // });
     });
     
+    // $(".modal_body_footer").click(function(){
+    //     $(this).parents("#modal_QV").modal("hide");
+    //     $(this).parents("#modal_total").find("#modal_alert").modal({
+    //         show: true,
+    //         scroll: true
+    //     });
+    // });
+    $('.get-sale-alert').click(function(){
+        // $('#modal_QV').modal('toggle');
+    });
 
     $(".sort-list").click(function(){
         $(this).parents("body").find(".product.col-lg-3.col-sm-4").removeClass("col-xs-6");

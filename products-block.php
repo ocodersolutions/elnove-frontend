@@ -1699,88 +1699,90 @@
         </div>
 
 
+        <div id="modal_total">
 
-
-    <!-- Modal of Popup Quick-view-product-item -->
-        <div class="modal fade bs-example-modal-lg modal_quick_view" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6 modal_body_left">
-                                    <img src="../assets/images/product_item_mobile.jpg" alt="">
-                                </div>
-                                <div class="col-lg-6 modal_body_right">
-                                    <p class="modal_name_item">Puma Number One Active Hoodie</p>
-                                    <p class="modal_brand_item">PUMA</p>
-                                    <p class="modal_price_item">39.00 CAD</p>
-                                    <div class="modal_buy_product">
-                                        <span class="btn-st-blue">BUY</span>
-                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <!-- Modal of Popup Quick-view-product-item -->
+            <div class="modal fade bs-example-modal-lg modal_quick_view" id="modal_QV" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6 modal_body_left">
+                                        <img src="../assets/images/product_item_mobile.jpg" alt="">
                                     </div>
-                                    <p class="modal_alert_detail">DETAILS</p>
-                                    <p class="modal_alert_detail_atb">A classic branded sweater with lined hood</p>
-                                    <p class="modal_alert_detail_atb">Hooded</p>
-                                    <p class="modal_alert_detail_atb">Long sleeves</p>
-                                    <p class="modal_alert_detail_atb">Front pouch pocket</p>
-                                    <p class="modal_alert_detail_atb">Cotton/polyester</p>
-                                    <p class="modal_alert_detail_atb">Machine wash</p>
-                                    <p class="modal_alert_detail_atb">Imported</p>
-                                    <div class="modal_body_icon_link">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-pinterest-p"></i>
-                                        <i class="fa fa-tumblr"></i>
-                                        <i class="fa fa-google-plus"></i>
-                                        <i class="fa fa-envelope-o fa_final"></i>
-                                    </div>
-                                    <div class="modal_body_footer">
-                                        <i class="fa fa-bell-o" aria-hidden="true"></i>
-                                        <span>Get Sale Alert</span>
+                                    <div class="col-lg-6 modal_body_right">
+                                        <p class="modal_name_item">Puma Number One Active Hoodie</p>
+                                        <p class="modal_brand_item">PUMA</p>
+                                        <p class="modal_price_item">39.00 CAD</p>
+                                        <div class="modal_buy_product">
+                                            <span class="btn-st-blue">BUY</span>
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                        </div>
+                                        <p class="modal_alert_detail">DETAILS</p>
+                                        <p class="modal_alert_detail_atb">A classic branded sweater with lined hood</p>
+                                        <p class="modal_alert_detail_atb">Hooded</p>
+                                        <p class="modal_alert_detail_atb">Long sleeves</p>
+                                        <p class="modal_alert_detail_atb">Front pouch pocket</p>
+                                        <p class="modal_alert_detail_atb">Cotton/polyester</p>
+                                        <p class="modal_alert_detail_atb">Machine wash</p>
+                                        <p class="modal_alert_detail_atb">Imported</p>
+                                        <div class="modal_body_icon_link">
+                                            <i class="fa fa-facebook"></i>
+                                            <i class="fa fa-pinterest-p"></i>
+                                            <i class="fa fa-tumblr"></i>
+                                            <i class="fa fa-google-plus"></i>
+                                            <i class="fa fa-envelope-o fa_final"></i>
+                                        </div>
+                                        <div class="modal_body_footer">
+                                            <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                            <a class="get-sale-alert" data-toggle="modal" data-target="#modal_alert">Get Sale Alert</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>                  
+                        </div>                  
+                    </div>
                 </div>
             </div>
-        </div>
-    <!-- End Modal of Popup Quick-view-product-item -->
-            
-    <!-- Modal of Popup icon_alert -->
-        <div class="modal fade bs-example-modal-lg modal_icon_alert" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog modal-lg" role="document">                              
-                <div class="modal-content modal_alert">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <i class="fa fa-bell-o" aria-hidden="true"></i>
-                        <h2 class="popup_alert_title">CREATE SALE ALERT</h2>
-                    </div>
-                    <div class="modal-body">
-                        <img src="../assets/images/product_item_detail-mobile.jpg" alt="">
-                        <p class="modal_name_item">Botazzo Textural Derby Sneakers</p>
-                        <p class="modal_brand_item">PEGABO</p>
-                        <p class="modal_price_item">59.50 CAD</p>
-                    </div>
-                    <div class="modal-footer">
-                        <p class="modal_footer_p1">Waiting for this item to go on sale?</p>
-                        <p class="modal_footer_p2">We'll send an email when the price drops.</p>
-                        <form action="" class="modal_form_alert">
-                            <input type="text" name="email-alert" placeholder="Youre Email Address">
-                            <button class="btn-st-blue" type="submit" name="alert-submit">SET SALE ALERT</button>
-                        </form>
-                        <span>By submiting this request,I confirm I agree with the Terms & Conditions</span>                    
-                    </div>
-                </div>                                   
-            </div>
-        </div>
-    <!-- End Modal of Popup icon_alert -->
 
+
+        <!-- End Modal of Popup Quick-view-product-item -->
+                
+        <!-- Modal of Popup icon_alert -->
+            <div class="modal fade bs-example-modal-lg modal_icon_alert" id="modal_alert" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">                              
+                    <div class="modal-content modal_alert">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <i class="fa fa-bell-o" aria-hidden="true"></i>
+                            <h2 class="popup_alert_title">CREATE SALE ALERT</h2>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../assets/images/product_item_detail-mobile.jpg" alt="">
+                            <p class="modal_name_item">Botazzo Textural Derby Sneakers</p>
+                            <p class="modal_brand_item">PEGABO</p>
+                            <p class="modal_price_item">59.50 CAD</p>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="modal_footer_p1">Waiting for this item to go on sale?</p>
+                            <p class="modal_footer_p2">We'll send an email when the price drops.</p>
+                            <form action="" class="modal_form_alert">
+                                <input type="text" name="email-alert" placeholder="Youre Email Address">
+                                <button class="btn-st-blue" type="submit" name="alert-submit">SET SALE ALERT</button>
+                            </form>
+                            <span>By submiting this request,I confirm I agree with the Terms & Conditions</span>                    
+                        </div>
+                    </div>                                   
+                </div>
+            </div>
+                <!-- End Modal of Popup icon_alert -->
+        </div>
 
     </div>
 </div>
