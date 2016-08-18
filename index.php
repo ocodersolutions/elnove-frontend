@@ -130,12 +130,13 @@
         // });
     });
     
-    $(".modal_body_footer").click(function(){
-        $("#modal_QV").modal("hide");
-        $("#modal_QV").on("hidden.bs.modal", function(){
-            $("#modal_alert").modal("show");
-        });
-    });
+    // $(".modal_body_footer").click(function(){
+    //     $("#modal_QV .close").click();
+    //     // $("#modal_QV").hide().parents("body").find(".modal-backdrop").remove();
+    //     bodyclass.addClass("modal-open");
+    //     $("#modal_alert").modal("show");
+
+    // });
 
     $(".sort-list").click(function(){
         $(this).parents("body").find(".product.col-lg-3.col-sm-4").removeClass("col-xs-6");
