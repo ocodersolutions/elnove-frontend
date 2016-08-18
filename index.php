@@ -130,15 +130,11 @@
         // });
     });
     
-    // $(".modal_body_footer").click(function(){
-    //     $(this).parents("#modal_QV").modal("hide");
-    //     $(this).parents("#modal_total").find("#modal_alert").modal({
-    //         show: true,
-    //         scroll: true
-    //     });
-    // });
-    $('.get-sale-alert').click(function(){
-        // $('#modal_QV').modal('toggle');
+    $(".modal_body_footer").click(function(){
+        $("#modal_QV").modal("hide");
+        $("#modal_QV").on("hidden.bs.modal", function(){
+            $("#modal_alert").modal("show");
+        });
     });
 
     $(".sort-list").click(function(){
