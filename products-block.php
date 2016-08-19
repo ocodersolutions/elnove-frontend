@@ -1739,7 +1739,7 @@
                                         </div>
                                         <div class="modal_body_footer">
                                             <i class="fa fa-bell-o" aria-hidden="true"></i>
-                                            <sspan>Get Sale Alert</span>
+                                            <span>Get Sale Alert</span>
                                         </div>
                                     </div>
                                 </div>
