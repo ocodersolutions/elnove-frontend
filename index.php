@@ -115,6 +115,17 @@
                 $(this).parent().find(".popup_item, .quick_view_v2").hide() ;
             });
         }
+
+        $(document).on({
+                mouseout: function () {
+                    $("body").css("overflow", "auto");
+                }
+            }, '#modal_QV, #modal_alert');
+        $(document).on({
+                mouseover: function () {
+                    $("body").css("overflow", "hidden");
+                }
+            }, '#modal_QV, #modal_alert');
     });
 
     $(window).resize(function() {
@@ -129,13 +140,16 @@
         //     return height2 - (height1*3 + 5);
         // });
     });
-    
+
+
     $(".modal_body_footer").click(function(){
         $("#modal_QV").modal("hide");
-        $("#modal_QV").on("hidden.bs.modal", function(){
-            $("#modal_alert").modal("show");
-        });
+
+        $("#modal_alert").modal("show");
+        $('#modal_alert').css("overflow", "auto");
+        
     });
+
 
     $(".sort-list").click(function(){
         $(this).parents("body").find(".product.col-lg-3.col-sm-4").removeClass("col-xs-6");
