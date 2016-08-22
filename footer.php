@@ -157,20 +157,32 @@
 	        	if($(this).scrollTop() >= $("#header-block").height())
 	        	{
 	        		$("#header-block").css({"position": "fixed", "width": "100%", "top": "0px", "background": "#fff", "z-index": "99"});
-	        		$("#search").show();
-	        		$(".form_search").hide();
-	        		$("#search-bar").show();
-	        		$("#header-container").find(".row").addClass("wrap-header-top-navbar");
-	        		$(".searchbox").addClass("searchbox-open").css("z-index", "99");
+	        		if(window.innerWidth >= 768) 
+	        		{		        		
+		        		$("#search").show();
+		        		$(".form_search").hide();
+		        		$("#header-container").find(".row").addClass("wrap-header-top-navbar");
+		        		$(".searchbox").addClass("searchbox-open").css("z-index", "99");
+	        		}
+	        		else 
+	        		{
+	        			$(".form_search").hide();
+	        		}
 	        	}
 	        	else 
 	        	{
 	        		$("#header-block").css("position","static");
-	        		$("#search").hide();
-	        		$(".form_search").show();
-	        		$("#search-bar").hide();
-	        		$("#header-container").find(".row").removeClass("wrap-header-top-navbar");
-	        		$(".searchbox").removeClass("searchbox-open");
+	        		if(window.innerWidth >= 768) 
+	        		{		        		
+		        		$("#search").hide();
+		        		$(".form_search").show();
+		        		$("#header-container").find(".row").removeClass("wrap-header-top-navbar");
+		        		$(".searchbox").removeClass("searchbox-open");
+	        		}
+	        		else
+	        		{
+	        			$(".form_search").hide();
+	        		}
 	        	}
 	        });
 	        

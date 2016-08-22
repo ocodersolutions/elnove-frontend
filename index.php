@@ -104,7 +104,7 @@
             $(this).parent().find(".popup_item").show();
         });
 *****/
-        if(screen.width >= 992)
+        if(window.innerWidth >= 992)
         {
             $(".product_item_popup").mouseenter(function(){
                 $(this).parent().find(".popup_item, .quick_view_v2").show();
