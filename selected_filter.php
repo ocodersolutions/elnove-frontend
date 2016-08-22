@@ -71,7 +71,7 @@
 	</div>  
 <script>
 jQuery(document).ready(function($) {
-	 $("#refine-search-popup,#pop-menu,#sort-item-popup,.uc_avatar.img-responsive").click(function(){
+	 $("#refine-search-popup,#pop-menu,#sort-item-popup").click(function(){
 	 	var w = jQuery(".fsp-content").width();
 	 	$("p.m-title").css('width',w);
 	});

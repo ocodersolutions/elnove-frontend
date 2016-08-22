@@ -8,7 +8,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -82,7 +82,7 @@
                         <p class="uc_job"><span>65.00 CAD</span>&nbsp;&nbsp;48.00 CAD</p>
                         <p>Puma Football Windbreaker</p>
                     </div>
-                    <div class="product_item_detail text-center" id="detail-popup">
+                    <!-- <div class="product_item_detail text-center" id="detail-popup">
                         <div class="box-detail-header">
                             <div class="item_detail_img">
                                 <img src="assets/images/product_item_detail-mobile.jpg" alt="image details"/>
@@ -129,7 +129,7 @@
                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- end of team member                 Member 01-->
             </div>
@@ -139,7 +139,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -221,7 +221,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -303,7 +303,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -385,7 +385,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -467,7 +467,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -549,7 +549,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -631,7 +631,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -713,7 +713,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -795,7 +795,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -877,7 +877,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -959,7 +959,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1041,7 +1041,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1123,7 +1123,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1205,7 +1205,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1287,7 +1287,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1369,7 +1369,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1451,7 +1451,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1533,7 +1533,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1615,7 +1615,7 @@
                 <div class="product_item">
                     <div class="uc_contact">
                         <div class="product_item_popup">
-                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg"  data-popup="#detail-popup"/>
+                            <img class="uc_avatar img-responsive" src="assets/images/product_item_mobile.jpg" data-toggle="modal" data-target=".modal_quick_view" />
                             <a href="#" target="_blank" class="popup_item"></a>
                             <span class="quick_view_item" data-toggle="modal" data-target=".modal_quick_view"></span>
                             <span class="quick_view_content">+<br>QUICK<br>VIEW</span>
@@ -1712,7 +1712,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-6 modal_body_left">
-                                        <img src="assets/images/product_item_mobile.jpg" alt="">
+                                        <img class="img-responsive" src="assets/images/product_item_mobile.jpg" alt="">
                                     </div>
                                     <div class="col-lg-6 modal_body_right">
                                         <p class="modal_name_item">Puma Number One Active Hoodie</p>
@@ -1764,7 +1764,7 @@
                             <h2 class="popup_alert_title">CREATE SALE ALERT</h2>
                         </div>
                         <div class="modal-body">
-                            <img src="../assets/images/product_item_detail-mobile.jpg" alt="">
+                            <img class="img-responsive" src="../assets/images/product_item_mobile.jpg" alt="">
                             <p class="modal_name_item">Botazzo Textural Derby Sneakers</p>
                             <p class="modal_brand_item">PEGABO</p>
                             <p class="modal_price_item">59.50 CAD</p>
@@ -1789,18 +1789,18 @@
 <script>
     $(document).ready(function($) {
        
-         $(".uc_avatar.img-responsive").click(function(e){
-           if ($(window).width() < 751) {
-                $(".uc_avatar.img-responsive").fullScreenPopup({
-                bgColor: '#fff'
-            });
+         // $(".uc_avatar.img-responsive").click(function(e){
+         //   if ($(window).width() < 751) {
+         //        $(".uc_avatar.img-responsive").fullScreenPopup({
+         //        bgColor: '#fff'
+         //    });
               
-            } else {
+         //    } else {
                   
-                e.preventDefault();
-            }
+         //        e.preventDefault();
+         //    }
             
-         });
+         // });
         $(".footer-detail-alert").click(function(event) {
              wd = $(".fsp-content").width();
             $(".footer-detail-alert").prependTo( $(".box-detail-header"));
