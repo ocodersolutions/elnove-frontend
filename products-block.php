@@ -1712,7 +1712,7 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-lg-6 modal_body_left">
-                                        <img src="../assets/images/product_item_mobile.jpg" alt="">
+                                        <img src="assets/images/product_item_mobile.jpg" alt="">
                                     </div>
                                     <div class="col-lg-6 modal_body_right">
                                         <p class="modal_name_item">Puma Number One Active Hoodie</p>
