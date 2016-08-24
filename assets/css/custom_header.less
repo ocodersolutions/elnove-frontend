@@ -658,18 +658,36 @@ ul {
         .searchbox-mobile{
             position: relative;
             .m-searchbox-input{
-                width: 100%;
+                float: left;;
+                width: 35%;
                 font-family: Roboto;
                 font-size: 14px;
                 border: 0;
                 outline: 0;
                 z-index: 1;
-                width: 100%;
                 height: 40px;
                 margin: 0;
-                padding: 0px 55px 0px 20px;
+                padding: 0px 35px 0px 5px;
                 color: #85A2BB;
                 background-color: #F0F4F7;
+                &:first-child{
+                    width: 60%;
+                    padding:0px 5px 0px 20px;
+                }
+            }
+            .charater-center{
+                text-align: right;
+                width: 5%;
+                height: 40px;
+                float: left;
+                background-color: #F0F4F7;
+                &:before{
+                    line-height: 40px;
+                    content: "\f1fa";
+                    font-family: FontAwesome;
+                    font-size: 16px;
+                    color: #ADC1D1;
+                }
             }
             .searchbox-submit{
                 position: absolute;

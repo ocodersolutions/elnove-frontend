@@ -129,7 +129,9 @@
     
     <div class="row" id="search-bar">
         <form class="searchbox-mobile col-xs-12">
-            <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="m-search" class="m-searchbox-input">
+            <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search1" class="m-searchbox-input">
+                    <div class="charater-center"></div>
+                    <input type="search" placeholder="Search lorem ipsum dolor sit amet consectur..." name="search2" class="m-searchbox-input" >
             <button type="submit" class="searchbox-submit">
                 <span class="m-searchbox-icon"><i class="fa fa-search" aria-hidden="true" id="m-search_btn"></i></span>
             </button>
